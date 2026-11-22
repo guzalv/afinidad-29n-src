@@ -1,27 +1,181 @@
-{"party":"Coalición Canaria + Primero Canarias","slug":"cc",
-"summary":"Programa regionalista canario (Defiende Canarias): diez causas y cien acciones centradas en exigir al Estado y la UE financiación, competencias y cumplimiento del Estatuto, el REF y el Decreto Canarias. Centrista y pragmático, con vivienda asequible, límites a compra por extranjeros y vivienda vacacional, transición energética y política migratoria solidaria con reparto estatal y europeo.",
-"fundamentals":["Más autogobierno canario y rechazo a la recentralización","Canarias como nación archipelágica dentro de un Estado plurinacional","Defensa y actualización del REF y de la condición de región ultraperiférica (art. 349)","Financiación autonómica que reconozca insularidad y separe el REF de la financiación ordinaria","Cumplimiento de la Agenda Canaria y del Decreto Canarias","Vivienda asequible, fondo estatal plurianual y límites a compra por extranjeros","Servicios públicos, dependencia y cuidados con financiación estatal estable","Transición energética con almacenamiento, eólica marina y seguridad de suministro","Política migratoria solidaria: costes a Estado/UE y reparto obligatorio de menores","Descuento del 75% residentes, transporte, POSEI y apoyo al sector primario","Apoyo a autónomos, pymes y empleo joven","Municipalismo y rendición de cuentas"],
-"signature":[{"text":"Limitar la compra de vivienda por extranjeros y Ley Canaria de Residencia, con régimen específico UE para RUP","page":"p11"},{"text":"Cobertura jurídica para limitar usos turísticos de vivienda donde haya presión sobre la residencial","page":"p11"},{"text":"Solidaridad territorial obligatoria y automática en acogida, con traslados de menores migrantes sin negociación caso a caso","page":"p19"},{"text":"Financiar 1.400 plazas de la Policía Canaria","page":"p10"},{"text":"Fondo estatal de ocho años para vivienda pública y asequible","page":"p10"},{"text":"Mantener el descuento del 75% en transporte aéreo y marítimo de residentes y 100% compensación del transporte de mercancías","page":"p17"},{"text":"Recuperar para uso civil espacios militares como el campo de tiro de Pájara","page":"p9"},{"text":"Eólica marina en Gran Canaria con consenso social y Centro Nacional de Vulcanología en La Palma","page":"p15"}],
-"dims":{
-"tax":{"score":-0.5,"conf":"low","src":"programme","evidence":"Pide incentivos fiscales y bonificaciones puntuales (IRPF 60% islas verdes, cotizaciones) y más gasto estatal; sin subidas ni bajadas generales. p13"},
-"labor":{"score":0,"conf":"low","src":"programme","evidence":"Mejores salarios y empleo estable mediante bonificaciones de cotizaciones pactadas con agentes sociales; sin reforma laboral. p12"},
-"housing":{"score":-0.5,"conf":"med","src":"programme","evidence":"Limitar compra por extranjeros y usos turísticos, fondo público; pero alquiler voluntario con incentivos, agilizar trámites, sin topes. p11"},
-"welfare":{"score":-1,"conf":"med","src":"programme","evidence":"Financiación estable de dependencia, IMV, pobreza infantil, pensiones no contributivas. p9-p10"},
-"public_services":{"score":-1,"conf":"med","src":"programme","evidence":"Financiación suficiente de sanidad y educación pública, plazas 0-3 públicas gratuitas; sin ataque a concertada. p9"},
-"public_ownership":{"score":0,"conf":"low","src":"inferred","evidence":"Programa silente sobre propiedad pública; posición pragmática de mercado con ayudas."},
-"immigration":{"score":-0.5,"conf":"med","src":"programme","evidence":"Acogida con derechos humanos, combate discursos racistas, cooperación con países de origen y lucha contra redes; pide autorizaciones de trabajo canarias. p5,p19"},
-"territorial":{"score":-1.5,"conf":"high","src":"programme","evidence":"Canarias nación archipelágica, Estado plurinacional, máximo autogobierno, oposición a recentralización; sin independencia. p3,p5"},
-"feminism":{"score":-1,"conf":"med","src":"programme","evidence":"Financiación del Pacto de Estado contra la violencia de género; igualdad entre mujeres y hombres. p10"},
-"bioethics":{"score":-0.5,"conf":"low","src":"inferred","evidence":"Programa silente; CC no restringe aborto ni eutanasia."},
-"climate":{"score":-1,"conf":"med","src":"programme","evidence":"Transición energética, reducir fósiles, restauración de la naturaleza, adaptación al calor; reclama adaptaciones de normas UE de aviación. p15-p17"},
-"nuclear":{"score":-0.5,"conf":"low","src":"inferred","evidence":"Sin mención; Canarias no tiene nucleares y el programa apuesta por renovables."},
-"eu":{"score":-0.5,"conf":"med","src":"programme","evidence":"Pro-UE: fondos RUP, art. 349, INTERREG, Horizon, POSEI; reclama adaptaciones. p19-p20"},
-"defense":{"score":-0.5,"conf":"low","src":"programme","evidence":"Pide recuperar terrenos militares para uso civil y cese de actividad militar en ellos; sin posición sobre gasto. p9"},
-"israel":{"score":null,"conf":"low","src":"programme","evidence":"Sin mención en el programa. Sí pide autodeterminación saharaui p20."},
-"monarchy":{"score":1,"conf":"low","src":"inferred","evidence":"Sin mención; CC institucionalista, apoya reforma constitucional para singularidad canaria. p8"},
-"memory":{"score":-0.5,"conf":"low","src":"inferred","evidence":"Sin mención; posición centrista sin derogación."},
-"security":{"score":0,"conf":"low","src":"programme","evidence":"Policía Canaria complementaria a cuerpos estatales; sin endurecimiento penal. p10"},
-"anti_establishment":{"score":-1.5,"conf":"high","src":"programme","evidence":"Rechaza polarización, defiende acuerdos y negociación con cualquier Gobierno, instituciones y cumplimiento de lo pactado. p3"},
-"animals_tradition":{"score":0.5,"conf":"low","src":"inferred","evidence":"Programa silente; apoyo a pesca artesanal y sector primario; CC defiende tradiciones canarias."},
-"religion":{"score":0,"conf":"low","src":"inferred","evidence":"Programa silente sobre religión."}
-}}
+{
+ "party": "Coalición Canaria + Primero Canarias",
+ "slug": "cc",
+ "summary": "Programa nacionalista canario 'Defiende Canarias' (diez causas, cien acciones) de Coalición Canaria y Municipalistas Primero Canarias: Canarias como nación archipelágica que aspira al máximo autogobierno en un Estado plurinacional, sin independencia. Centrista y pragmático, condiciona cada investidura y presupuesto al cumplimiento del Estatuto, el REF, la Agenda Canaria y el Decreto Canarias, con vivienda asequible, límites a la compra por extranjeros y una política migratoria solidaria con reparto obligatorio.",
+ "fundamentals": [
+  "Canarias nación archipelágica con derecho a decidir su rumbo dentro del Estado y la UE; máximo autogobierno, Estado plurinacional",
+  "Oposición a la recentralización y traspasos pendientes del Estatuto (transporte aéreo interinsular, autorizaciones de trabajo, costas, puertos y aeropuertos)",
+  "Integridad del REF como fuero histórico, separado de la financiación ordinaria de los servicios públicos",
+  "Financiación autonómica que reconozca población efectiva, insularidad, pobreza y envejecimiento",
+  "Voto decisivo sin bloques: apoyo a cualquier Gobierno condicionado a la Agenda Canaria y el Decreto Canarias",
+  "Vivienda asequible con fondo estatal de 8 años, límites a compra por extranjeros, Ley Canaria de Residencia y control de vivienda vacacional",
+  "Servicios públicos y cuidados con financiación estatal estable: sanidad insular, dependencia, 0-3 público gratuito, pobreza infantil",
+  "Transición energética: sustituir térmicas fósiles por renovables, almacenamiento y eólica marina, con seguridad de suministro",
+  "Política migratoria solidaria: costes al Estado/UE, traslados automáticos de menores, combatir discursos racistas",
+  "Conectividad: descuento del 75% para residentes, 100% compensación del transporte de mercancías, guaguas gratuitas y trenes",
+  "Defensa del estatus RUP (art. 349 TFUE), POSEI y adaptaciones de normas climáticas europeas",
+  "Municipalismo, rendición de cuentas anual y uso de remanentes de ayuntamientos y cabildos"
+ ],
+ "signature": [
+  {
+   "text": "Limitar la compra de vivienda en Canarias por extranjeros con régimen específico UE para RUP y hacer viable una Ley Canaria de Residencia que ordene el crecimiento poblacional",
+   "page": "p11"
+  },
+  {
+   "text": "Solidaridad migratoria obligatoria y automática: traslados a otras comunidades al superar umbrales, sin negociación caso a caso",
+   "page": "p19"
+  },
+  {
+   "text": "Separar el REF de la financiación ordinaria de sanidad, educación y dependencia",
+   "page": "p8"
+  },
+  {
+   "text": "Traspaso de las autorizaciones de trabajo para extranjeros y del transporte aéreo interinsular previstos en el Estatuto",
+   "page": "p8"
+  },
+  {
+   "text": "Recuperar para uso civil el campo de tiro de Pájara y otros terrenos militares",
+   "page": "p9"
+  },
+  {
+   "text": "Financiar las 1.400 plazas de la Policía Canaria del Decreto Canarias",
+   "page": "p10"
+  },
+  {
+   "text": "Deducción del 60% en IRPF extendida a La Gomera y El Hierro y bonificación del 50% de cuotas empresariales",
+   "page": "p13"
+  },
+  {
+   "text": "Defender el derecho del pueblo saharaui a decidir su futuro conforme a las resoluciones de la ONU",
+   "page": "p20"
+  }
+ ],
+ "dims": {
+  "tax": {
+   "score": -0.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "'La riqueza también debe contribuir de forma justa al sostenimiento de los servicios públicos' (p12); más gasto estatal, solo rebajas fiscales territoriales (IRPF 60% islas verdes) (p13)."
+  },
+  "labor": {
+   "score": 0,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Empleo estable y mejores salarios vía bonificaciones de cotizaciones ligadas a subidas pactadas con agentes sociales (p12); bonificación 50% cuotas empresariales (p13); nada sobre reforma laboral, jornada o SMI."
+  },
+  "housing": {
+   "score": -0.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Limitar compra por extranjeros, limitar usos turísticos, fondo estatal y compra pública de vivienda (p10-p11); pero alquiler voluntario con incentivos fiscales, agilizar trámites, sin topes de alquiler (p11). Incentivos fiscales a la primera vivienda para jóvenes y construcción industrializada (p11 punto 28)."
+  },
+  "welfare": {
+   "score": -1,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Aportación estatal suficiente a dependencia, programas contra pobreza infantil, ayudas a la crianza, IMV gestionado por Canarias, complementos a pensiones no contributivas exentos (p9-p10)."
+  },
+  "public_services": {
+   "score": -1,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Financiación sanitaria por sobrecostes insulares, plazas 0-3 públicas gratuitas, inversión en centros educativos públicos (p9-p10); no menciona concertada ni gestión privada."
+  },
+  "public_ownership": {
+   "score": 0,
+   "conf": "low",
+   "src": "programme",
+   "evidence": "Sin empresas públicas ni privatizaciones; instrumentos: subastas y retribución a operadores eléctricos, compensaciones al transporte, incentivos fiscales a pymes y propietarios (p11-p12, p15, p18)."
+  },
+  "immigration": {
+   "score": -0.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Acogida con derechos humanos, integración y lucha contra discursos racistas (p18-p19); pero 'movilidad ordenada', lucha contra redes y Ley Canaria de Residencia para ordenar población (p11, p19); sin regularización."
+  },
+  "territorial": {
+   "score": -1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Canarias nación archipelágica con derecho a decidir su rumbo dentro del Estado, máximo autogobierno, Estado plurinacional, contra recentralización (p3, p5, p8)."
+  },
+  "feminism": {
+   "score": -1,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Financiación del Pacto de Estado contra la violencia de género en todas las islas (p10); igualdad de derechos entre mujeres y hombres (p4); 0-3 para corresponsabilidad (p9)."
+  },
+  "bioethics": {
+   "score": -0.5,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Programa silente tras lectura completa; CC no propone restringir aborto ni eutanasia y apoyó la ley de eutanasia."
+  },
+  "climate": {
+   "score": -1,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Sustituir térmicas fósiles por renovables, eólica marina, restauración de la naturaleza, adaptación al calor (p15-p17); pide adaptar normas climáticas UE de aviación y navegación (p16, p20)."
+  },
+  "nuclear": {
+   "score": -0.5,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Programa silente sobre nuclear (modelo: renovables, almacenamiento, eólica marina, p15-p16); Canarias sin centrales; -0.5 inferido de la postura general de CC."
+  },
+  "eu": {
+   "score": -0.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Europeísta pragmático: fondos RUP, art. 349, POSEI, INTERREG, Horizon, Macaronesia (p13, p19-p20); exige adaptaciones de normas europeas, sin federalismo."
+  },
+  "defense": {
+   "score": -0.5,
+   "conf": "low",
+   "src": "programme",
+   "evidence": "Recuperar terrenos militares para uso civil (Pájara) y cese de actividad militar allí (p9); UME más pronto (p17); nada sobre gasto en defensa ni OTAN (señal débil)."
+  },
+  "israel": {
+   "score": -0.5,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Programa no menciona Israel/Palestina; inferido de su marco de legalidad ONU en el Sáhara (p20) y del apoyo de CC al reconocimiento de Palestina."
+  },
+  "monarchy": {
+   "score": 1,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Sin mención tras lectura completa; solo pide que una eventual reforma constitucional recoja la singularidad canaria (p8); CC institucionalista, no republicana."
+  },
+  "memory": {
+   "score": -0.5,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Sin mención de memoria histórica (la 'memoria de nuestros pueblos' p4 es cultural); CC centrista, no propone derogar."
+  },
+  "security": {
+   "score": 0,
+   "conf": "low",
+   "src": "programme",
+   "evidence": "Financiar 1.400 plazas de la Policía Canaria complementaria a los cuerpos estatales (p10); sin endurecimiento penal ni derogación de la ley mordaza."
+  },
+  "anti_establishment": {
+   "score": -1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Rechaza polarización, defiende acuerdos y no convertir en enemigos a quien discrepa; cumplimiento de lo pactado y rendición de cuentas anual (p3, p21)."
+  },
+  "animals_tradition": {
+   "score": 0,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Programa silente (solo pesca artesanal p13); Canarias prohibió los toros en 1991 pero mantiene peleas de gallos y caza tradicional: posición mixta."
+  },
+  "religion": {
+   "score": 0,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Programa silente sobre religión, laicidad o acuerdos con la Santa Sede tras lectura completa."
+  }
+ }
+}

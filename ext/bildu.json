@@ -1,37 +1,182 @@
 {
-"party":"EH Bildu","slug":"bildu",
-"summary":"Programa de izquierda soberanista vasca: blindar y ampliar derechos sociales (vivienda, empleo, pensiones, escudo social) con fiscalidad a grandes empresas y fortunas, junto con el reconocimiento de Euskal Herria como nación, derecho a decidir y más autogobierno. Posición pacifista (No a la OTAN, embargo a Israel) y ecosocial, frente al 'bloque reaccionario' y el Régimen del 78.",
-"fundamentals":["Intervenir el mercado de vivienda: prórroga automática, tope 2% a la renta, prohibir compra especulativa y eliminar SOCIMIs","Jornada de 32 horas sin reducción salarial, SMI propio y despido de al menos 45 días","Pensiones mínimas a 1.220 € y revalorización al IPC; rechazo a recortes y privatización","Escudo social estructural, IMV mayor y transferido, bonos sociales automáticos","Impuestos permanentes a energéticas, banca, grandes fortunas y distribuidoras; derogar art. 135 CE","Control de márgenes y precios en energía y alimentación","Transición ecosocial: descarbonizar en 2045, renovables comunitarias, mantener cierre nuclear, fin de subvenciones fósiles","Reconocimiento plurinacional, derecho a decidir, transferencia de competencias y Concierto/Convenio ampliados","Euskera cooficial en administración estatal y en la UE; selecciones vascas","Regularización migratoria, rechazo al Pacto de Migración y Asilo y a los CIE","Derogar Ley Mordaza y delitos de expresión (injurias a la Corona); ampliar memoria democrática","No a la OTAN, rechazo al aumento de gasto militar, aislamiento económico de Israel, Sáhara y Cuba"],
-"signature":[
-{"text":"Prohibir la compra especulativa de vivienda por fondos y grandes tenedores y eliminar las SOCIMIs","page":"p5-p6"},
-{"text":"Jornada de 32 horas o 4 días sin reducir salario, con senda de 3 años para pymes","page":"p6"},
-{"text":"SMI propio por comunidad autónoma sobre un mínimo estatal indisponible","page":"p6"},
-{"text":"Intervención extraordinaria de márgenes empresariales en energía y alimentación y tope al gas","page":"p8"},
-{"text":"Impuesto permanente a energéticas y nuevo impuesto a beneficios de grandes distribuidoras alimentarias, concertados con las haciendas forales","page":"p14"},
-{"text":"Cerrar el campo de tiro de las Bardenas y sacar las bases de EEUU (Rota, Morón)","page":"p28"},
-{"text":"Romper el Tratado de Amistad UE-Israel y embargo total de armas","page":"p29"},
-{"text":"Reconocimiento de Euskal Herria como nación y derecho a decidir; repliegue de fuerzas de seguridad del Estado","page":"p23-p27"}
-],
-"dims":{
-"tax":{"score":-2,"conf":"high","src":"programme","evidence":"Impuesto permanente a energéticas, más peso a banca y grandes fortunas, impuesto a distribuidoras; derogar art. 135 p14"},
-"labor":{"score":-2,"conf":"high","src":"programme","evidence":"Jornada 32h sin recorte salarial, SMI propio, despido 45 días, autorización previa en ERE p6"},
-"housing":{"score":-2,"conf":"high","src":"programme","evidence":"Intervenir el mercado, tope 2% renta, prohibir compra especulativa, prohibición estructural de desahucios vulnerables p5"},
-"welfare":{"score":-2,"conf":"high","src":"programme","evidence":"Pensiones mínimas a 1.220 €, IPC blindado, +15% viudedad y no contributivas, IMV ampliado p7-p8"},
-"public_services":{"score":-1.5,"conf":"med","src":"programme","evidence":"Derogar Ley 15/1997 de gestión privada sanitaria; limitar privatización y lucro en cuidados; educación laika. Concertada no mencionada p11-p12"},
-"public_ownership":{"score":-1,"conf":"med","src":"programme","evidence":"Farmacia Pública, participación pública en sectores estratégicos, economía social; sin nacionalizaciones explícitas p11, p16"},
-"immigration":{"score":-2,"conf":"high","src":"programme","evidence":"Regularización efectiva, rechazo Pacto Europeo de Migración, devoluciones y CIE; acogida independiente de situación administrativa p20"},
-"territorial":{"score":-2,"conf":"high","src":"programme","evidence":"Euskal Herria nación, plurinacionalidad, derecho a decidir, nuevas competencias, cooficialidad en UE p23-p25"},
-"feminism":{"score":-2,"conf":"high","src":"programme","evidence":"Blindar aborto, penalizar violencia vicaria, combatir antifeminismo, prohibir terapias de conversión, ley trans p19"},
-"bioethics":{"score":-2,"conf":"high","src":"programme","evidence":"Blindar derecho al aborto con perímetros de protección; ampliar eutanasia a sufrimiento psíquico p10, p19"},
-"climate":{"score":-2,"conf":"high","src":"programme","evidence":"Descarbonización a 2045, fin de subvenciones fósiles, gravar queroseno, electrificación vinculante p15, p18"},
-"nuclear":{"score":-2,"conf":"high","src":"programme","evidence":"Mantener el calendario de cierre nuclear del PNIEC p15"},
-"eu":{"score":-0.5,"conf":"low","src":"programme","evidence":"Pro soberanía industrial/digital europea y seguridad europea propia, pero renacionalizar PAC y rechazar Pacto de Migración p16, p20"},
-"defense":{"score":-2,"conf":"high","src":"programme","evidence":"No a la OTAN, rechazo al aumento de gasto en defensa, no envío de armas, adhesión al TPAN p28"},
-"israel":{"score":-2,"conf":"high","src":"programme","evidence":"Genocidio en Palestina; aislamiento económico, romper Tratado UE-Israel, embargo total de armas p29"},
-"monarchy":{"score":-2,"conf":"med","src":"inferred","evidence":"Monarquía 'heredera directa del franquismo' pilar del Régimen del 78; despenalizar críticas a la Corona p22-p23. No pide república expresamente"},
-"memory":{"score":-2,"conf":"high","src":"programme","evidence":"Ampliar Ley de Memoria Democrática, derogar Ley de Secretos Oficiales, retirar condecoraciones p27"},
-"security":{"score":-2,"conf":"high","src":"programme","evidence":"Acabar con Ley Mordaza y pelotas de goma, legislación penitenciaria ordinaria, repliegue policial estatal p22, p27"},
-"anti_establishment":{"score":0.5,"conf":"low","src":"programme","evidence":"Denuncia el 'Régimen del 78' y aparatos judicial/policial, pero actúa institucionalmente y pacta en el Congreso p4, p23"},
-"animals_tradition":{"score":-0.5,"conf":"low","src":"inferred","evidence":"Programa silente; posición conocida moderadamente favorable a bienestar animal, sin postura explícita sobre toros o caza"},
-"religion":{"score":-1,"conf":"low","src":"programme","evidence":"Educación laika; despenalizar ofensa a sentimientos religiosos; no menciona Concordato p11, p22"}
-}}
+ "party": "EH Bildu",
+ "slug": "bildu",
+ "summary": "Programa de la izquierda soberanista vasca centrado en blindar y ampliar derechos sociales (vivienda, empleo, pensiones, escudo social) con más impuestos a energéticas, banca, grandes fortunas y distribuidoras y control público de precios y márgenes. Reclama el reconocimiento de Euskal Herria como nación, el derecho a decidir y nuevas competencias, frente al 'Régimen del 78' y al bloque reaccionario. En exterior: no a la OTAN, rechazo al gasto militar, aislamiento de Israel, Sáhara y Cuba.",
+ "fundamentals": [
+  "Intervenir el mercado de vivienda: prórroga automática de alquileres, tope estructural del 2%, prohibición de desahucios vulnerables y de compra especulativa por fondos; eliminar SOCIMIs",
+  "Jornada de 32 horas o 4 días sin reducción salarial; SMI propio por comunidad; despido improcedente de al menos 45 días y autorización previa de ERE",
+  "Pensiones públicas blindadas: revalorización al IPC, mínimas a 1.220 €, +15% viudedad y no contributivas, sin subir edad de jubilación",
+  "Escudo social permanente: prohibición de cortes de suministros, bonos sociales automáticos, IMV ampliado y transferido",
+  "Fiscalidad redistributiva: impuesto permanente a energéticas, más carga a banca y grandes fortunas, impuesto a grandes distribuidoras alimentarias, derogar art. 135 CE",
+  "Intervención pública sobre márgenes empresariales y límites temporales de precios en energía y alimentación; tope al gas",
+  "Sanidad y cuidados públicos: derogar Ley 15/1997 de gestión privada, Farmacia Pública, limitar el lucro en cuidados; educación laica y euskaldun",
+  "Transición ecosocial: descarbonización en 2045, mantener cierre nuclear, fin de subvenciones fósiles, gravar queroseno y vuelos privados",
+  "Euskal Herria como nación, Estado plurinacional, derecho a decidir y nuevas competencias (Seguridad Social, migración, energía, marco laboral propio)",
+  "Euskera obligatorio en la administración estatal en Hego Euskal Herria y oficial en la UE; selecciones deportivas vascas",
+  "Regularización migratoria, rechazo al Pacto Europeo de Migración, CIE y devoluciones; voto de residentes extranjeros",
+  "Derogar Ley Mordaza y delitos de opinión (injurias a la Corona, ofensas religiosas, enaltecimiento); ampliar memoria; repliegue de Guardia Civil y Policía Nacional",
+  "No a la OTAN, no al aumento del gasto militar, fuera bases de EEUU y cierre de Bardenas, TPAN, ruptura con Israel"
+ ],
+ "signature": [
+  {
+   "text": "Prohibir la compra especulativa de vivienda por fondos y grandes tenedores, condicionar la compra por extranjeros multipropietarios a 2 años de empadronamiento y eliminar las SOCIMIs",
+   "page": "p5-p6"
+  },
+  {
+   "text": "Jornada de 32 horas o 4 días sin reducir salario, con senda de 3 años para pymes",
+   "page": "p6"
+  },
+  {
+   "text": "SMI propio de cada comunidad autónoma sobre un mínimo estatal indisponible",
+   "page": "p6"
+  },
+  {
+   "text": "Intervención extraordinaria sobre márgenes de grandes energéticas y distribuidoras, límites de precios a bienes esenciales y tope al gas",
+   "page": "p8-p9"
+  },
+  {
+   "text": "Impuesto permanente a energéticas y nuevo impuesto a grandes distribuidoras alimentarias, concertados con las haciendas forales",
+   "page": "p14"
+  },
+  {
+   "text": "Exigir el euskera para los servicios de la administración estatal en Araba, Bizkaia, Gipuzkoa y Nafarroa, incluida la justicia",
+   "page": "p12"
+  },
+  {
+   "text": "Reconocimiento de Euskal Herria como nación, derecho a decidir y repliegue de las Fuerzas y Cuerpos de Seguridad del Estado",
+   "page": "p23-p24, p27"
+  },
+  {
+   "text": "Cerrar el campo de tiro de las Bardenas, sacar las bases de EEUU (Rota, Morón) y romper el Tratado UE-Israel con embargo total de armas",
+   "page": "p28-p29"
+  }
+ ],
+ "dims": {
+  "tax": {
+   "score": -1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Impuesto permanente a energéticas, más peso a banca y grandes fortunas, nuevo impuesto a distribuidoras, gravar queroseno y vuelos privados; derogar art. 135; sin cambios generales de IRPF/sociedades (p14, p18)"
+  },
+  "labor": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Jornada de 32h sin reducción salarial, SMI propio, despido improcedente ≥45 días, autorización previa en ERE, recargo de horas extra (p6)"
+  },
+  "housing": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Intervenir el mercado: tope 2% renta, prórroga automática, prohibir desahucios vulnerables y compra especulativa, eliminar SOCIMIs, IVA 21% pisos turísticos (p5-p6)"
+  },
+  "welfare": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Pensiones al IPC, mínimas a 1.220 €, +15% viudedad y no contributivas, sin subir edad de jubilación, IMV ampliado, suministros garantizados, copago dependencia (p7-p8, p12-p13)"
+  },
+  "public_services": {
+   "score": -1.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Derogar Ley 15/1997 de gestión privada sanitaria; limitar privatización y lucro en cuidados hacia gratuidad; educación laica. No menciona la concertada (p11-p12)"
+  },
+  "public_ownership": {
+   "score": -1,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Controles obligatorios de precios y márgenes en energía y alimentación, Farmacia Pública, más participación pública en sectores estratégicos, propiedad colectiva de empresas en crisis; sin nacionalizaciones ni empresa/banca pública (p8-p9, p11, p16)"
+  },
+  "immigration": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Regularización efectiva, rechazo Pacto Europeo, devoluciones y CIE; servicios sin importar situación administrativa; voto de residentes extranjeros (p20)"
+  },
+  "territorial": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Euskal Herria nación, Estado plurinacional, derecho a decidir, nuevas competencias plenas (Seguridad Social, migración, energía), euskera oficial en la UE (p23-p25)"
+  },
+  "feminism": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Blindar aborto, penalizar violencia vicaria, combatir discursos antifeministas, prohibir terapias de conversión, defender despatologización trans (p19)"
+  },
+  "bioethics": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Blindar el aborto con perímetros de protección; ampliar la eutanasia al sufrimiento psíquico (p10, p19)"
+  },
+  "climate": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Adelantar descarbonización a 2045, objetivos de electrificación vinculantes, fin de subvenciones fósiles y exención al queroseno (p15, p18)"
+  },
+  "nuclear": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Apostaremos por mantener el calendario de cierre nuclear definido en el PNIEC (p15)"
+  },
+  "eu": {
+   "score": -0.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Pro 'Made in Europe', soberanía digital y autonomía de seguridad europeas, euskera oficial en UE (p16, p25, p28); pero renacionalizar la PAC, romper Tratado UE-Israel y rechazar Pacto de Migración (p16, p20, p29)"
+  },
+  "defense": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "No a la OTAN, rechazo al aumento del gasto en defensa y al envío de armas, fuera bases de EEUU, adhesión al TPAN (p28)"
+  },
+  "israel": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Genocidio; aislamiento económico y político de Israel, romper Tratado UE-Israel, fin de relaciones comerciales, embargo total de armas (p29)"
+  },
+  "monarchy": {
+   "score": -1.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Monarquía 'heredera directa del franquismo' garante del Régimen del 78 (p23); despenalizar críticas a la Corona (p22). No pide república ni referéndum"
+  },
+  "memory": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Ampliar Ley de Memoria Democrática a víctimas de tortura y guerra sucia, derogar Ley de Secretos Oficiales, retirar condecoraciones policiales (p27)"
+  },
+  "security": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Acabar con Ley Mordaza y pelotas de goma, despenalizar enaltecimiento, fin de excepción penitenciaria, repliegue de FCSE de Euskadi y Navarra (p22, p27)"
+  },
+  "anti_establishment": {
+   "score": 1,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Régimen del 78 como 'arquitectura antidemocrática', aparatos judicial/policial y corrupción estructural; pide 'profunda democratización', aunque reivindica su labor pactista en Madrid (p4, p23)"
+  },
+  "animals_tradition": {
+   "score": -1,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Programa silente. Inferido: Bildu dejó sin corridas Donostia (2012-15) y apoyó la ley estatal de bienestar animal; sin postura sobre caza"
+  },
+  "religion": {
+   "score": -1.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Educación 'laiko'; despenalizar ofensas a sentimientos religiosos. No menciona Acuerdos con la Santa Sede (p11, p22)"
+  }
+ }
+}

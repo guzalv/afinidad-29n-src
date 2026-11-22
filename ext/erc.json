@@ -1,38 +1,181 @@
 {
-"party":"Esquerra Republicana de Catalunya (ERC)","slug":"erc",
-"summary":"Programa independentista y de izquierdas articulado en tres ejes: defender el país (autodeterminación, lengua, financiación singular y traspaso de competencias), defender a la gente (vivienda, salarios, fiscalidad progresiva, derechos laborales y feministas) y defender los servicios públicos (sanidad, Rodalies, municipalismo). Se presenta como muro de contención frente a un posible gobierno PP-Vox.",
-"fundamentals":["Referéndum de autodeterminación pactado y soberanía fiscal (concierto económico solidario, Agencia Tributaria de Catalunya, recaudación del IRPF)","Protección del catalán y la inmersión; Ley del plurilingüismo; oficialidad en la UE","Traspaso masivo de competencias: Rodalies, aeropuertos, puertos, carreteras, migración y asilo, tráfico, inspección de trabajo, prestaciones por desempleo","Financiación autonómica nueva y condonación de 17.100 M€ del FLA","Vivienda como derecho: LAU catalana, traspaso de pisos de la Sareb, 1,5% del PIB, IVA/ITP más alto a usos no habituales y gravar fondos y grandes tenedores","Justicia fiscal: impuesto permanente a grandes fortunas, energéticas y banca; IRPF más alto al capital y más bajo a rentas del trabajo","Derechos laborales: jornada de 37,5 h, SMI al 60% del salario medio, salario mínimo catalán de 1.460 €, derogar lo vigente de las reformas laborales","Servicios públicos con gestión pública, rechazo a la privatización; ampliar cartera (dental, visual, psicológica)","Feminismo, derechos LGBTI+ y antirracismo; derogar Ley mordaza y delitos de injurias a la Corona","Transición energética 100% renovable, descentralizada y comunitaria; fiscalidad verde","Republicanismo, laicidad (fin de acuerdos con la Santa Sede) y memoria democrática","Europeísmo con autonomía estratégica respecto a la OTAN; embargo de armas a Israel y apoyo a Ucrania"],
-"signature":[
-{"text":"Negociar un referéndum de autodeterminación en Cataluña con acompañamiento internacional (UE y Consejo de Europa)","page":"p8"},
-{"text":"Salario mínimo catalán de 1.460 € y SMI estatal al 60% del salario medio","page":"p20"},
-{"text":"Reducir la jornada legal a 37,5 horas sin merma salarial y recuperar el despido de 45 días por año","page":"p26"},
-{"text":"Ley de arrendamientos urbanos catalana vía art. 150.1 CE, traspaso inmediato de los pisos de la Sareb y 1,5% del PIB para vivienda","page":"p19"},
-{"text":"Hacer permanente el impuesto a grandes fortunas, a energéticas y a la banca; gravar el capital al 35% y bajar IRPF por debajo de 35.000 €","page":"p22"},
-{"text":"Traspaso integral de Rodalies, aeropuertos (Girona, Reus, Sabadell) y carreteras estatales; vinyeta","page":"p40"},
-{"text":"Embargo total de armas a Israel y suspensión del acuerdo de asociación UE-Israel","page":"p16"},
-{"text":"Cobertura pública de atención dental, visual y psicológica y prestación universal por crianza de 200 € por familia","page":"p42"}
-],
-"dims":{
-"tax":{"score":-1.5,"conf":"high","src":"programme","evidence":"Impuesto permanente a grandes fortunas, banca y energéticas; capital IRPF del 30% al 35%; fin de la ley Beckham. p22"},
-"labor":{"score":-2,"conf":"high","src":"programme","evidence":"Jornada de 37,5 h, SMI al 60% del salario medio, despido de 45 días, autorización administrativa en ERE. p26"},
-"housing":{"score":-1.5,"conf":"med","src":"programme","evidence":"Parque público vía Sareb, LAU catalana, IVA/ITP mayor a usos no habituales, límites a fondos; no menciona topes explícitos. p19"},
-"welfare":{"score":-1.5,"conf":"high","src":"programme","evidence":"Pensiones ligadas al IPC territorial, prestación universal por crianza, IMV adaptado, financiar dependencia al 50%. p21, p26"},
-"public_services":{"score":-1.5,"conf":"med","src":"programme","evidence":"Sanidad pública con gestión pública, frenar privatización; escuela pública, laica y gratuita; no aborda concertada. p41, p10"},
-"public_ownership":{"score":-1,"conf":"med","src":"programme","evidence":"Banca pública (ICF, ICO), administración emprendedora con participación en empresas estratégicas, titularidad pública de hidroeléctricas. p22, p28, p30"},
-"immigration":{"score":-1.5,"conf":"high","src":"programme","evidence":"Vías legales y seguras, fin de externalización de fronteras, rechazo a centros de retorno y deportaciones automáticas. p16, p17"},
-"territorial":{"score":-2,"conf":"high","src":"programme","evidence":"Referéndum de autodeterminación, concierto económico, competencias exclusivas, oficialidad lenguas, Consell de Justícia. p8, p14"},
-"feminism":{"score":-2,"conf":"high","src":"programme","evidence":"Reformar LO 1/2004, regular violencia vicaria, reconocer identidades no binarias, prohibir terapias de conversión. p24"},
-"bioethics":{"score":-1.5,"conf":"low","src":"inferred","evidence":"Solo cita derechos sexuales y reproductivos (p23); posición conocida de ERC a favor de aborto y eutanasia como derechos."},
-"climate":{"score":-1.5,"conf":"high","src":"programme","evidence":"Reducción de emisiones 65% en 2030 y 95% en 2040, fiscalidad verde, quitar exenciones al combustible de aviación. p22, p32"},
-"nuclear":{"score":-1.5,"conf":"low","src":"inferred","evidence":"Fondo de Transición Nuclear de la Generalitat (p31) y modelo 100% renovable (p29); sin mención explícita de cierre."},
-"eu":{"score":-1.5,"conf":"med","src":"programme","evidence":"Rol preponderante de la UE, presupuesto común más ambicioso, deuda común verde, voto a los 16 años en europeas. p16, p22"},
-"defense":{"score":-1,"conf":"med","src":"programme","evidence":"UE autónoma de la OTAN, estrategia basada en diplomacia, fiscalizar programas de armamento; mantiene apoyo a Ucrania. p16, p17"},
-"israel":{"score":-2,"conf":"high","src":"programme","evidence":"Embargo completo de armas a Israel y suspender acuerdo UE-Israel por el genocidio en Gaza. p16"},
-"monarchy":{"score":-2,"conf":"high","src":"programme","evidence":"Poner fin a la institución monárquica, fiscalizar a la Casa Real, suprimir injurias a la Corona. p8"},
-"memory":{"score":-1.5,"conf":"high","src":"programme","evidence":"Cumplir Ley de Memoria Democrática, auditoría de bienes expoliados, Via Laietana como centro memorial. p7, p8"},
-"security":{"score":-0.5,"conf":"med","src":"programme","evidence":"Derogar Ley mordaza, pero también más penas por armas y robo de cable, más jueces contra reincidencia y refuerzo policial. p8, p43"},
-"anti_establishment":{"score":0,"conf":"low","src":"inferred","evidence":"Crítica a corrupción del Estado y a Sánchez, pero discurso institucional y de pactos; antimonarquía. p5"},
-"animals_tradition":{"score":-1,"conf":"med","src":"programme","evidence":"Animales seres sintientes; endurecer maltrato; igual protección a perros de caza. No trata toros. p35, p36"},
-"religion":{"score":-1.5,"conf":"high","src":"programme","evidence":"IBI a bienes de confesiones, anular acuerdos con la Santa Sede, escuela laica, suprimir delito de ofensa a sentimientos religiosos. p8, p10"}
-}
+ "party": "Esquerra Republicana de Catalunya (ERC)",
+ "slug": "erc",
+ "summary": "Programa independentista y de izquierdas para el Congreso articulado en tres ejes: defender el país (referéndum de autodeterminación, catalán y escuela catalana, financiación singular, traspasos), defender a la gente (vivienda, salarios, fiscalidad progresiva, feminismo, transición energética) y defender los servicios públicos (Rodalies, sanidad con gestión pública, municipalismo). Se presenta como muro de contención frente a un gobierno PP-Vox y critica la insuficiencia del Gobierno Sánchez.",
+ "fundamentals": [
+  "Referéndum de autodeterminación pactado con mediación de la UE y el Consejo de Europa (p8)",
+  "Financiación singular: Cataluña recauda todos los impuestos vía Agència Tributària de Catalunya y condonación de 17.100 M€ del FLA (p12, p14)",
+  "Defensa del catalán y de la inmersión; Ley del plurilingüismo, oficialidad en la UE, derogar el art. 145 CE (p9-p11)",
+  "Traspasos masivos: Rodalies, aeropuertos, carreteras, migración y asilo, Inspección de Trabajo, prestaciones por desempleo, Consell de Justícia (p14-p15, p38-p40)",
+  "Vivienda: LAU catalana vía art. 150.1 CE, pisos de la Sareb a la Generalitat, 1,5% del PIB, venta forzosa de suelo retenido, más IVA/ITP a usos no habituales (p19-p20)",
+  "Fiscalidad progresiva: impuesto permanente a grandes fortunas, banca y energéticas; capital al 35% y menos IRPF bajo 35.000 €; fin de la ley Beckham (p21-p23)",
+  "Trabajo: jornada de 37,5 h, SMI al 60% del salario medio, salario mínimo catalán de 1.460 €, despido de 45 días y autorización administrativa de ERE (p20, p26)",
+  "Pensiones revalorizadas por IPC (territorial), prestación universal por crianza, IMV adaptado a Cataluña (p21, p26, p28)",
+  "Sanidad pública universal con gestión pública, frenar la privatización; cartera dental, visual y psicológica gratuita (p41-p42)",
+  "Transición a un modelo 100% renovable, descentralizado y comunitario; -65% emisiones en 2030 y -95% en 2040 (p29, p32)",
+  "Republicanismo y laicidad: fin de la monarquía, derogar delitos de injurias a la Corona y ofensa religiosa, anular acuerdos con la Santa Sede (p8)",
+  "Europeísmo con autonomía estratégica respecto a la OTAN; embargo de armas a Israel; apoyo a Ucrania (p16-p17)"
+ ],
+ "signature": [
+  {
+   "text": "Negociar un referéndum de autodeterminación en Cataluña con acompañamiento internacional (UE y Consejo de Europa)",
+   "page": "p8"
+  },
+  {
+   "text": "Salario mínimo catalán de 1.460 € y SMI estatal al 60% del salario medio",
+   "page": "p20"
+  },
+  {
+   "text": "Jornada legal de 37,5 horas sin merma salarial y recuperar el despido improcedente de 45 días por año",
+   "page": "p26"
+  },
+  {
+   "text": "LAU catalana delegada vía art. 150.1 CE y traspaso inmediato y gratuito de los pisos de la Sareb y Casa 47",
+   "page": "p19"
+  },
+  {
+   "text": "Impuesto permanente a grandes fortunas con nuevo tramo desde 100 M€; capital en IRPF del 30% al 35% y rebaja bajo 35.000 €",
+   "page": "p21-p22"
+  },
+  {
+   "text": "Prestación universal por crianza desde 200 € por familia, mayor en territorios con coste de vida alto",
+   "page": "p21"
+  },
+  {
+   "text": "Culminar el traspaso integral de Rodalies (R1, R2 Sud, R3, R4 Nord, R16) y traspasar aeropuertos de Girona, Reus y Sabadell",
+   "page": "p38, p40"
+  },
+  {
+   "text": "Atención dental, visual (gafas y lentillas) y psicológica gratuitas en el SNS",
+   "page": "p42"
+  }
+ ],
+ "dims": {
+  "tax": {
+   "score": -1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Impuesto permanente a fortunas (tramo >100 M€), banca y energéticas; capital IRPF 30%→35%; menos IRPF bajo 35.000 €; fin ley Beckham. (p21, p22, p23)"
+  },
+  "labor": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Jornada de 37,5 h, SMI al 60% del salario medio, despido 45 días, autorización administrativa de ERE, trabajadores en consejos de administración. (p20, p26)"
+  },
+  "housing": {
+   "score": -1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "LAU catalana, Sareb a parque público, 1,5% PIB, venta forzosa de suelo retenido, IVA 21% al alquiler turístico, cargas a fondos buitre. (p19, p20)"
+  },
+  "welfare": {
+   "score": -1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Pensiones blindadas al IPC (territorial), no privatizarlas; prestación universal por crianza; IMV adaptado; dependencia 50% Estado. (p21, p25, p26, p28, p41)"
+  },
+  "public_services": {
+   "score": -1.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Sanidad pública con gestión pública, frenar privatización; escuela pública, laica y gratuita; remunicipalizar servicios externalizados. No cita la concertada. (p10, p41, p42, p43)"
+  },
+  "public_ownership": {
+   "score": -1.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Mayor intervención pública en la economía, banca pública (ICF, ICO con préstamo directo), participación en empresas estratégicas, titularidad pública de hidroeléctricas. (p22, p28, p30)"
+  },
+  "immigration": {
+   "score": -1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Vías legales y seguras, fin de externalización de fronteras, rechazo a centros de retorno y deportaciones automáticas; competencias de migración a Cataluña. (p14, p17)"
+  },
+  "territorial": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Referéndum de autodeterminación, recaudar todos los impuestos, Ley del plurilingüismo, inmersión, Consell de Justícia, selecciones catalanas. (p8, p9, p10, p14, p15)"
+  },
+  "feminism": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Blindar políticas de igualdad, reformar LO 1/2004, regular violencia vicaria, reconocer identidades no binarias, penalizar terapias de conversión. (p24)"
+  },
+  "bioethics": {
+   "score": -1.5,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Solo 'garantir els drets sexuals i reproductius' (p23); sin mención de aborto ni eutanasia. Inferido de su apoyo conocido a ambas leyes."
+  },
+  "climate": {
+   "score": -1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "-65% emisiones en 2030 y -95% en 2040, modelo 100% renovable, fiscalidad verde, fin de exenciones al queroseno. Matiz: flexibilizar Ley de Residuos para el agro. (p22, p29, p31, p32)"
+  },
+  "nuclear": {
+   "score": -1.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Modelo energético '100% renovable' y aportación estatal al Fondo de Transición Nuclear catalán; no menciona calendario de cierre explícitamente. (p29, p31)"
+  },
+  "eu": {
+   "score": -1.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Rol preponderante de la UE, presupuesto común ambicioso con recursos propios, deuda común verde; pide gobernanza multinivel y voz catalana. (p16, p17, p22)"
+  },
+  "defense": {
+   "score": -1,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "UE autónoma de la OTAN, seguridad basada en diplomacia, fiscalizar programas especiales de armamento; mantiene apoyo a Ucrania. (p16, p17)"
+  },
+  "israel": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Embargo completo de armas a Israel y suspender el acuerdo UE-Israel 'mentre duri el genocidi'; reconocimiento de Palestina. (p16)"
+  },
+  "monarchy": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Iniciativas para fiscalizar la Casa Real y 'posar fi a aquesta institució contrària al principi democràtic'; suprimir injurias a la Corona. (p8)"
+  },
+  "memory": {
+   "score": -1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Nuevas leyes: desaparición forzada de menores, reparación víctimas del servicio militar, memoria LGBTI+, auditoría del expolio, Via Laietana; sin exhumaciones ni veto a apología franquista. (p7, p8, p24)"
+  },
+  "security": {
+   "score": -1,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Derogar Ley mordaza y revisar normas que restringen protesta; matiz: más penas por armas y robo de cable, más jueces contra reincidencia. (p8, p43)"
+  },
+  "anti_establishment": {
+   "score": 0,
+   "conf": "low",
+   "src": "programme",
+   "evidence": "Critica corrupción del Estado (p5) y 'ingerències judicials' (p10) pero se presenta institucional ('mur de contenció', logros pactados p18); sin discurso anti-casta. (p5, p10, p18)"
+  },
+  "animals_tradition": {
+   "score": -1,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Animales seres sintientes; igual protección para perros de caza; endurecer maltrato. No menciona tauromaquia. (p35, p36)"
+  },
+  "religion": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "IBI a todos los bienes religiosos dejando sin efecto acuerdos con la Santa Sede; escuela laica; suprimir delito de ofensa religiosa. (p8, p10)"
+  }
+ }
 }

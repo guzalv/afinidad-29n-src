@@ -1,36 +1,182 @@
 {
-"party":"Adelante Andalucía","slug":"adelante",
-"summary":"Programa andalucista, ecosocialista y de izquierda radical para el 29N, con 719 propuestas y 29 medidas estrella. Combina desprivatización de sanidad, energía y ferrocarril, revolución fiscal, jornada de 32 horas y vivienda como derecho, con financiación justa y máximo autogobierno para Andalucía como nacionalidad histórica.",
-"fundamentals":["Desprivatización de sanidad, energía y ferrocarril; fin de conciertos y externalizaciones","Revolución fiscal progresiva: IRPF, impuesto a la riqueza y la tierra, gravámenes permanentes a banca y eléctricas","Banca pública, empresas públicas estratégicas y red de supermercados públicos","Jornada de 32 horas, salarios indexados al IPC, despido más caro y fin del turno partido","Vivienda como derecho fundamental: alquiler máx. 20% del salario, parque público 9%, prohibición de compra por fondos","Escuela única pública y laica, 0-3 gratuita, universidad gratuita","Pensiones indexadas al IPC, mínimas = SMI neto, jubilación a los 64, renta básica universal","Financiación autonómica justa sin ordinalidad, deuda histórica, Andalucía nacionalidad histórica y horizonte confederal","Feminismo, derechos LGTBIQA+, aborto en la Constitución","Regularización extraordinaria, derogar Ley de Extranjería, cierre de CIE","Paz: contra el rearme y la OTAN, embargo total a Israel, apoyo al Sáhara","Ecosocialismo: ley de emergencia climática, salida del gas, agua pública, Doñana protegida","Regeneración democrática: fin de privilegios, mordaza derogada, Estado laico"],
-"signature":[
-{"text":"Jornada laboral de 32 horas sin rebaja salarial (2 años grandes empresas, 4 pymes) y prohibición del turno partido","page":"Economía y empleo, prop. 268"},
-{"text":"Prohibir la compra de vivienda residencial por fondos y sociedades; parque público al 9% y alquiler máximo del 20% del salario","page":"Servicios públicos 1.4, prop. 161, 167, 185"},
-{"text":"Desprivatización de toda la sanidad: derogar Ley 15/1997, suelo del 8% del PIB, fin de conciertos e integración de MUFACE","page":"Servicios públicos 1.1, prop. 1-5"},
-{"text":"Empresa pública de energía y calendario de salida del gas en 2030","page":"Bienes comunes 5.1, prop. 399, 404"},
-{"text":"Banca pública, aseguradora pública y red de supermercados públicos","page":"Economía y empleo 2.3, prop. 255, 257, 313"},
-{"text":"Cercanías y media distancia andaluz 100% público, administradora ferroviaria andaluza y desprivatización del sistema ferroviario","page":"Movilidad, prop. 374-382"},
-{"text":"Jubilación ordinaria a los 64 años, pensiones mínimas iguales al SMI neto y renta básica universal","page":"Servicios públicos 1.7 y Economía 2.6, prop. 220, 217, 298"},
-{"text":"Embargo total de armas a Israel, rechazo al 5% OTAN y referéndum sobre la OTAN","page":"Derechos humanos 9.3, prop. 578, 579, 584"}],
-"dims":{
-"tax":{"score":-2,"conf":"high","src":"programme","evidence":"IRPF con tipos mucho más altos desde 100.000 euros; impuesto sobre la riqueza y la tierra; impuestos permanentes a banca y eléctricas (Economía 2.1, prop. 232-236)"},
-"labor":{"score":-2,"conf":"high","src":"programme","evidence":"Jornada de 32 horas, SMI indexado, despido 50/60 días con autorización de Inspección, convenio sectorial manda (prop. 268-273)"},
-"housing":{"score":-2,"conf":"high","src":"programme","evidence":"Alquiler máx. 20% del salario, prohibida compra por fondos, moratoria de pisos turísticos, viviendas vacías al alquiler (prop. 161, 172, 173, 185)"},
-"welfare":{"score":-2,"conf":"high","src":"programme","evidence":"Pensiones con IPC real, mínimas = SMI neto, jubilación a los 64, renta básica universal, prestación por crianza (prop. 216-220, 298)"},
-"public_services":{"score":-2,"conf":"high","src":"programme","evidence":"Eliminar progresivamente la concertada, derogar Ley 15/1997, fin de conciertos sanitarios (prop. 2, 72)"},
-"public_ownership":{"score":-2,"conf":"high","src":"programme","evidence":"Banca pública, empresa pública de energía, farmacéutica y aseguradora públicas, desprivatización ferroviaria (prop. 255-258, 399)"},
-"immigration":{"score":-2,"conf":"high","src":"programme","evidence":"Derogar Ley de Extranjería, regularización extraordinaria, cierre de CIE, vías legales y seguras (prop. 547-553)"},
-"territorial":{"score":-1.5,"conf":"med","src":"programme","evidence":"Andalucía nacionalidad histórica, horizonte confederal, policía autonómica, traspasos; sin defender autodeterminación para otros territorios (prop. 345-346)"},
-"feminism":{"score":-2,"conf":"high","src":"programme","evidence":"Pacto de Estado con presupuesto, ampliar leyes integrales, paridad obligatoria, feminicidio en Código Penal, leyes trans y LGTBI desarrolladas (Feminismos, LGTBIQA+)"},
-"bioethics":{"score":-2,"conf":"high","src":"programme","evidence":"Aborto blindado en la Constitución y en la sanidad pública; plazos más ágiles para la eutanasia (prop. 33, 47-48)"},
-"climate":{"score":-2,"conf":"high","src":"programme","evidence":"Ley de emergencia climática con objetivos anuales, salida del gas en 2030, moratoria a macroplantas y fiscalidad verde (prop. 397, 404)"},
-"nuclear":{"score":-2,"conf":"med","src":"programme","evidence":"Cierre ordenado de El Cabril, fin de subvenciones a nuclear, nuclear fuera de taxonomía verde (prop. 405, 407); sin calendario explícito de centrales"},
-"eu":{"score":0,"conf":"low","src":"inferred","evidence":"Crítica con rearme, liberalización ferroviaria y acuerdos UE-Israel, pero pide fondos europeos y cláusulas espejo; no sovereigntista (prop. 578, 584)"},
-"defense":{"score":-2,"conf":"high","src":"programme","evidence":"Rechazo al 5% OTAN y rearme, reducción progresiva del gasto militar, referéndum OTAN, cierre de bases Rota y Morón (prop. 578-580)"},
-"israel":{"score":-2,"conf":"high","src":"programme","evidence":"Embargo total de armas a Israel, suspensión del acuerdo UE-Israel, ruptura de relaciones, genocidio en Palestina (prop. 583-584, medida 29)"},
-"monarchy":{"score":-2,"conf":"low","src":"inferred","evidence":"Programa pide fin de aforamientos de la Corona y referéndum constitucional obligatorio; no menciona república explícitamente (prop. 455, 476)"},
-"memory":{"score":-2,"conf":"high","src":"programme","evidence":"Anular apartados de Ley de Amnistía 1977, prohibir exaltación del franquismo, exhumaciones, disolver fundaciones franquistas (prop. 492, 567-577)"},
-"security":{"score":-2,"conf":"high","src":"programme","evidence":"Derogar ley mordaza y prisión permanente revisable, prohibir pelotas de goma, no al populismo punitivo (prop. 487-489, 495-496)"},
-"anti_establishment":{"score":0.5,"conf":"med","src":"programme","evidence":"Contra privilegios y corrupción de 'grandes partidos', cobrar lo que cobrabas, mandatos revocables; pero propone reformas institucionales (prop. 453-456)"},
-"animals_tradition":{"score":-2,"conf":"high","src":"programme","evidence":"Tauromaquia en transición hasta su abolición, sin subvenciones, caza más limitada, fin de macrogranjas (prop. 622, 631-637)"},
-"religion":{"score":-2,"conf":"high","src":"programme","evidence":"Religión fuera del currículo y horario lectivo, inmatriculaciones revertidas, fin de privilegios, suprimir ofensa religiosa (prop. 73, 504-507)"}
-}}
+ "party": "Adelante Andalucía",
+ "slug": "adelante",
+ "summary": "Programa andalucista, ecosocialista y de izquierda transformadora para las generales del 29N ('Un programa para frenar a las derechas'), con 719 propuestas en 12 áreas y 29 medidas principales. Combina desprivatización de sanidad, energía y ferrocarril, revolución fiscal, jornada de 32 horas y vivienda como derecho fundamental con financiación justa y máximo autogobierno para Andalucía como nacionalidad histórica.",
+ "fundamentals": [
+  "Desprivatización de sanidad, energía y ferrocarril; fin de conciertos y externalizaciones",
+  "Revolución fiscal: IRPF mucho más alto desde 100.000 €, impuesto a la riqueza y la tierra, Sociedades progresivo, gravámenes permanentes a banca y eléctricas",
+  "Banca pública, aseguradora pública, farmacéutica pública y red de supermercados públicos",
+  "Jornada de 32 horas sin rebaja salarial, salarios indexados al IPC, despido de 50/60 días con autorización de la Inspección, abanico salarial 1 a 5",
+  "Vivienda como derecho fundamental: alquiler máx. 20 % del salario, parque público al 9 %, prohibida la compra por fondos y sociedades",
+  "Una sola red educativa pública y laica, 0-3 y universidad gratuitas, ninguna universidad privada nueva",
+  "Pensiones con IPC real, mínimas = SMI neto, jubilación a los 64, renta básica universal e incondicional",
+  "Financiación autonómica sin ordinalidad, deuda histórica, Andalucía nacionalidad histórica y horizonte confederal",
+  "Feminismo y derechos LGTBIQA+: Pacto de Estado con presupuesto, feminicidio en el Código Penal, aborto en la Constitución",
+  "Derogar la Ley de Extranjería, regularización extraordinaria, cierre de los CIE",
+  "Paz: contra el rearme y el 5 % OTAN, referéndum OTAN, cierre de Rota y Morón, ruptura con Israel",
+  "Ecosocialismo: ley de emergencia climática, gas fuera del sistema eléctrico en 2030 (industria 2035), agua pública, Doñana sujeto de derechos",
+  "Fin de privilegios políticos, derogación de la ley mordaza, Estado laico y memoria democrática"
+ ],
+ "signature": [
+  {
+   "text": "Jornada laboral de 32 horas sin rebaja de sueldo (2 años grandes empresas, 4 pymes) y prohibición del turno partido",
+   "page": "cap2 #268"
+  },
+  {
+   "text": "Prohibición de la compra de vivienda residencial por fondos y sociedades mercantiles; alquiler máximo del 20 % de la renta media de la zona",
+   "page": "cap1 #161, #185"
+  },
+  {
+   "text": "Desprivatización de toda la sanidad: derogar la Ley 15/1997, suelo del 8 % del PIB e integración de MUFACE en el SNS",
+   "page": "cap1 #1-4"
+  },
+  {
+   "text": "Empresa pública de energía con filial andaluza y recuperación pública de redes y grandes centrales; gas fuera del sistema eléctrico en 2030",
+   "page": "cap5 #399, #404"
+  },
+  {
+   "text": "Banca pública, aseguradora pública y red de supermercados públicos",
+   "page": "cap2 #255, #257, #313"
+  },
+  {
+   "text": "Renta básica universal e incondicional igual al umbral de la pobreza y jubilación ordinaria a los 64 años",
+   "page": "cap2 #298; cap1 #220"
+  },
+  {
+   "text": "Financiación autonómica sin ordinalidad, condonación de la deuda por infrafinanciación y Andalucía nacionalidad histórica con horizonte confederal",
+   "page": "cap3 #337, #341, #345-346"
+  },
+  {
+   "text": "Ruptura de relaciones con Israel, embargo total de armas y referéndum sobre la permanencia en la OTAN",
+   "page": "las29 m29; cap9 #579, #584"
+  }
+ ],
+ "dims": {
+  "tax": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "IRPF mucho más alto desde 100.000 €, impuesto a la riqueza y la tierra, Sociedades progresivo, impuestos permanentes a banca y eléctricas, impuesto de salida (cap2 #232-236, #243)"
+  },
+  "labor": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Jornada de 32 horas, salarios y SMI indexados al IPC, despido 50/60 días con autorización de Inspección, convenio sectorial manda, abanico salarial 1 a 5 (cap2 #268-275)"
+  },
+  "housing": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Alquiler máx. 20 % de la renta, contratos indefinidos, prohibida la compra por fondos y sociedades, moratoria de pisos turísticos, ilegalizar la desokupación (cap1 #159-162, #173, #185)"
+  },
+  "welfare": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Pensiones con IPC real, mínimas = SMI neto, jubilación a los 64, renta básica universal e incondicional, prestación universal por crianza (cap1 #212, #216-220; cap2 #298)"
+  },
+  "public_services": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Derogar la Ley 15/1997, fin de conciertos sanitarios, eliminar progresivamente la concertada, ninguna universidad privada nueva (cap1 #2-3, #72, #137)"
+  },
+  "public_ownership": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Banca, aseguradora, farmacéutica y energética públicas, redes eléctricas recuperadas, ferrocarril desprivatizado, supermercados públicos (cap1 #56; cap2 #255-258, #313; cap4 #381; cap5 #399)"
+  },
+  "immigration": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Derogar la Ley de Extranjería, regularización extraordinaria, cierre de los CIE, fin de devoluciones en caliente, retirar concertinas, voto local extranjero (cap9 #547-553, #558)"
+  },
+  "territorial": {
+   "score": -1.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Andalucía nacionalidad histórica, 'modelo confederal' como horizonte, policía autonómica, selecciones andaluzas; rechaza la ordinalidad; no pide autodeterminación (cap3 #337, #345-350; cap10 #614)"
+  },
+  "feminism": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Pacto de Estado con presupuesto, ampliar leyes integrales, feminicidio como delito propio, paridad obligatoria, leyes trans y LGTBI desarrolladas (cap7 #508-509, #517, #527; cap8 #534)"
+  },
+  "bioethics": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Aborto en la sanidad pública de todas las provincias y blindado en la Constitución; eutanasia con plazos más ágiles y sin recurso de familiares (cap1 #33, #47-48)"
+  },
+  "climate": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Ley de emergencia climática con objetivos anuales y 2 % del PIB, gas fuera del sistema eléctrico en 2030, fin de subvenciones fósiles, sin macrogranjas (cap5 #397, #404, #407, #430)"
+  },
+  "nuclear": {
+   "score": -1.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Fin de subvenciones a la nuclear, nuclear fuera de la taxonomía verde, cierre ordenado de El Cabril, 'ni basurero nuclear'; sin calendario de cierre de centrales (cap5 #405, #407)"
+  },
+  "eu": {
+   "score": 0,
+   "conf": "low",
+   "src": "programme",
+   "evidence": "Mixto: rechaza el rearme europeo y revierte la liberalización ferroviaria, pero aplica el reglamento europeo de medios y fondos UE; sin postura sobre integración (cap4 #381; cap6 #498; cap9 #578)"
+  },
+  "defense": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Rechazo al rearme y al 5 % OTAN, reducción progresiva del gasto militar, referéndum OTAN, cerrar Rota y Morón, TPAN, ninguna mili (cap9 #578-580, #589)"
+  },
+  "israel": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Ruptura de relaciones con Israel por genocidio, juicio a sus dirigentes, embargo total de armas, BDS, suspender acuerdo UE-Israel (cap9 #583-584; las29 m29)"
+  },
+  "monarchy": {
+   "score": -1.5,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Solo pide fin del aforamiento de la Corona y referéndum de toda reforma constitucional (cap6 #455, #476); no menciona república; republicanismo inferido de su postura pública"
+  },
+  "memory": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Anular apartados de la Ley de Amnistía de 1977, prohibir exaltación del franquismo, exhumaciones con tutela judicial, disolver fundaciones franquistas (cap6 #492; cap9 #567-573)"
+  },
+  "security": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Derogar ley mordaza y prisión permanente revisable, prohibir pelotas de goma, no al populismo punitivo ni a la ley de desalojos rápidos (cap6 #487-489, #495-496)"
+  },
+  "anti_establishment": {
+   "score": 1,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Contra privilegios de 'grandes partidos': cobrar lo que cobrabas, mandatos revocables, CGPJ por elección directa, impago de deuda ilegítima; pero vía reformista (cap6 #453-456, #472; las29 m20)"
+  },
+  "animals_tradition": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Tauromaquia en transición hasta su abolición, derogar Ley 18/2013, ni un euro público a los toros, caza más limitada y sin sueltas (cap11 #622, #631-637)"
+  },
+  "religion": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Religión confesional fuera del horario y currículo, revertir inmatriculaciones, Mezquita pública, fin de privilegios religiosos, suprimir ofensa religiosa (cap1 #73; cap6 #504-507)"
+  }
+ }
+}

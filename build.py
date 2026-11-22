@@ -10,7 +10,8 @@ SRC = json.load(open('sources.json'))
 out = {}
 for s,(n,c,r) in P.items():
     j = json.load(open(f'ext/{s}.json')); m = SRC[s]
-    out[s] = dict(name=n, color=c, regions=r, url=m['url'], title=m.get('title',''), summary=j['summary'],
+    out[s] = dict(name=n, color=c, regions=r, url=m['url'], pages=m.get('pages'), title=m.get('title',''),
+                  src_note=m.get('src_note',''), summary=j['summary'],
                   fundamentals=j['fundamentals'], signature=j['signature'], dims=j['dims'])
 data = json.dumps(out, ensure_ascii=False).replace('</','<\\/')
 html = open('template.html').read().replace('/*QUESTIONS*/', open('questions.js').read()).replace('/*DATA*/null', data)

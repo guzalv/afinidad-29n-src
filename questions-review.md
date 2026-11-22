@@ -53,3 +53,27 @@
 
 ## Self-test
 - Added party-bot check to bin/selftest.js: each party answering by its own programme scores must rank itself first. New set: 14/14; original: 13/14 (Adelante tied with FA).
+
+## Review 2 (2026-11-22, programme-based)
+Checked every item against the audited scores (ext/) and programme text. 41 items (+2 added, 1 likert→choice, 10 recalibrated). Party bots: 14/14 rank themselves first (Compromís previously tied with FA 98/98; now 98.6 vs 98.1).
+
+### Changed
+- Herencia: "Sí, como cualquier otro ingreso" (-2) matched no programme; now "Sí, de forma progresiva" (-2: Adelante #234 suelo común; FA p46 tope 10 M€). "Solo si es grande" -0.5 → -1 (FA p45 impuesto estatal a herencias >1 M€). Junts p68 and SALF p13 abolish → "No".
+- Despido: "no despedir con beneficios" was no party's measure, and PSOE (-1.5) landed on it. Now 4 options: autorización + más indemnización (-2: FA p53, ERC p26, Bildu p6, Podemos p42, Adelante #272) / más indemnización (-1.5: PSOE p41 "reparación efectiva") / ley actual (0.5: PP, Junts) / menos trámites e indemnización (1.5: SALF p30-31 contrato único).
+- Jornada: "por ley" split into 37,5 h (-1.5: PSOE p41, ERC p26) and hacia 32 h (-2: FA p56, Compromís p7, Bildu p6, Adelante #268, BNG p15; Podemos 30 h p41). Junts p70 against → sector a sector.
+- Financiación de la jubilación: dropped "pensiones que suban con el IPC" from the public-only option; PP p34 and SALF p20-21 also back IPC uprating, so it was not a financing contrast.
+- Nucleares: "Alargar mientras sean seguras" 1.5 → 1 (Junts p78 "revisar el calendario", PNV p15 "revisar el PNIEC"; full extension and SMRs/new plants stay at 2: PP p54, Vox p12).
+- Sin papeles: added "No regularizarlas, salvo casos excepcionales" (1.5): PP p19 (prohibir regularizaciones masivas, arraigo excepcional) and Junts p47-49 had to choose "expulsar" (Vox p15 remigración).
+- Independencia: "Negociar más autogobierno, sin referéndum" -0.5 → -1. PNV p37-39 (Concierto Político, sin independencia ni referéndum), CC p3 (decidir dentro del Estado) and Compromís (sin autodeterminación) sit there; PSOE p91 ("ni recentralizar ni fragmentar") is also nearest. Option order reversed (right-first).
+- Aborto: likert ("solo de la mujer", everyone left of PP agreed) → 4 options: restringir (2: Vox p52) / seguir como está + medidas para continuar el embarazo (0.5: PP p44 concebido no nacido) / seguir como está garantizando la sanidad pública (-1.5: Compromís p46 "en los términos previstos legalmente", PNV p26) / derecho en la Constitución (-2: PSOE p81, FA p28, Podemos p51, Adelante #33). This is the main real Compromís–FA difference on bioethics.
+- UE: added "Mucho menos: replantearse seguir en ella" (2: SALF p35 referéndum de renegociación/salida); "Menos cosas" 2 → 1 (Vox p33-34 and BNG p47-48 are sovereigntist without proposing exit).
+- Monarquía: added "Aceptable, mientras cumpla bien su papel" (1). PSOE, CC and SALF (1, programmes silent; none proposes a republic) had to choose between "útil" (2) and "anticuada" (-0.5).
+
+### Added
+- Compra de vivienda en zonas caras (housing): solo quien vaya a vivir (-2: Podemos p8, Compromís p5 no residentes en zonas tensionadas, FA p11 personas jurídicas, CC p11 extranjeros) / solo prohibir a fondos y grandes empresas (-1: Junts p17 hasta 2028, PSOE p32, Bildu p5-6) / más impuestos a fondos y compradores no residentes en la UE (0.5: Vox p24-25) / sin límites (2: PP p41-43, SALF p5-7).
+- Edad de jubilación (welfare): volver a 65 o menos (-2: FA p58, Compromís p8, BNG p19, Podemos p41 63 años, Adelante 64) / mantener sin penalizar a 40 años cotizados (-1: PNV p31, Junts p58, ERC p26, PSOE p40 penosidad) / mantener y premiar seguir trabajando (0.5: PP p34 jubilación activa, SALF p20) / seguir subiéndola (2, pole).
+
+### Not added
+- Palestinian recognition: already done (2024), so it no longer separates parties. The Israel item covers sanctions and the arms embargo.
+- Regional minimum wage (Bildu p6, PNV p9, ERC p20, Junts p88): territorial already has 4 items, and the parties that propose it never compete in the same region.
+- Compromís vs FA: the remaining score gaps are concertada (handled), abortion (above) and EU (existing item). Defence and anti-establishment have equal scores, so no item can separate them.

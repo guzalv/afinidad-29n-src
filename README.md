@@ -7,7 +7,8 @@ Demo: https://guzalv.github.io/afinidad-29n/
 ## Cómo funciona
 - `dims.md`: los 21 ejes (impuestos, vivienda, inmigración, modelo territorial…) y sus polos, de −2 a +2.
 - `ext/<partido>.json`: posición de cada programa en cada eje, con cita y página. Extraído automáticamente con modelos de lenguaje; **puede contener errores**. Cuando el programa no se pronuncia, la posición está marcada `inferred` y pesa menos.
-- `sources.json`: de dónde salió cada programa. Varios son copias alojadas en medios de comunicación, no en la web del partido.
+- `sources.json`: URL oficial de cada programa (web del partido o de su campaña) y número de páginas.
+- `audit/<partido>.md`: auditoría independiente tras leer el programa entero (registro de páginas leídas, verificación de cada cita, correcciones).
 - `questions.js`: preguntas y su efecto (ponderado) sobre cada eje. `questions-review.md`: qué se cambió y por qué.
 - `template.html` + `build.py` → `site/index.html`. `bin/selftest.js` simula respondientes tipo y comprueba que cada partido, respondiendo según su propio programa, sale primero.
 
@@ -18,6 +19,6 @@ python3 build.py && node bin/selftest.js site/index.html
 `bin/pdf2txt.py` (PyMuPDF) convierte los PDF de los programas a texto con marcadores de página.
 
 ## Límites
-Orientativo. No sustituye a leer los programas. Frente Amplio y Podemos quedan muy cerca porque sus programas difieren poco en los ejes medidos.
+Orientativo. No sustituye a leer los programas. Algunos partidos (p. ej. Compromís y Frente Amplio) quedan muy cerca porque sus programas difieren poco en los ejes medidos.
 
 Licencia: MIT (código). Los textos citados pertenecen a sus partidos.

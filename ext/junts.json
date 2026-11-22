@@ -1,52 +1,181 @@
 {
  "party": "Junts per Catalunya",
  "slug": "junts",
- "summary": "Programa 'Catalunya al centre': independentismo con agenda catalana propia en Madrid (autodeterminación, concierto económico, traspaso de competencias), sin entrar en ningún gobierno español. En lo económico es liberal-centrista (rebajas fiscales, pymes, autónomos, supresión de sucesiones), con oferta de vivienda sin topes de precios y política migratoria restrictiva con catalán como requisito de integración.",
+ "summary": "Programa 'Catalunya al centre': independentismo de 'estricta obediencia catalana' que va a Madrid a ganar soberanía (concierto económico, inmigración, Rodalies, Prat) sin entrar en ningún gobierno español. En lo económico es liberal-centrista (rebajas de IRPF, sucesiones, IVA, pymes y autónomos), con vivienda por la oferta y sin topes, mano dura con la okupación y la multirreincidencia y una política migratoria restrictiva con el catalán como requisito de arraigo, combinada con un perfil progresista en derechos LGTBI, animales y libertades (derogar ley mordaza y prisión permanente).",
  "fundamentals": [
-  "Autodeterminación e independencia; 'no vamos a Madrid a reformar España' y ningún voto sin contrapartida catalana (p5, p10, p12)",
-  "Concierto económico y Agencia Tributaria de Cataluña fuera del régimen LOFCA; balanzas fiscales anuales (p67-69)",
-  "Traspaso de competencias: Rodalies, aeropuerto del Prat, puertos, Seguridad Social, inmigración, Justicia (p8, p71-72)",
-  "Catalán como lengua vehicular, requisito para funcionarios/jueces y oficialidad en la UE; escuela en catalán 'línea roja' (p19-20)",
-  "Rebaja fiscal: deflactar IRPF, eliminar sucesiones, IS pymes, IVA reducido, apoyo a autónomos (p68-69)",
-  "Vivienda por oferta, sin topes de precios; desahucio de okupas en 48h; deducciones IRPF 15% y avales jóvenes (p16-18)",
-  "Inmigración: limitar flujos, contratación en origen, oponerse a regularizaciones masivas, catalán obligatorio para arraigo, prohibir niqab (p47-49)",
-  "Modelo de seguridad propio con Mossos como policía integral; ley contra la multirreincidencia (p21-23)",
-  "Europeísmo exigente (UE más integrada, mayoría cualificada), Cataluña independiente en UE y OTAN, apoyo militar a Ucrania (p26-28)",
-  "Sanidad y educación públicas con colaboración concertada/publicosocial; financiación al 8% PIB sanitario y 6% educación (p50-54)",
-  "Mundo local y rural: derogar LRSAL, pacto rural-urbano, gasóleo profesional, sector primario sin burocracia (p73-86)",
-  "Reforma judicial y democrática: suprimir Audiencia Nacional, despolitizar CGPJ, derogar ley mordaza y prisión permanente (p13-15)"
+  "Autodeterminación e independencia; 'no anem a Madrid a reformar Espanya'; ningún voto sin contrapartida y no formar parte de ningún gobierno español (p5, p8, p10, p12)",
+  "Concierto económico fuera de la LOFCA: Agència Tributària de Catalunya recauda todos los impuestos; balanzas fiscales anuales; condonación 100% del FLA (p67-68)",
+  "Rebaja fiscal: deflactar IRPF, eliminar sucesiones y donaciones, IS pymes, IVA franquiciado autónomos, IVA luz/gas al 10% (p68-69)",
+  "Vivienda por la oferta: contra los topes de precio, desalojo de okupas en 48 h, deducciones IRPF 15%, IVA 5% vivienda nueva; pero veto a compras de fondos hasta 2028 y cesión SAREB/Casa 47 (p16-18, p60)",
+  "Inmigración: limitar y controlar flujos desordenados, contra regularizaciones masivas, catalán para arraigo y renovaciones, competencias de expulsión y fronteras para Mossos, prohibir niqab/burka (p47-49)",
+  "Catalán vehicular en la escuela como 'línea roja', requisito para todo funcionario estatal en Cataluña y oficialidad en la UE (p8, p19-20, p53)",
+  "Seguridad: ley contra la multirreincidencia, 26.800 Mossos en 2032, Mossos policía integral; a la vez derogar ley mordaza y prisión permanente revisable (p14-15, p23, p49)",
+  "Reforma del Estado: suprimir Audiencia Nacional, despolitizar CGPJ, reformar TC, eliminar delito de injurias, nueva ley de secretos oficiales (p13-15)",
+  "Europeísmo 'exigente y liberal': UE más integrada, Cataluña independiente en UE y OTAN, apoyo militar a Ucrania, defensa europea complementaria de la OTAN (p26-28)",
+  "Bienestar: 'ningún derecho se recortará' pero con corresponsabilidad; pensiones al IPC catalán, mínimas hasta 1.400 € y sin penalización con 40 años cotizados; traspaso de la Seguridad Social (p44, p57-58, p70)",
+  "Modelo mixto en servicios: red pública y concertada con mismos recursos, modelo sanitario catalán de proveedores diversos y colaboración publicosocial (p50-51, p53-54)",
+  "Derechos LGTBI y animales: defender Ley trans 4/2023, penalizar terapias de conversión, derogar tauromaquia como patrimonio cultural (p36, p42)"
  ],
  "signature": [
-  {"text": "Concierto económico catalán: Agencia Tributaria de Cataluña recauda todos los impuestos y condonación del 100% de la deuda FLA", "page": "p68"},
-  {"text": "Desalojo de okupaciones ilegales en 48 horas mediante juicio inmediato y desalojo policial en flagrante", "page": "p17"},
-  {"text": "Ley de delegación de competencias de inmigración (permisos, CIE, expulsiones, control fronterizo vía Mossos) y catalán exigido para el arraigo", "page": "p48"},
-  {"text": "Prohibir hasta 2028 que bancos, fondos y gestoras compren viviendas; restaurar deducciones IRPF 15% por alquiler, hipoteca y cuenta vivienda", "page": "p17"},
-  {"text": "Traspaso íntegro de Rodalies, Mitjana Distància y aeropuerto del Prat fuera de AENA", "page": "p72"},
-  {"text": "Eliminar el impuesto de sucesiones y donaciones y deflactar IRPF anualmente", "page": "p68"},
-  {"text": "Pensiones indexadas al IPC catalán, sin penalización a quien tenga 40 años cotizados y gestión catalana de la Seguridad Social", "page": "p57"},
-  {"text": "Prohibir el velo integral (niqab y burka) en el espacio público; no afecta al hiyab", "page": "p48"}
+  {
+   "text": "Concierto económico catalán: la Agència Tributària de Catalunya recauda e inspecciona todos los tributos; condonación del 100% de la deuda del FLA",
+   "page": "p68"
+  },
+  {
+   "text": "Desalojo de okupaciones ilegales en 48 horas con juicio inmediato y desalojo policial inmediato en flagrancia",
+   "page": "p17"
+  },
+  {
+   "text": "Prohibir hasta 2028 que bancos, fondos de inversión y gestoras de activos compren viviendas",
+   "page": "p17"
+  },
+  {
+   "text": "Ley de delegación de competencias de inmigración: permisos, CIE, expulsiones y control de Schengen en puertos y aeropuertos por los Mossos",
+   "page": "p48-49"
+  },
+  {
+   "text": "Exigir conocimiento del catalán para el arraigo y la renovación de permisos; prohibir niqab y burka en el espacio público (no el hiyab)",
+   "page": "p48"
+  },
+  {
+   "text": "Suprimir la Audiencia Nacional, 'heredera del TOP franquista'",
+   "page": "p14"
+  },
+  {
+   "text": "Salario mínimo catalán hacia el 60% del salario medio catalán, a la vez que se amplía el límite de horas extra y se rechaza la jornada de 37,5 h",
+   "page": "p70, p88"
+  },
+  {
+   "text": "IRPF joven: exención total el primer año de trabajo para menores de 35, 75% el segundo, 50% el tercero; cuota cero de autónomos 3 años",
+   "page": "p61"
+  }
  ],
  "dims": {
-  "tax": {"score": 1.5, "conf": "high", "src": "programme", "evidence": "Deflactar IRPF, rebajar primeros tramos, eliminar sucesiones y donaciones, IS pymes, IVA reducido, bajar 'presión fiscal' (p68-69)"},
-  "labor": {"score": 0.5, "conf": "med", "src": "programme", "evidence": "Se opone a jornada de 37,5h, quiere ampliar horas extra y plan contra absentismo; pero propone SMI catalán al 60% del salario medio (p70, p88)"},
-  "housing": {"score": 1.0, "conf": "high", "src": "programme", "evidence": "'Un tope no hace aparecer pisos'; derogar contención de precios Ley 12/2023, desalojo okupas 48h, aunque amplía parque público y veta fondos hasta 2028 (p16-18, p60)"},
-  "welfare": {"score": 0.0, "conf": "med", "src": "programme", "evidence": "'Ningún derecho se recortará'; pensiones al IPC catalán y mínimas al SMI, pero corresponsabilidad, perseguir uso indebido y planes complementarios (p44, p57)"},
-  "public_services": {"score": 1.0, "conf": "med", "src": "programme", "evidence": "Defiende red pública y concertada con mismos recursos, 'colaboración publicosocial' y proveedores diversos en sanidad (p50, p53)"},
-  "public_ownership": {"score": 1.0, "conf": "med", "src": "programme", "evidence": "'Economía social de mercado abierta', colaboración público-privada; sin nacionalizaciones, solo traspasos a la Generalitat (p26, p67)"},
-  "immigration": {"score": 1.5, "conf": "high", "src": "programme", "evidence": "'Limitar y controlar los flujos desordenados', oposición a regularizaciones masivas, expulsiones por Mossos, catalán para arraigo, prohibir niqab (p47-49)"},
-  "territorial": {"score": -2.0, "conf": "high", "src": "programme", "evidence": "Autodeterminación inalienable, independencia, concierto económico, amnistía, TSJC última instancia, catalán oficial en UE (p8, p12-13)"},
-  "feminism": {"score": -1.0, "conf": "med", "src": "programme", "evidence": "Feminismo de oportunidades y contra violencias machistas; defiende Ley 4/2023 trans y competencias propias, sin planteamiento estructural (p32-37)"},
-  "bioethics": {"score": -1.0, "conf": "low", "src": "inferred", "evidence": "Programa silente sobre aborto y eutanasia; postura pública favorable a mantener ambos derechos"},
-  "climate": {"score": -0.5, "conf": "med", "src": "programme", "evidence": "Neutralidad 2050 y Green Deal, pero 'rechazamos el decrecimiento' y que la factura la paguen payés o transportista (p10, p76, p81)"},
-  "nuclear": {"score": 1.0, "conf": "med", "src": "programme", "evidence": "'Revisar el calendario de cierre de las centrales nucleares catalanas' para garantizar suministro (p78)"},
-  "eu": {"score": -1.5, "conf": "high", "src": "programme", "evidence": "'Europeístas exigentes', UE más integrada y democrática, ampliar mayoría cualificada, defensa europea integrada (p26-28)"},
-  "defense": {"score": 1.0, "conf": "med", "src": "programme", "evidence": "Cataluña independiente en OTAN, apoyo militar a Ucrania, defensa europea integrada y retorno industrial de inversiones en defensa (p24, p26-28)"},
-  "israel": {"score": 1.5, "conf": "high", "src": "programme", "evidence": "Defiende derecho de Israel a existir y defenderse, condena Hamás y Hizbulá, rechaza boicots indiscriminados; dos estados (p26, p28)"},
-  "monarchy": {"score": -1.5, "conf": "low", "src": "inferred", "evidence": "Solo cita impedir vetos de la Mesa a debatir la monarquía (p15); postura pública republicana e independentista"},
-  "memory": {"score": -1.0, "conf": "med", "src": "programme", "evidence": "Memorial Democràtic en Via Laietana, derogar ley franquista de secretos oficiales, investigar víctimas de la mili, ley memoria LGTBI (p13-15, p36)"},
-  "security": {"score": 0.5, "conf": "med", "src": "programme", "evidence": "Ley contra la multirreincidencia y más Mossos (26.800), pero deroga ley mordaza y prisión permanente revisable (p14-15, p23, p49)"},
-  "anti_establishment": {"score": 0.5, "conf": "low", "src": "inferred", "evidence": "Confrontación democrática con el Estado y crítica a sus instituciones (CGPJ, TC, CIS), pero discurso institucional y no antisistema (p12, p14, p31)"},
-  "animals_tradition": {"score": -1.5, "conf": "high", "src": "programme", "evidence": "Derogar la declaración de la tauromaquia como patrimonio cultural, IVA veterinario, prohibir transporte marítimo de animales vivos (p41-42)"},
-  "religion": {"score": 0.0, "conf": "low", "src": "inferred", "evidence": "Sin posición explícita sobre laicidad o religión en escuela; solo traspaso del registro de entidades religiosas (p15)"}
+  "tax": {
+   "score": 1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Reducir 'pressió fiscal': deflactar IRPF, rebajar primeros tramos, eliminar sucesiones y donaciones, IS pymes, IVA franquiciado autónomos, IVA luz/gas 10% (p67-69)"
+  },
+  "labor": {
+   "score": 0.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Contra jornada de 37,5h, más horas extra, plan contra absentismo, mutuas; pero SMI catalán hacia 60% del salario medio y Estatuto del becario (p60, p70, p88)"
+  },
+  "housing": {
+   "score": 1.0,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "'Un topall no fa aparèixer pisos'; derogar contención de precios Ley 12/2023, okupas 48h, deducciones 15%; aunque veta compras de fondos hasta 2028 (p16-17, p60)"
+  },
+  "welfare": {
+   "score": -0.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "'Cap d'aquests drets s'ha de retallar'; pensiones al IPC catalán, mínimas a 1.400 €, cuidados cotizan; con corresponsabilidad, perseguir uso indebido y planes complementarios (p44, p57-58)"
+  },
+  "public_services": {
+   "score": 1.0,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Pública y concertada 'mateixos recursos', actualizar módulos de concertada, modelo sanitario de proveedores diversos y 'col·laboració publicosocial', mutuas con sanidad pública (p50-51, p53-54, p70)"
+  },
+  "public_ownership": {
+   "score": 0.5,
+   "conf": "low",
+   "src": "programme",
+   "evidence": "'Economia social de mercat oberta' y colaboración publicoprivada (p26); sin privatizaciones ni nacionalizaciones, solo traspasos de infraestructuras a la Generalitat (p71-72); frenó impuesto a energéticas (p88)"
+  },
+  "immigration": {
+   "score": 1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "'Limitar i controlar els fluxos desordenats', oposición a regularizaciones masivas, expulsiones vía Mossos, catalán para arraigo, padrón restrictivo, prohibir niqab (p47-49, p84)"
+  },
+  "territorial": {
+   "score": -2.0,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Autodeterminación 'inalienable', Estado independiente, concierto económico, amnistía, TSJC última instancia, catalán requisito y oficial en UE (p8, p12-15, p68)"
+  },
+  "feminism": {
+   "score": -1.0,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Feminismo 'que obri oportunitats'; Ley 5/2008 violencias machistas, perspectiva de género en presupuestos; defiende Ley trans 4/2023 y penalizar terapias de conversión (p32-36)"
+  },
+  "bioethics": {
+   "score": -1.0,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Programa silente sobre aborto y eutanasia tras lectura completa; Junts votó a favor de la ley de eutanasia (2021); solo anticonceptivos gratuitos hasta 35 años (p62)"
+  },
+  "climate": {
+   "score": -0.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Green Deal como hoja de ruta, neutralidad 2050 y -55% en 2030; pero 'rebutgem el decreixement' y no más exigencias que la UE al campo (p74-76, p81)"
+  },
+  "nuclear": {
+   "score": 1.0,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "'Revisar el calendari de tancament de les centrals nuclears catalanes' para garantizar suministro; prescindir prematuramente de generación sería un riesgo (p76, p78)"
+  },
+  "eu": {
+   "score": -1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "'Europeistes exigents, liberals': UE más integrada, reforzar Parlamento Europeo, ampliar mayoría cualificada, defensa europea integrada (p26-28)"
+  },
+  "defense": {
+   "score": 1.0,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Cataluña independiente en la OTAN, ayuda militar plurianual a Ucrania, defensa europea complementaria de la OTAN, retorno industrial de inversión en defensa (p24, p26-28)"
+  },
+  "israel": {
+   "score": 1.0,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Derecho de Israel a existir y defenderse, condena a Hamás/Hezbolá, rechaza boicots indiscriminados; pero dos estados, protección de civiles e investigación independiente (p26, p28)"
+  },
+  "monarchy": {
+   "score": -1.5,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Programa sin posición expresa: solo impedir que la Mesa vete debates sobre monarquía (p15) y suprimir el delito de injurias (p13); resto inferido de su republicanismo independentista"
+  },
+  "memory": {
+   "score": -1.0,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Memorial Democràtic en Via Laietana 43 y víctimas de la mili (p15), derogar ley franquista de secretos oficiales (p13), papeles de Salamanca (p25), reparación LGTBI de la dictadura (p36), anular disoluciones franquistas (p64); sin posición sobre exhumaciones ni ley de memoria estatal"
+  },
+  "security": {
+   "score": 0.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Ley contra multirreincidencia, okupas 48h, 26.800 Mossos; pero derogar ley mordaza y prisión permanente revisable, limitar balas de goma (p14-15, p17, p23, p49)"
+  },
+  "anti_establishment": {
+   "score": 0.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "'Anomalies democràtiques estructurals' del Estado, suprimir Audiencia Nacional, reformar TC/CGPJ, CIS 'agents de propaganda'; pero partido de gobierno y negociador (p12, p14, p31)"
+  },
+  "animals_tradition": {
+   "score": -1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Derogar la tauromaquia como patrimonio cultural, rebajar IVA veterinario, prohibir transporte marítimo de animales vivos, proteger perros de caza (p41-42)"
+  },
+  "religion": {
+   "score": 0.0,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Sin posición sobre laicidad, Santa Sede ni religión en la escuela; solo traspaso del registro de entidades religiosas (p15), delitos de odio que no criminalicen religiones (p13), prohibir niqab por identificación (p48)"
+  }
  }
 }

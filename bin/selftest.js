@@ -15,8 +15,8 @@ function run(name,dir,terr){ // dir: +1 right, -1 left; terr overrides territori
     else ans[n]=q.o.slice().sort((a,b)=>score(b[1])-score(a[1]))[0][0];
   });
   setAns(ans);const u=profile();
-  const r=Object.entries(DATA).map(([k,p])=>[k,match(u,p).pct]).sort((a,b)=>b[1]-a[1]);
-  console.log(name.padEnd(28),r.slice(0,5).map(x=>x.join(':')).join(' '),'… last',r.at(-1).join(':'));
+  const r=Object.entries(DATA).map(([k,p])=>[k,match(u,p).pct,match(u,p).s]).sort((a,b)=>b[2]-a[2]);
+  console.log(name.padEnd(28),r.slice(0,5).map(x=>x.slice(0,2).join(':')).join(' '),'… last',r.at(-1).slice(0,2).join(':'));
   return r;
 }
 const R=run('right, centralist',1,1), L=run('left, centralist-ish',-1,0), N=run('left, nationalist',-1,-1), C=run('right econ, nationalist',1,-1);
@@ -33,8 +33,8 @@ function near(name,t){ // picks options whose mean position is closest to t (mod
     else ans[n]=q.o.slice().sort((a,b)=>Math.abs(m(a[1])-t)-Math.abs(m(b[1])-t))[0][0];
   });
   setAns(ans);const u=profile();
-  const r=Object.entries(DATA).map(([k,p])=>[k,match(u,p).pct]).sort((a,b)=>b[1]-a[1]);
-  console.log(name.padEnd(28),r.slice(0,5).map(x=>x.join(':')).join(' '));return r;
+  const r=Object.entries(DATA).map(([k,p])=>[k,match(u,p).pct,match(u,p).s]).sort((a,b)=>b[2]-a[2]);
+  console.log(name.padEnd(28),r.slice(0,5).map(x=>x.slice(0,2).join(':')).join(' '));return r;
 }
 const CL=near('centre-left (-0.8)',-.8), CR=near('centre-right (+0.8)',.8);
 console.assert(['psoe','pnv','cc'].includes(CL[0][0])||CL.slice(0,3).some(x=>x[0]==='psoe'),'centre-left should reach PSOE');
@@ -49,6 +49,6 @@ for(const p of Object.keys(DATA)){const ans={};
     else if(q.k==='lik')ans[n]=Math.round(Object.entries(q.e).reduce((a,[d,[s,w]])=>a+sc(p,d)*s*w,0)/Object.values(q.e).reduce((a,[s,w])=>a+w,0));
     else if(q.k==='pick')ans[n]=q.o.filter(o=>Object.keys(o[1]).length).sort((a,b)=>dist(p,a[1])-dist(p,b[1])).slice(0,q.max).map(o=>o[0]);
     else ans[n]=q.o.slice().sort((a,b)=>dist(p,a[1])-dist(p,b[1]))[0][0];});
-  setAns(ans);const u=profile(),r=Object.entries(DATA).map(([k,x])=>[k,match(u,x).pct]).sort((a,b)=>b[1]-a[1]);
-  console.assert(r[0][0]===p,`${p} bot should rank ${p} first, got ${r.slice(0,3).map(x=>x.join(':'))}`);}
+  setAns(ans);const u=profile(),r=Object.entries(DATA).map(([k,x])=>[k,match(u,x).pct,match(u,x).s]).sort((a,b)=>b[2]-a[2]);
+  console.assert(r[0][0]===p,`${p} bot should rank ${p} first, got ${r.slice(0,3).map(x=>x.slice(0,2).join(':'))}`);}
 console.log('party bots done');

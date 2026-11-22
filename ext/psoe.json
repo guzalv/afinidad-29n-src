@@ -1,38 +1,181 @@
 {
-"party":"PSOE","slug":"psoe",
-"summary":"Programa socialdemócrata de continuidad ('La fuerza de seguir avanzando'): crecimiento con política industrial y renovables, vivienda como prioridad (1% del PIB, parque público de 100.000 viviendas, congelación de rentas, impuesto a fondos buitre), más derechos laborales y fiscalidad progresiva sobre capital y grandes fortunas, y blindaje constitucional de pensiones, vivienda y aborto. Defiende más UE, feminismo, memoria democrática y un Estado autonómico cooperativo, con senda fiscal conforme a las reglas europeas.",
-"fundamentals":["Prosperidad compartida: crecimiento económico con reparto justo y reducción de la desigualdad","Vivienda como quinto pilar del bienestar: reforma constitucional, 1% del PIB anual, parque público permanente","Fiscalidad progresiva: capital hasta 35%, tasa Tobin 0,4%, tasa tecnológicas, viajes de lujo, Ley de Salarios Justos","Trabajo digno: jornada 37,5h, SMI >60% del salario medio, reforma del despido improcedente, negociación colectiva","Pensiones revalorizadas con IPC y blindadas en la Constitución; IMV y prestación por crianza","Sanidad y educación públicas como prioridad: 7% PIB en sanidad, gestión directa preferente, 0-3 universal","Transición ecológica: 81% renovables en 2030, cierre nuclear hasta 2035, Pacto Verde Europeo","Feminismo: blindaje constitucional del aborto, ley contra violencia vicaria, abolicionismo de la prostitución","Regulación de tecnooligarcas e IA: redes sociales a 16 años, gobernanza de IA, responsabilidad penal de directivos","Más Europa: unión política y fiscal, fin de la unanimidad, defensa europea; multilateralismo y rechazo del 5% OTAN","Estado autonómico cooperativo: Senado territorial, nueva financiación autonómica, lenguas cooficiales","Calidad democrática: integridad pública, ley de lobbies, autonomía de la Fiscalía, memoria democrática"],
-"signature":[
-{"text":"Reforma constitucional para que la vivienda sea derecho fundamental y movilización anual del 1% del PIB","page":"p27"},
-{"text":"Parque público estatal de 100.000 viviendas vía CASA 47 y 1% de la licitación de obra pública para vivienda protegida","page":"p28"},
-{"text":"Impuesto progresivo a viviendas de grandes propietarios y fondos buitre vacías, turísticas o a precio abusivo","page":"p31"},
-{"text":"Reducción de jornada a 37,5 horas y SMI blindado por ley por encima del 60% del salario medio","page":"p37"},
-{"text":"Tipo máximo del 35% en rentas del capital >300.000 €, tasa Tobin al 0,4% y Ley de Salarios Justos (ratio 100:1)","page":"p48"},
-{"text":"Prestación estatal por crianza universal y Cuenta de Futuro de 1.000 € al nacer","page":"p56"},
-{"text":"Edad mínima de 16 años para redes sociales, con verificación de edad y responsabilidad penal de directivos","page":"p95"},
-{"text":"Blindaje constitucional del aborto, las pensiones (IPC) y la eutanasia; escaño ciudadano y voto a los 16","page":"p89"}
-],
-"dims":{
-"tax":{"score":-1.5,"conf":"high","src":"programme","evidence":"Capital rate up to 35%, Tobin tax 0.2->0.4%, tech tax, luxury travel tax, 'ultrarricos paguen'; keeps fiscal rules (p48)"},
-"labor":{"score":-1.5,"conf":"high","src":"programme","evidence":"Jornada 37,5h, SMI >60% salario medio, reformar despido improcedente, salarios de tramitación (p41, p37)"},
-"housing":{"score":-1.5,"conf":"high","src":"programme","evidence":"Congelar rentas en zonas tensionadas, 100.000 viviendas públicas, impuesto a fondos buitre; also land-release law and rapid eviction of okupas (p30, p31, p101)"},
-"welfare":{"score":-1.5,"conf":"high","src":"programme","evidence":"Pensiones IPC blindadas en Constitución, IMV potenciado, prestación por crianza universal, dependencia (p40, p56)"},
-"public_services":{"score":-1.5,"conf":"high","src":"programme","evidence":"Gestión directa preferente en sanidad, 'limitar la privatización', educación pública y gratuita 0-18; no end of conciertos explicit (p49, p46)"},
-"public_ownership":{"score":-0.5,"conf":"med","src":"programme","evidence":"Reforzaremos el sector público empresarial, mantener participación del Estado en sectores estratégicos; no nationalisations or public energy firm (p15)"},
-"immigration":{"score":-1.0,"conf":"high","src":"programme","evidence":"Migración regular, ordenada y humana, ampliar vías legales, Plan de Integración; mentions lucha contra mafias, no mass regularisation (p92)"},
-"territorial":{"score":-0.5,"conf":"med","src":"programme","evidence":"Ni recentralizar ni fragmentar; lenguas cooficiales en Cortes, financiación autonómica +21.000M, Senado territorial; no self-determination (p91)"},
-"feminism":{"score":-2.0,"conf":"high","src":"programme","evidence":"Ley vicaria, parity, abolicionismo prostitución, violencia digital, Ley Zerolo/4/2023 as floor (p82, p83, p97)"},
-"bioethics":{"score":-2.0,"conf":"high","src":"programme","evidence":"Blindar constitucionalmente aborto (art. 43) y eutanasia; derecho efectivo a la eutanasia (p81, p89, p50)"},
-"climate":{"score":-1.5,"conf":"high","src":"programme","evidence":"81% renovables 2030, hoja de ruta abandono fósiles, Ley de Adaptación, defender Pacto Verde Europeo (p65, p73)"},
-"nuclear":{"score":-1.5,"conf":"high","src":"programme","evidence":"Mantener el calendario de cierre de las centrales nucleares hasta 2035 con transición justa (p66)"},
-"eu":{"score":-2.0,"conf":"high","src":"programme","evidence":"Unión política y fiscal, superar unanimidad, Mecanismo Soberano Europeo, ampliación Balcanes (p109, p111)"},
-"defense":{"score":-0.5,"conf":"med","src":"programme","evidence":"Rechaza 5% PIB, observador en Tratado Prohibición Armas Nucleares; pero moderniza FFAA y UE de la defensa (p105, p108, p113)"},
-"israel":{"score":-1.5,"conf":"high","src":"programme","evidence":"Reconoció Palestina, embargo de armas a Israel, condenó 'genocidio en Gaza', dos Estados, sanciones UE a obstaculizadores (p105, p106, p109)"},
-"monarchy":{"score":1.0,"conf":"low","src":"inferred","evidence":"Programme silent on the Crown; PSOE institutional/constitutionalist stance (Constitution reform without touching the monarchy)"},
-"memory":{"score":-1.5,"conf":"high","src":"programme","evidence":"Completar exhumaciones, Cuelgamuros, retirar simbología, eliminar entidades que hagan apología de la dictadura (p98)"},
-"security":{"score":0.0,"conf":"med","src":"programme","evidence":"Sustituir Ley Mordaza (LO 4/2015) por nueva Ley de Seguridad Ciudadana; more police, anti-okupa fast trials, desalojo en 48h (p99, p100)"},
-"anti_establishment":{"score":-2.0,"conf":"high","src":"programme","evidence":"Defends institutions and Constitution, integrity agency, anti-corruption law; attacks ultraderecha and tecnooligarcas (p88, p102)"},
-"animals_tradition":{"score":-1.0,"conf":"med","src":"programme","evidence":"Tolerancia cero al maltrato, retirar financiación pública a prácticas que lo amparen, ley de bienestar animal; bullfighting/hunting not named (p74)"},
-"religion":{"score":-0.5,"conf":"low","src":"inferred","evidence":"Programme silent on Church/Holy See agreements/religion in school; PSOE generally lay but no revision proposed"}
-}
+ "party": "PSOE",
+ "slug": "psoe",
+ "summary": "Programa socialdemócrata de continuidad ('La fuerza de seguir avanzando', 500 compromisos): vivienda como quinto pilar del bienestar (1% del PIB anual, parque estatal de 100.000 viviendas, congelación de rentas, impuesto a grandes tenedores), más derechos laborales (37,5h hacia 35h, SMI >60% del salario medio, despido más caro) y fiscalidad progresiva sobre capital, tecnológicas y ultrarricos, dentro de las reglas fiscales europeas. Defiende el blindaje constitucional de pensiones, aborto y eutanasia, el feminismo, la memoria democrática, un Estado autonómico cooperativo y una UE política y fiscal, rechazando el 5% de gasto militar.",
+ "fundamentals": [
+  "Prosperidad compartida: crecimiento con política industrial (Fondo España Crece 120.000 M€) y reparto justo",
+  "Vivienda como derecho fundamental y quinto pilar del Estado del bienestar, con parque público permanente",
+  "Fiscalidad progresiva: capital hasta 35%, tasa Tobin 0,4%, impuesto a tecnooligarcas y viajes de lujo, Ley de Salarios Justos",
+  "Trabajo digno: jornada 37,5h, SMI blindado >60% del salario medio, reforma del despido improcedente, Ley de Negociación Colectiva",
+  "Pensiones revalorizadas con IPC y blindadas en la Constitución; prestación universal por crianza y Cuenta de Futuro",
+  "Sanidad y educación públicas: 7% PIB sanidad, gestión directa preferente, salud bucodental pública, 0-3 universal",
+  "Responsabilidad fiscal: senda decreciente de déficit y deuda conforme a reglas europeas y AIReF",
+  "Transición ecológica: 81% renovables en 2030, abandono progresivo de fósiles, cierre nuclear hasta 2035",
+  "Feminismo: aborto en la Constitución (art. 43), Ley de Violencia Vicaria, ley abolicionista de la prostitución",
+  "Regulación de tecnooligarcas: redes sociales a 16 años, responsabilidad penal de directivos, ley de gobernanza de IA",
+  "Estado autonómico cooperativo: Senado territorial, financiación +21.000 M€, asunción parcial de 83.000 M€ de deuda autonómica, lenguas cooficiales",
+  "Más Europa y multilateralismo: unión política y fiscal, fin de la unanimidad, Palestina, rechazo del 5% del PIB en defensa"
+ ],
+ "signature": [
+  {
+   "text": "Reforma constitucional para que la vivienda sea derecho fundamental y movilización anual del 1% del PIB en vivienda",
+   "page": "p27"
+  },
+  {
+   "text": "Parque público estatal de 100.000 viviendas vía CASA 47 (p28) y 1% de la licitación de obra pública para vivienda protegida (p27)",
+   "page": "p27-p28"
+  },
+  {
+   "text": "Impuesto progresivo a viviendas de grandes propietarios y fondos buitre vacías, turísticas o alquiladas a precio abusivo",
+   "page": "p31"
+  },
+  {
+   "text": "Jornada de 37,5 horas (hacia 35 por convenio) y SMI blindado por ley por encima del 60% del salario medio",
+   "page": "p37, p41"
+  },
+  {
+   "text": "Tipo máximo del 35% en rentas del capital >300.000 €, tasa Tobin al 0,4% y Ley de Salarios Justos (ratio 100:1)",
+   "page": "p48-p49"
+  },
+  {
+   "text": "Prestación estatal por crianza para todos los hogares con menores y Cuenta de Futuro de 1.000 € al nacer",
+   "page": "p56"
+  },
+  {
+   "text": "Edad mínima de 16 años para redes sociales con verificación de edad y responsabilidad penal de directivos de plataformas",
+   "page": "p95"
+  },
+  {
+   "text": "Blindaje constitucional del aborto, las pensiones (IPC) y la eutanasia; voto a los 16 y escaño ciudadano",
+   "page": "p89-p90"
+  }
+ ],
+ "dims": {
+  "tax": {
+   "score": -1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Capital hasta 35% (>300.000€), tasa Tobin 0,2→0,4%, impuesto a tecnológicas y viajes de lujo, 'ultrarricos paguen'; pero cumple reglas fiscales y reduce deuda (p47, p48, p49)"
+  },
+  "labor": {
+   "score": -1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Jornada 37,5h hacia 35h, SMI >60% salario medio, despido improcedente 'disuasorio', salarios de tramitación, Ley de Negociación Colectiva, participación art. 129.2 (p37, p41, p43)"
+  },
+  "housing": {
+   "score": -1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Congelar rentas sobre índices, 100.000 viviendas públicas, impuesto progresivo a grandes tenedores, limitar compra por fondos; también préstamos TU CASA y desalojo okupas 48h (p30, p31, p100)"
+  },
+  "welfare": {
+   "score": -1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Pensiones IPC blindadas en Constitución, cuota de solidaridad, IMV potenciado, prestación universal por crianza, Ley de Servicios Sociales, dependencia (p39, p40, p56, p57)"
+  },
+  "public_services": {
+   "score": -1.0,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "'Limitar la privatización' con gestión directa preferente, SNS 7% PIB, educación pública gratuita 0-18; silencio sobre conciertos educativos, no propone suprimirlos (p46, p49)"
+  },
+  "public_ownership": {
+   "score": -1.0,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Reforzar sector público empresarial y participación estatal en sectores estratégicos, CASA 47, mutuas integradas como entidades gestoras públicas; sin nacionalizaciones ni eléctrica pública (p15, p28, p41)"
+  },
+  "immigration": {
+   "score": -1.0,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Migración 'regular, humana y eficaz', ampliar vías legales y asilo, Plan de Integración 500M€, puerto seguro para refugiados; lucha contra mafias, sin regularización masiva (p92, p93)"
+  },
+  "territorial": {
+   "score": -0.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "'Ni recentralizar ni fragmentar'; lenguas cooficiales en Cortes y AGE, catalán/euskera/gallego en UE, Senado territorial, asumir 83.000M€ deuda autonómica; sin autodeterminación (p61, p91, p111)"
+  },
+  "feminism": {
+   "score": -2.0,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Ley Orgánica de Violencia Vicaria, ley abolicionista de prostitución, coeducación obligatoria, Ley 4/2023 (trans) como suelo común, paridad (p82, p83, p97)"
+  },
+  "bioethics": {
+   "score": -2.0,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Blindar constitucionalmente el aborto (reforma art. 43), la eutanasia y el matrimonio igualitario; ejercicio efectivo de la eutanasia (p50, p81, p89)"
+  },
+  "climate": {
+   "score": -1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "81% renovables en 2030, hoja de ruta de abandono de fósiles, Ley de Adaptación, ZBE, defender y profundizar el Pacto Verde Europeo (p65, p67, p71, p73)"
+  },
+  "nuclear": {
+   "score": -2.0,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "'Mantener el calendario de cierre de las centrales nucleares hasta 2035' con transición justa en comarcas afectadas (p66)"
+  },
+  "eu": {
+   "score": -2.0,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "UE como 'auténtica unión política y fiscal', superar la unanimidad, Mecanismo Soberano Europeo de deuda común, nuevos recursos propios, ampliación Balcanes (p109, p110, p111)"
+  },
+  "defense": {
+   "score": -0.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Rechaza el 5% PIB ('aliados, no vasallos'), observador en Tratado de Prohibición de Armas Nucleares; pero UE de la defensa, modernizar FFAA, ayuda militar a Ucrania (p105, p108, p110, p113)"
+  },
+  "israel": {
+   "score": -1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Reconoció Palestina, embargo de armas a Israel, 'condenó el genocidio en Gaza', sanciones UE a quienes obstaculicen los dos Estados (p105, p106, p109)"
+  },
+  "monarchy": {
+   "score": 1.0,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Programa silente sobre la Corona tras lectura completa; reformas constitucionales propuestas no la tocan; postura constitucionalista histórica del PSOE (p89)"
+  },
+  "memory": {
+   "score": -1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Completar exhumaciones y censo de víctimas, resignificar Cuelgamuros, retirar simbología franquista, eliminar entidades que hagan apología de la dictadura (p98)"
+  },
+  "security": {
+   "score": -0.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Nueva Ley de Seguridad Ciudadana que sustituya la LO 4/2015 (mordaza), cámaras corporales, identificaciones sin discriminación; a la vez más policía y desalojo okupas 48h (p99, p100)"
+  },
+  "anti_establishment": {
+   "score": -2.0,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Defiende Constitución e instituciones, Agencia de Integridad, ley de lobbies, autonomía Fiscalía; ataca a ultraderecha y tecnooligarcas, no al sistema (p88, p89, p102)"
+  },
+  "animals_tradition": {
+   "score": -1.0,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Tolerancia cero al maltrato retirando financiación pública a prácticas que lo amparen, transformar zoos y parques marinos; no nombra toros ni caza (p73)"
+  },
+  "religion": {
+   "score": -0.5,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Programa silente sobre Iglesia, acuerdos con la Santa Sede y religión en la escuela tras lectura completa; solo coeducación afectivo-sexual obligatoria (p83). Laicismo moderado histórico"
+  }
+ }
 }

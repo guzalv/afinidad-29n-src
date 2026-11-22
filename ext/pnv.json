@@ -1,27 +1,182 @@
-{"party":"EAJ-PNV","slug":"pnv",
-"summary":"Programa centrado en defender Euskadi en Madrid: cumplimiento íntegro del Estatuto de Gernika, Concierto Económico y un nuevo 'Concierto Político' bilateral con reconocimiento nacional. Combina industria competitiva, rebaja fiscal selectiva y energía asequible con pensiones indexadas al IPC, sanidad pública, derechos feministas/LGTBIQ+ y rechazo a un gobierno que dependa de Vox.",
-"fundamentals":["Cumplimiento íntegro del Estatuto de Gernika y transferencias pendientes","Defensa y ampliación del Concierto Económico; Concierto Político basado en pacto y bilateralidad","Reconocimiento nacional de Euskadi y Derechos Históricos","Nunca facilitar un gobierno que dependa de Vox; sin cheques en blanco","Industria fuerte, energía competitiva y redes eléctricas","Apoyo a pymes, autónomos, cooperativas y relevo generacional","Vivienda: más oferta, regular alquiler de temporada/turístico, seguridad jurídica a pequeños propietarios","Pensiones revalorizadas con IPC, fin de penalizaciones a largas carreras, previsión complementaria","Sanidad pública y cuidados, Ley ELA, dependencia","Migración gestionada desde Euskadi, con vías legales, regularización y euskera","Igualdad, derechos LGTBIQ+, reforma de ley mordaza, rechazo a prisión permanente revisable","Voz propia en Europa, oficialidad de euskera/catalán/gallego en la UE"],
-"signature":[{"text":"Concierto Político: nueva relación bilateral con el Estado, reconocimiento nacional y mecanismos de garantía frente a modificaciones unilaterales","page":"p39"},{"text":"Competencia plena para un salario mínimo vasco propio, siempre por encima del estatal","page":"p9"},{"text":"Consejo Vasco de Justicia y TSJ del País Vasco como última instancia; Ertzaintza como policía judicial","page":"p39"},{"text":"Gestión migratoria desde Euskadi, con competencias de extranjería para la Ertzaintza y rechazo al gran centro de Arana","page":"p25"},{"text":"Eliminar penalizaciones de jubilación anticipada con más de 40 años cotizados; pensiones revalorizadas con el IPC","page":"p31"},{"text":"Impuesto Especial sobre la Electricidad al 0,5 % y IVA cero/superreducido en alimentos básicos","page":"p21"},{"text":"Perímetros de protección de 150 m alrededor de clínicas de aborto","page":"p26"},{"text":"Oficialidad de euskera, catalán y gallego en la UE; Macrorregión Atlántica Europea","page":"p41"}],
-"dims":{
-"tax":{"score":0.5,"conf":"med","src":"programme","evidence":"IVA cero/superreducido en básicos, IEE al 0,5 %, más margen de inversión y capacidad normativa foral; sin subidas a ricos. p20-21"},
-"labor":{"score":-0.5,"conf":"med","src":"programme","evidence":"SMI propio superior al estatal, prevalencia de convenios vascos, más Inspección de Trabajo, desempleo hasta 36 meses; también control del absentismo. p9-10"},
-"housing":{"score":-0.5,"conf":"med","src":"programme","evidence":"Agilizar trámites urbanísticos, movilizar vacías, regular temporada/turístico, reducir especulación; sin topes de precios explícitos. p7-8"},
-"welfare":{"score":-1.5,"conf":"high","src":"programme","evidence":"Pensiones con IPC, mejora de mínimas, fin de penalizaciones, prestación a cuidadores; previsión social solo como complemento. p31"},
-"public_services":{"score":-0.5,"conf":"low","src":"inferred","evidence":"Defiende sanidad pública y competencias vascas; histórica tolerancia a concertada y colaboración público-privada. p32"},
-"public_ownership":{"score":0.5,"conf":"low","src":"inferred","evidence":"Pro-mercado e industria privada, aunque exige mantener centros de decisión y compromisos con empresas con participación estatal. p14"},
-"immigration":{"score":-1,"conf":"med","src":"programme","evidence":"Vías legales, contratación en origen, regularización, homologación de títulos, rechazo a grandes centros; exige cumplir normas. p25"},
-"territorial":{"score":-2,"conf":"high","src":"programme","evidence":"Reconocimiento nacional, Concierto Político bilateral, competencias plenas, oficialidad del euskera en la UE. p39"},
-"feminism":{"score":-1.5,"conf":"high","src":"programme","evidence":"Aplicación de leyes de igualdad, Pacto de Estado, violencia vicaria, ley trans art. 50, 'derechos de las mujeres no se negocian'. p25-27"},
-"bioethics":{"score":-1.5,"conf":"med","src":"programme","evidence":"Protege acceso libre y seguro a la interrupción del embarazo y perímetros de 150 m; cannabis medicinal; eutanasia no tratada. p26"},
-"climate":{"score":-0.5,"conf":"med","src":"programme","evidence":"Adaptación, rehabilitación energética, renovables, electrificación; pero 'sin comprometer la actividad productiva' y apoyo al gas. p16"},
-"nuclear":{"score":null,"conf":"low","src":"inferred","evidence":"Programa silente sobre nuclear; posición pública ambigua del PNV."},
-"eu":{"score":-1,"conf":"med","src":"programme","evidence":"Europa más democrática, social y con autonomía estratégica; defiende participación directa de Euskadi y cooperación policial europea. p41"},
-"defense":{"score":0,"conf":"low","src":"inferred","evidence":"Sin referencias a gasto militar u OTAN; posición pública moderada atlantista."},
-"israel":{"score":-0.5,"conf":"low","src":"programme","evidence":"Solo política exterior comprometida con derechos humanos y derecho internacional ante crisis humanitarias. p28"},
-"monarchy":{"score":-0.5,"conf":"med","src":"programme","evidence":"No defiende la Corona; propone reformar delitos de opinión sobre la Corona e instituciones. p27"},
-"memory":{"score":-1.5,"conf":"high","src":"programme","evidence":"Aplicación íntegra de leyes de Memoria Histórica y Democrática; nueva Ley de Secretos Oficiales y desclasificaciones. p40"},
-"security":{"score":-0.5,"conf":"med","src":"programme","evidence":"Reforma ley mordaza y rechazo a prisión permanente, pero medidas contra multirreincidencia y refuerzo de la Ertzaintza. p24, p28"},
-"anti_establishment":{"score":-2,"conf":"high","src":"programme","evidence":"Institucionalista: pacto, bilateralidad, transparencia, acuerdos negociados con cualquier gobierno. p37"},
-"animals_tradition":{"score":null,"conf":"low","src":"inferred","evidence":"Programa silente sobre toros o caza."},
-"religion":{"score":0,"conf":"low","src":"inferred","evidence":"Sin referencias a religión; tradición democristiana moderada."}
-}}
+{
+ "party": "EAJ-PNV",
+ "slug": "pnv",
+ "summary": "Programa centrado en defender Euskadi en Madrid: cumplimiento íntegro del Estatuto de Gernika, Concierto Económico y un nuevo 'Concierto Político' bilateral con reconocimiento nacional. Combina industria competitiva, energía barata (incluido gas y cogeneración) y rebajas fiscales selectivas con pensiones indexadas al IPC, desempleo hasta 36 meses, derechos feministas/LGTBIQ+ y el compromiso de nunca facilitar un gobierno que dependa de Vox.",
+ "fundamentals": [
+  "Cumplimiento íntegro del Estatuto de Gernika y todas las transferencias pendientes",
+  "Defensa y ampliación del Concierto Económico; Concierto Político basado en pacto, bilateralidad y garantías",
+  "Reconocimiento nacional de Euskadi y Derechos Históricos",
+  "Nunca facilitar un gobierno que dependa de Vox; sin cheques en blanco a ningún partido estatal",
+  "Industria fuerte, centros de decisión en Euskadi, redes eléctricas y energía competitiva",
+  "Apoyo a pymes, autónomos, cooperativas y relevo generacional; menos burocracia",
+  "Vivienda: más oferta, regular alquiler de temporada/turístico, seguridad jurídica a pequeños propietarios",
+  "Salario mínimo vasco propio y prevalencia de convenios vascos",
+  "Pensiones revalorizadas con IPC, fin de penalizaciones a carreras de 40+ años, previsión complementaria",
+  "Sanidad pública, Ley ELA, cuidados y dependencia",
+  "Migración gestionada desde Euskadi: vías legales, regularización, euskera, competencias de extranjería",
+  "Igualdad, derechos LGTBIQ+, reforma de la ley mordaza, rechazo a la prisión permanente revisable",
+  "Voz propia en Europa y oficialidad del euskera, catalán y gallego en la UE"
+ ],
+ "signature": [
+  {
+   "text": "Concierto Político: nueva relación bilateral con el Estado, reconocimiento nacional y garantías frente a modificaciones unilaterales",
+   "page": "p39"
+  },
+  {
+   "text": "Competencia plena para un salario mínimo vasco propio, siempre por encima del estatal",
+   "page": "p9"
+  },
+  {
+   "text": "Prestación por desempleo hasta 36 meses vinculada a mejora de empleabilidad",
+   "page": "p9"
+  },
+  {
+   "text": "TSJ del País Vasco como última instancia y Consejo Vasco de Justicia; Ertzaintza como policía judicial",
+   "page": "p39"
+  },
+  {
+   "text": "Competencias de extranjería para la Ertzaintza y rechazo al macrocentro de acogida de Arana",
+   "page": "p24-25"
+  },
+  {
+   "text": "Eliminar penalizaciones de jubilación anticipada con más de 40 años cotizados; pensiones con IPC",
+   "page": "p31"
+  },
+  {
+   "text": "Perímetros de 150 m alrededor de clínicas de aborto vía Ley de Seguridad Ciudadana",
+   "page": "p26"
+  },
+  {
+   "text": "Derecho de Trebiño y Villaverde Turtzioz a decidir su incorporación a Euskadi",
+   "page": "p38"
+  }
+ ],
+ "dims": {
+  "tax": {
+   "score": 0.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "IVA cero/superreducido en alimentos básicos, IEE al 0,5 %, revisar IVA cultural; ninguna subida a rentas altas, aunque pide reglas de gasto más flexibles. (p16, p21) También más capacidad normativa foral en IVA/IIEE (p21)."
+  },
+  "labor": {
+   "score": -0.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "SMI vasco propio superior al estatal, prevalencia de convenios vascos, más Inspección, desempleo hasta 36 meses; también estudiar productividad y control del absentismo. (p9-10)"
+  },
+  "housing": {
+   "score": 0,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Agilizar trámites urbanísticos, movilizar vacías con seguridad a propietarios, regular alquiler de temporada/turístico; sin topes de precio ni parque público; no cargar vulnerabilidad a pequeños propietarios. (p7-8)"
+  },
+  "welfare": {
+   "score": -1,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Pensiones con IPC, mejora de mínimas y no contributivas, sin penalización a 40+ años cotizados, prestación a cuidadores; pero extender previsión social de empleo como complemento. (p31, p33)"
+  },
+  "public_services": {
+   "score": 0,
+   "conf": "low",
+   "src": "programme",
+   "evidence": "Defiende sanidad pública y competencias educativas vascas; sin críticas a concertada; permite actualizar precios de servicios públicos contratados; FP Dual con empresas. (p10, p31-32)"
+  },
+  "public_ownership": {
+   "score": 0,
+   "conf": "low",
+   "src": "programme",
+   "evidence": "Ni privatizaciones ni empresas públicas nuevas; exige compromisos del Estado en empresas con participación pública, más líneas ICO y regulador energético independiente. (p14, p16)"
+  },
+  "immigration": {
+   "score": -1,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Vías legales, contratación en origen, regularización, homologación de títulos, alternativas a los CIE, rechazo a grandes centros; exige cumplir normas y aprender euskera. (p23, p25, p28)"
+  },
+  "territorial": {
+   "score": -1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Reconocimiento nacional, Concierto Político bilateral, 'voluntad democrática de la sociedad vasca', TSJ/Consejo Vasco de Justicia, oficialidad euskera en UE; sin independencia ni referéndum. (p37-39, p41)"
+  },
+  "feminism": {
+   "score": -1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "'Los derechos de las mujeres no se negocian': perspectiva de género, Pacto de Estado, violencia vicaria, prohibir terapias de conversión, ley trans art. 50. (p25-27)"
+  },
+  "bioethics": {
+   "score": -1.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Acceso libre y seguro a la IVE y perímetros de 150 m alrededor de clínicas; cannabis medicinal; eutanasia no tratada. (p26, p32)"
+  },
+  "climate": {
+   "score": -0.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Transición 'sin comprometer la actividad productiva': revisar PNIEC, gas, cogeneración (p15-16); pero ayudas VE, autoconsumo, rehabilitación, adaptación, biodiversidad (p16-17, p20)."
+  },
+  "nuclear": {
+   "score": 0.5,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Programa silente sobre nuclear; solo pide revisar el PNIEC priorizando seguridad de suministro y almacenamiento/mecanismos de capacidad (p15). Inferido de la línea pragmática del PNV."
+  },
+  "eu": {
+   "score": -1,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Europa más democrática y social con autonomía estratégica; participación directa de Euskadi en el Consejo UE; política común de asilo solidaria. (p25, p41)"
+  },
+  "defense": {
+   "score": 0.5,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Sin referencias a gasto militar u OTAN; solo 'autonomía estratégica' europea (p41). Se apoya en la línea atlantista y pro-defensa europea del PNV."
+  },
+  "israel": {
+   "score": -0.5,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Sin mención a Israel/Palestina; solo política exterior de derechos humanos, 'posición activa frente a vulneraciones' y jurisdicción universal (p28). Inferido."
+  },
+  "monarchy": {
+   "score": -0.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "No defiende la Corona; propone reformar los delitos de opinión sobre la Corona, instituciones y símbolos del Estado. (p27)"
+  },
+  "memory": {
+   "score": -1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Aplicación íntegra de leyes de Memoria Histórica y Democrática, reparar víctimas del Patronato de la Mujer, nueva Ley de Secretos Oficiales, desclasificar 3 de marzo. (p26, p40)"
+  },
+  "security": {
+   "score": -0.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Reforma de la ley mordaza, rechazo a la prisión permanente revisable y reinserción; pero reformas contra la multirreincidencia y refuerzo de la Ertzaintza. (p24, p27-28)"
+  },
+  "anti_establishment": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Institucionalista: 'defender, acordar, exigir', negociar con cualquier gobierno, mecanismos bilaterales y transparencia. (p4, p37-38)"
+  },
+  "animals_tradition": {
+   "score": 0,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Programa silente sobre toros, caza o derechos animales; solo apoyo al primer sector y sanidad animal (p17-18). Posición intermedia del PNV."
+  },
+  "religion": {
+   "score": 0,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Programa silente sobre religión; coeducación y educación afectivo-sexual (p10). Origen democristiano pero sin agenda confesional actual."
+  }
+ }
+}

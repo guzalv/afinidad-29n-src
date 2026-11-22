@@ -75,9 +75,14 @@ select{font:inherit;font-weight:normal;width:100%;min-height:48px;padding:11px;b
 .trk i{position:absolute;top:3px;width:12px;height:12px;border-radius:50%;margin-left:-6px;z-index:1}
 .pol{display:flex;justify-content:space-between;gap:12px;font-size:.72rem;color:var(--mut);line-height:1.25}
 .pol span:last-child{text-align:right}
+.foot{text-align:center;font-size:.8rem;opacity:.6;margin:24px 0 16px}.foot a{color:inherit}
 .note{background:var(--soft);border-radius:12px;padding:12px 14px;font-size:.92rem;margin:14px 0}
 details.inner{margin:14px 0 0}details.inner>summary{cursor:pointer;color:var(--mut);min-height:44px;display:flex;align-items:center}
 .how{margin:20px 0}.how>summary{cursor:pointer;color:var(--ink);font-weight:600;min-height:44px;display:flex;align-items:center}
+.how>summary{list-style:none;gap:8px}.how>summary::-webkit-details-marker{display:none}.how>summary::after{content:"▾";color:var(--mut);margin-left:auto;transition:transform .2s}.how[open]>summary::after{transform:rotate(180deg)}
+.how h3{font-size:1.15rem;margin:18px 0 4px}.how p{margin:0 0 8px;font-size:.95rem}
+.src{list-style:none;padding:0;margin:8px 0 12px;font-size:.92rem}.src li{display:flex;justify-content:space-between;align-items:baseline;font-variant-numeric:tabular-nums;gap:12px;padding:5px 0;border-bottom:1px solid var(--soft)}
+.priv p{margin:0 0 6px}.priv p:last-child{margin:0}.pt0 svg{vertical-align:-2px;margin-right:7px;color:var(--acc)}
 a{color:var(--acc)}
 .anim{animation:in .25s ease-out}
 @keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
@@ -85,6 +90,7 @@ a{color:var(--acc)}
 </style>
 </head>
 <body><main id="app"></main>
+<footer class="foot">Hecho por <a href="https://github.com/guzalv" rel="noopener">guzalv</a></footer>
 <script>
 const DATA=/*DATA*/null;
 
@@ -125,10 +131,12 @@ function start(){
   <h1>¿Con quién encajas?</h1>
   <p class="mut">Elecciones generales · 29 de noviembre de 2026</p>
   <ul class="intro"><li><b>${Q.length} preguntas cortas</b>, unos 5 minutos.</li>
-  <li>Algunas parecen no tener que ver con la política; están hechas así a propósito. Contesta lo primero que pienses.</li>
-  <li>Al final verás qué <b>programas electorales</b> se parecen más a lo que piensas, y por qué.</li></ul>
-  <p class="note">Todo se calcula en tu dispositivo. La página no se conecta a ningún sitio ni guarda nada.</p>
-  <div class="nav"><span></span><button class="go" onclick="begin()">Empezar →</button></div>`);
+  <li>Al final verás qué <b>programas electorales</b> se parecen más a lo que piensas, y por qué.</li>
+  <li>¿Ya sabes a quién votar? Hazlo igualmente, con curiosidad: quizá te sorprenda qué dicen los programas.</li></ul>
+  <div class="note priv"><p class="pt0"><svg aria-hidden="true" width="15" height="17" viewBox="0 0 15 17"><rect x="1" y="7" width="13" height="9" rx="2" fill="currentColor"/><path d="M4 7V5a3.5 3.5 0 0 1 7 0v2" fill="none" stroke="currentColor" stroke-width="2"/></svg><b>Tus respuestas no salen de tu dispositivo.</b></p>
+  <p>Todo se calcula aquí: la página no se conecta a ningún sitio ni guarda nada (el navegador lo tiene bloqueado por diseño).</p>
+  <p><b>Compruébalo:</b> con la página ya abierta, desactiva el WiFi y los datos móviles; funcionará igual. El código es un único archivo legible: revísalo tú o pídele a una IA que lo haga.</p></div>
+  <div class="nav"><span></span><button class="go" onclick="begin()">Empezar →</button></div>${how()}`);
 }
 function begin(){order=shuf(Q.map((q,n)=>({...q,n,o:q.o&&(q.keep?q.o:shuf(q.o)),r:q.r&&shuf(q.r)})));ans={};i=0;render()}
 const hd=(k,t)=>`<div class="top"><span class="brand">29·N</span><div class="bar" role="progressbar" aria-label="Progreso" aria-valuenow="${k}" aria-valuemax="${t}"><i style="width:${k/t*100}%"></i></div><span>${Math.min(k+1,t)} / ${t}</span></div>`;
@@ -187,14 +195,14 @@ function match(u,p){
   for(const[d,x]of Object.entries(u)){const pd=p.dims[d];if(!pd||pd.score==null)continue;
     const W=Math.sqrt(x.w)*({high:1,med:.85,low:.6}[pd.conf]??.6),diff=Math.abs(x.v-pd.score);
     num+=W*diff;den+=W*4;per.push({d,diff,W,u:x.v,p:pd});}
-  return{pct:den?Math.round(100*(1-num/den)):0,per};
+  const s=den?1-num/den:0;return{s,pct:Math.round(100*s),per};
 }
 
 let last=[];
 function results(){
   const u=profile(),n=Object.keys(ans).length;
   const rows=last=Object.entries(DATA).map(([k,p])=>({k,p,...match(u,p),here:!p.regions||!reg||p.regions.includes(reg)}))
-    .filter(r=>r.here).sort((a,b)=>b.pct-a.pct);
+    .filter(r=>r.here).sort((a,b)=>b.s-a.s);
   const pos=rows.findIndex(r=>r.k===prev),t=rows[0];
   const pole=x=>Math.abs(x.u)<.5?'posición intermedia':'tiendes a «'+(x.u<0?DIMS[x.d][1]:DIMS[x.d][2])+'»';
   const li=x=>`<li><b>${DIMS[x.d][0]}</b><small>Tú: ${pole(x)}</small>Programa: ${esc(x.p.evidence)}${x.p.src==='inferred'?' <span class="tag">(inferido, no explícito en el programa)</span>':''}</li>`;
@@ -204,7 +212,7 @@ function results(){
   <p class="mut">Le siguen ${rows.slice(1,3).map(r=>`${esc(r.p.name)} (${r.pct}%)`).join(' y ')}.</p>
   <div class="nav"><a href="#p0" onclick="$('#p0').open=true">¿Por qué? ↓</a><button class="go go2" onclick="share(this)">Compartir</button></div></section>`;
   if(prev&&pos>=0)h+=`<div class="note">Tenías pensado votar a <b>${esc(DATA[prev].name)}</b>: queda en el puesto <b>${pos+1}</b> de ${rows.length} (${rows[pos].pct}%).${pos?'':' Coincide con tu mejor resultado.'}</div>`;
-  h+=`<h3>Todos los programas</h3><p class="mut">Toca un partido para ver dónde coincidís y dónde no.</p>`;
+  h+=`<h3>Todos los programas</h3><p class="mut">Toca un partido para ver dónde coincidís y dónde no, con la página del programa de la que sale cada posición.</p>`;
   h+=rows.map((r,j)=>{const p=r.p,by=r.per.slice().sort((a,b)=>a.diff-b.diff),ag=by.filter(x=>x.diff<=1).slice(0,4),dis=by.filter(x=>x.diff>=1.5).reverse().slice(0,4);
     return `<details class="party" id="p${j}"><summary><div class="pt"><span class="rk">${j+1}</span><b>${esc(p.name)}${p.regions&&!reg?` <span class="tag">solo ${p.regions.map(x=>REG[x]).join(', ')}</span>`:''}</b><span>${r.pct}%</span></div><div class="t"><i style="width:${r.pct}%;background:${p.color}"></i></div></summary>
     <div class="pd"><p>${esc(p.summary)}</p>
@@ -214,12 +222,20 @@ function results(){
     <details class="inner"><summary>Ejes y propuestas del programa</summary>
     <h4>Ejes del programa</h4><ul class="b">${p.fundamentals.map(f=>`<li>${esc(f)}</li>`).join('')}</ul>
     <h4>Propuestas destacadas</h4><ul class="b">${p.signature.map(s=>`<li>${esc(s.text)} <span class="tag">${esc(s.page)}</span></li>`).join('')}</ul></details>
-    <p class="mut">Fuente: <a href="${esc(p.url)}" rel="noreferrer noopener" target="_blank">${esc(p.title||'programa electoral')}</a></p></div></details>`}).join('');
-  h+=`<details class="how"><summary>Cómo funciona</summary><p>Cada respuesta suma, con distinto peso, a uno o varios de 21 ejes (impuestos, vivienda, inmigración, modelo territorial…). Muchas preguntas son indirectas: la confianza en instituciones, cómo explicas la pobreza o qué haces con un presupuesto dicen mucho de tus preferencias sin preguntarlas a las claras. Las preguntas y sus opciones salen en orden aleatorio.</p>
-  <p>Las posiciones de los partidos salen de sus programas electorales para el 29-N, leídos y puntuados automáticamente en cada eje de −2 a +2. Cuando un programa no se pronuncia, la posición se infiere de la línea conocida del partido y pesa menos. La afinidad es la distancia media, ponderada, entre tus posiciones y las de cada programa.</p>
-  <p>Es orientativo y puede contener errores; no sustituye a leer los programas.</p></details>
+    <p class="mut">Fuente: <a href="${esc(p.url)}" rel="noreferrer noopener" target="_blank">${esc(p.title||'programa electoral')}</a>${p.pages?` (${p.pages} págs.)`:''}${p.src_note?`<br><span class="tag">${esc(p.src_note)}</span>`:''}</p></div></details>`}).join('');
+  h+=how()+`
   <div class="nav"><button class="lnk" onclick="about()">← Cambiar comunidad</button><button class="go" onclick="start()">Repetir</button></div>`;
   paint(h);
+}
+const pg=p=>p.pages?p.pages+' págs.':'web, sin paginar';
+function how(){ // methodology, shared by intro and results; parties in alphabetical order
+  return `<details class="how" id="how"><summary>Cómo está hecho: fuentes, método y límites</summary>
+  <h3>Fuentes</h3><p>Los programas electorales del 29-N, descargados de la web oficial de cada partido o de su campaña y leídos enteros, página a página (no resúmenes de prensa).</p>
+  <ul class="src">${Object.values(DATA).sort((a,b)=>a.name.localeCompare(b.name,'es')).map(p=>`<li><a href="${esc(p.url)}" rel="noreferrer noopener" target="_blank">${esc(p.name)}</a> <span class="tag">${pg(p)}</span></li>`).join('')}</ul>
+  <h3>Método</h3><p>Cada respuesta suma, con distinto peso, a uno o varios de 21 ejes (impuestos, vivienda, inmigración, modelo territorial…). Muchas preguntas son indirectas: la confianza en las instituciones o cómo repartes un presupuesto dicen mucho sin preguntarlo a las claras.</p>
+  <p>Cada programa se puntúa en los 21 ejes de −2 a +2, y cada puntuación cita la página de la que sale. Si un programa no dice nada sobre un eje, la posición se deduce de otros datos, se marca como «inferido» y pesa menos. La afinidad es la distancia media, ponderada, entre tus posiciones y las de cada programa.</p>
+  <h3>Neutralidad</h3><p>Las preguntas no nombran partidos. Preguntas y opciones salen en orden aleatorio. Todos los partidos se miden con los mismos ejes y el mismo cálculo. Esta página no recomienda ningún voto.</p>
+  <h3>Límites</h3><p>21 ejes simplifican mucho. Un programa dice lo que un partido promete, no lo que ha votado ni lo que hará. Puede haber errores: consulta los programas enlazados.</p></details>`;
 }
 async function share(b){ // ponytail: native share sheet or clipboard; no network
   const t=`Mi afinidad con los programas del 29-N:\n${last.slice(0,3).map((r,j)=>`${j+1}. ${r.p.name}: ${r.pct}%`).join('\n')}\n${location.href.split('#')[0]}`;

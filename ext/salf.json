@@ -1,24 +1,24 @@
 {
  "party": "SE ACABÓ LA FIESTA (SALF)",
  "slug": "salf",
- "summary": "Contrato Electoral Simplificado de perfil liberal-populista y antisistema: gran rebaja fiscal financiada con recorte de la administración, mano dura en seguridad e inmigración y regeneración institucional. Propone referéndum de renegociación (y salida) de la UE, castellano garantizado y reforma constitucional contra aforamientos, amnistías y el TC.",
+ "summary": "Contrato electoral liberal-populista y antisistema: rebaja fiscal masiva (35.000 € exentos de IRPF, fin del IBI, Sucesiones y cuota de autónomos) financiada con recorte de administraciones, mano dura penal y migratoria y regeneración institucional radical. Propone referéndum de renegociación y, si no, de salida de la UE, suprimir el TC y el Senado, y una cláusula que bloquea el sueldo de Alvise si incumple.",
  "fundamentals": [
-  "Gobierno de 10 ministerios y supresión de diputaciones, Senado y entes públicos",
-  "Mínimo exento de IRPF de 35.000 € y 5.000 € más por hijo",
-  "Regla de oro: cada rebaja con ahorro certificado por la AIReF; déficit cero en 2030",
-  "Vivienda: primera casa 35 % más barata, okupa fuera en 48 h, fin del IBI",
-  "Macrocárcel sin tercer grado y cumplimiento íntegro; prisión permanente revisable",
-  "Inmigración solo legal, expulsión en 48 h, fin de regularizaciones, moratoria a países no colaboradores",
-  "Pensiones blindadas en la Constitución y sistema mixto con cuentas individuales y mochila austriaca",
-  "Empleo: contrato único con mochila, cuota de autónomos cero, cuña fiscal del 29 %",
-  "Sanidad pública con central de compras única y garantía de 60 días, o centro a elegir",
-  "Educación: ley de 20 años, castellano, cheque escolar",
-  "Anticorrupción: imprescriptible, devuelves el triple, fin aforamientos, TC fuera, CGPJ sin políticos",
-  "Geopolítica: referéndum UE, línea dura con Marruecos, ilegalizar Hermanos Musulmanes"
+  "Gobierno de 10 ministerios y 1 vicepresidencia; supresión de Senado, diputaciones, Consejo de Estado y entes",
+  "Mínimo exento de IRPF de 35.000 € (5.000 € más por hijo), sociedades al 20 %, fin de Sucesiones, Patrimonio e IBI",
+  "Regla de oro: cada rebaja con ahorro certificado por la AIReF; techo constitucional a impuestos y deuda",
+  "Vivienda: primera casa 35 % más barata, okupa fuera en 48 h, licencias con silencio positivo, SOCIMI al 25 %",
+  "Macrocárcel sin tercer grado, cumplimiento íntegro, legítima defensa con armas, castración química voluntaria",
+  "Inmigración solo legal: expulsión en 48 h, fin de regularizaciones, moratoria a países no colaboradores, prioridad hispanoamericana",
+  "Pensiones IPC en la Constitución y mínima de 1.000 €, con cuentas individuales y mochila austriaca",
+  "Empleo: contrato único con mochila, cuña fiscal del 41 al 29 %, cuota de autónomos cero",
+  "Sanidad pública con central de compras única y 60 días o centro privado pagado; cheque escolar",
+  "Anticorrupción: imprescriptible, devuelves el triple, fin de aforamientos, TC suprimido, CGPJ sin políticos",
+  "Geopolítica: referéndum UE, veto a Pacto Verde y Mercosur, línea dura con Marruecos, ilegalizar Hermanos Musulmanes",
+  "Cláusula de penalización: 100 % del sueldo de Alvise bloqueado si no vota las 119 medidas"
  ],
  "signature": [
   {
-   "text": "Mínimo exento de IRPF de 35.000 € en 2030 y 5.000 € más por cada hijo",
+   "text": "Mínimo exento de IRPF de 35.000 € en 2030 y 5.000 € más por hijo para cada progenitor",
    "page": "p12"
   },
   {
@@ -26,28 +26,28 @@
    "page": "p7"
   },
   {
-   "text": "Macrocárcel de máxima seguridad sin permisos ni tercer grado, con castración química voluntaria para agresores sexuales",
+   "text": "Macrocárcel de máxima seguridad sin permisos ni tercer grado para asesinos, violadores, narcos y corruptos",
    "page": "p8"
   },
   {
    "text": "Suprimir el Tribunal Constitucional y pasar el control a una sala del Supremo elegida por jueces",
-   "page": "p28"
+   "page": "p27"
   },
   {
    "text": "Referéndum de renegociación europea y, si Bruselas se niega, segundo referéndum de salida",
-   "page": "p37"
+   "page": "p35"
   },
   {
-   "text": "Prohibir las amnistías en la Constitución y acabar con los 17.621 aforados",
-   "page": "p27"
-  },
-  {
-   "text": "Mili voluntaria a 1.600 €/mes con 50.000 € exentos de IRPF diez años",
+   "text": "Presunción de legítima defensa en casa o negocio, incluido el uso de armas legales",
    "page": "p10"
   },
   {
-   "text": "El que denuncia corrupción cobra el 15 % de lo recuperado; el corrupto devuelve el triple",
-   "page": "p27"
+   "text": "Ley de devolución del rescate: los bancos herederos de las cajas pagan 4.700 M€/año durante 15 años",
+   "page": "p15"
+  },
+  {
+   "text": "Sueldo de Alvise bloqueado en el Banco de España hasta comprobar en 2030 que votó las 119 medidas",
+   "page": "p4"
   }
  ],
  "dims": {
@@ -55,127 +55,127 @@
    "score": 2,
    "conf": "high",
    "src": "programme",
-   "evidence": "Mínimo exento IRPF 35.000 €, sociedades 20 %, suprimir Sucesiones, Patrimonio e IBI; techo constitucional a impuestos (p12-p15)"
+   "evidence": "35.000 € exentos de IRPF, sociedades 20 %, suprimir Sucesiones, Patrimonio e IBI, cuota autónomos cero, techo constitucional a impuestos (p7, p12-p14)"
   },
   "labor": {
    "score": 1.5,
    "conf": "high",
    "src": "programme",
-   "evidence": "Contrato único con mochila, cuña fiscal 41→29 %, una norma entra dos salen, mutuas dan alta a 15 días (p31-p32)"
+   "evidence": "Contrato único con indemnización 12→33 días y mochila, cuña 41→29 %, alta de mutuas a 15 días, una norma entra dos salen (p30-p31)"
   },
   "housing": {
-   "score": 2,
+   "score": 1.5,
    "conf": "high",
    "src": "programme",
-   "evidence": "Okupa fuera en 48 h, licencias silencio positivo, sin prohibiciones a alquiler turístico, SOCIMI al 25 %, fin IBI (p5-p7)"
+   "evidence": "Okupa fuera en 48 h, silencio positivo, turístico sin prohibiciones; pero suelo público gratis, aval estatal y SOCIMI al 25 % (p5-p7)"
   },
   "welfare": {
    "score": 0.5,
    "conf": "med",
    "src": "programme",
-   "evidence": "Pensiones IPC en Constitución y mínima 1.000 €, pero sistema mixto con cuenta individual y sin ayudas a sin papeles (p20-p21)"
+   "evidence": "Pensiones IPC constitucional y mínima 1.000 € (p20-21); sin papeles sin ayudas (p19); pero cuenta individual obligatoria 2 % y fin de prestación tras rechazar dos ofertas (p20, p32)"
   },
   "public_services": {
    "score": 1.5,
    "conf": "med",
    "src": "programme",
-   "evidence": "Cheque escolar en pública, concertada y privada; sanidad paga centro privado si hay demora (p23, p35)"
+   "evidence": "Cheque escolar en pública, concertada y privada (p34); superados 60 días, centro privado pagado por el Sistema (p22); mantiene sistema público con central de compras, +20 % médicos (p22-23)"
   },
   "public_ownership": {
    "score": 1,
    "conf": "low",
    "src": "programme",
-   "evidence": "Suprimir entes y empresas públicas sin función, diputaciones, Senado; sin privatizaciones explícitas (p16)"
+   "evidence": "Suprimir entes, empresas y fundaciones públicas sin función (452→300); sin privatizaciones ni empresas públicas explícitas (p3, p16)"
   },
   "immigration": {
    "score": 2,
    "conf": "high",
    "src": "programme",
-   "evidence": "Expulsión en 48 h, moratoria total a países no colaboradores, fin regularizaciones, sin ayudas sin 5 años (p17-p19)"
+   "evidence": "Expulsión en 48 h, derogar regularización 2026, moratoria a países no colaboradores, sin ayudas sin 5 años cotizados (p17-p19)"
   },
   "territorial": {
-   "score": 2,
+   "score": 1.5,
    "conf": "high",
    "src": "programme",
-   "evidence": "Castellano garantizado, suprimir diputaciones, prohibir amnistías, financiación igual para todas las CCAA (p14, p27, p34)"
+   "evidence": "Castellano exigible, selectividad e Historia comunes, prohibir amnistías, financiación igual sin condonaciones; no suprime autonomías (p14, p26, p33-p34)"
   },
   "feminism": {
    "score": 1,
    "conf": "low",
-   "src": "inferred",
-   "evidence": "Sin política de género explícita; castración química a agresores sexuales; enfoque penal, no de leyes de género"
+   "src": "programme",
+   "evidence": "Ministerio de Igualdad desaparece sin absorción; test de paternidad por defecto al nacer; ninguna medida de género (p2-p3, p24)"
   },
   "bioethics": {
    "score": 0.5,
    "conf": "low",
    "src": "inferred",
-   "evidence": "Programa silente en aborto y eutanasia; centrado en economía y seguridad"
+   "evidence": "Programa silente sobre aborto y eutanasia tras lectura completa; perfil de derecha populista sin agenda provida explícita"
   },
   "climate": {
    "score": 1.5,
    "conf": "med",
    "src": "programme",
-   "evidence": "Veto al Pacto Verde y a la Ley de Restauración; prioriza campo y producción nacional (p37)"
+   "evidence": "Veto a Pacto Verde, Ley de Restauración y recorte PAC; Transición Ecológica absorbida por Infraestructuras, Energía e Industria (p3, p35)"
   },
   "nuclear": {
    "score": 1,
    "conf": "low",
    "src": "inferred",
-   "evidence": "Silente en nuclear; pide gas argelino y bajar impuestos eléctricos; postura probable pro-continuidad"
+   "evidence": "Silente en nuclear; solo IVA de la luz al 4 %, fin impuesto a producción eléctrica y gas argelino (p13, p38)"
   },
   "eu": {
-   "score": 1.5,
+   "score": 2,
    "conf": "high",
    "src": "programme",
-   "evidence": "Referéndum de renegociación y segundo referéndum de salida si Bruselas se niega; veto Mercosur (p37)"
+   "evidence": "Referéndum de renegociación y de salida si Bruselas se niega; veto Mercosur y límite de efectivo europeo (p15, p35)"
   },
   "defense": {
    "score": 1,
    "conf": "med",
    "src": "programme",
-   "evidence": "Gasto en defensa del 2 % con industria nacional, mili voluntaria, mejores sueldos militares (p10, p40)"
+   "evidence": "Defensa al 2 % del PIB con industria nacional, +5.000 militares en Ceuta/Melilla, NASAMS, mili voluntaria; sin mención a OTAN (p9, p37-p38)"
   },
   "israel": {
    "score": 1,
    "conf": "low",
    "src": "inferred",
-   "evidence": "Silente; hostilidad a Hermanos Musulmanes y Hamás sugiere alineamiento pro-Israel"
+   "evidence": "Silente sobre Israel; trata a Hamás como rama terrorista de los Hermanos Musulmanes (p19)"
   },
   "monarchy": {
    "score": 1,
    "conf": "low",
    "src": "inferred",
-   "evidence": "Silente sobre la Corona; reformas constitucionales no la tocan"
+   "evidence": "Silente sobre la Corona; múltiples reformas constitucionales propuestas no la tocan"
   },
   "memory": {
    "score": 1,
    "conf": "low",
-   "src": "inferred",
-   "evidence": "Silente en memoria histórica; Historia de España común y fusión del ministerio de Memoria (p3, p36)"
+   "src": "programme",
+   "evidence": "Suprime Ministerio de Política Territorial y Memoria Democrática sin reubicar memoria; Historia de España común (p2-p3, p34)"
   },
   "security": {
    "score": 2,
    "conf": "high",
    "src": "programme",
-   "evidence": "Macrocárcel sin tercer grado, cumplimiento íntegro, prisión permanente revisable, legítima defensa, castración química (p8-p11)"
+   "evidence": "Macrocárcel sin tercer grado, cumplimiento íntegro, prisión permanente revisable, legítima defensa con armas, castración química (p8-p10)"
   },
   "anti_establishment": {
-   "score": 1.5,
+   "score": 2,
    "conf": "high",
    "src": "programme",
-   "evidence": "'Se acabó que vagos y parásitos te roben'; 'casta', fin aforamientos, suprimir Senado y TC, 15 años límite cargos (p15, p29-p30)"
+   "evidence": "'Vagos y parásitos', 'partitocracia secuestrada'; suprimir Senado y TC, límite 15 años, sueldo propio bloqueado si incumple (p4, p15, p27-p29, p39)"
   },
   "animals_tradition": {
    "score": 1,
    "conf": "low",
    "src": "inferred",
-   "evidence": "Silente; defensa del campo y producción nacional; sin medidas de derechos animales"
+   "evidence": "Silente sobre toros, caza y animales; defensa del campo y producción nacional (p35)"
   },
   "religion": {
    "score": 0.5,
    "conf": "low",
-   "src": "inferred",
-   "evidence": "Sin referencia a religión católica; control de financiación extranjera de mezquitas y velo integral (p19)"
+   "src": "programme",
+   "evidence": "Prohíbe financiación extranjera del culto, registro de mezquitas, expulsa imanes anticonstitucionales, veta burka; nada sobre catolicismo (p19)"
   }
  }
 }

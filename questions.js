@@ -42,16 +42,23 @@ const Q=[
  ['Menos impuestos, aunque haya menos servicios públicos',{tax:[2,1]}]],keep:1},
 {t:'Una persona hereda de sus padres una vivienda y algunos ahorros. ¿Debería pagar impuestos por ello?',o:[
  ['No: esos bienes ya pagaron impuestos',{tax:[2,1]}],
- ['Solo si la herencia es grande',{tax:[-.5,.7]}],
- ['Sí, como por cualquier otro ingreso',{tax:[-2,1]}]],keep:1},
+ ['Solo si la herencia es grande',{tax:[-1,.7]}],
+ ['Sí, de forma progresiva: poco si es pequeña y mucho si es grande',{tax:[-2,1]}]],keep:1},
 {t:'Una empresa con beneficios quiere despedir a 50 personas para reducir costes. ¿Qué te parece más justo?',o:[
- ['Que no pueda despedir mientras tenga beneficios',{labor:[-2,1]}],
- ['Que pueda, solo si demuestra que no hay alternativa (recolocar, reducir jornada…)',{labor:[-.5,.7]}],
- ['Que pueda, pagando la indemnización que marca la ley',{labor:[1.5,1]}]],keep:1},
+ ['Que necesite permiso de la autoridad laboral y pague más indemnización que ahora',{labor:[-2,1]}],
+ ['Que pueda, pero pagando más indemnización que ahora',{labor:[-1.5,.8]}],
+ ['Que pueda, pagando la indemnización que marca la ley actual',{labor:[.5,.7]}],
+ ['Que pueda, con menos trámites y menos indemnización que ahora',{labor:[1.5,1]}]],keep:1},
 {t:'La jornada laboral máxima es de 40 horas semanales. Debería…',o:[
  ['Quedarse así; cada empresa ya puede pactar menos',{labor:[1.5,.8]}],
  ['Reducirse sector a sector, si lo pactan empresas y sindicatos',{labor:[0,.6]}],
- ['Reducirse por ley para todos, sin bajar sueldos',{labor:[-2,1]}]],keep:1},
+ ['Reducirse por ley a 37,5 horas, sin bajar sueldos',{labor:[-1.5,.8]}],
+ ['Reducirse por ley hacia las 32 horas (semana de cuatro días), sin bajar sueldos',{labor:[-2,1]}]],keep:1},
+{t:'En las zonas donde la vivienda está más cara, ¿debería limitarse quién puede comprar una casa?',o:[
+ ['Sí: solo debería poder comprar quien vaya a vivir en ella',{housing:[-2,1]}],
+ ['Solo habría que prohibírselo a los fondos de inversión y las grandes empresas',{housing:[-1,.8]}],
+ ['No prohibirlo, pero que paguen más impuestos los fondos y los compradores que no residen en la UE',{housing:[.5,.7]}],
+ ['No: cada cual debe poder comprar la vivienda que quiera',{housing:[2,1]}]],keep:1},
 {t:'En tu ciudad los alquileres han subido un 40% en cinco años. ¿Qué medida tomarías primero?',o:[
  ['Limitar por ley cuánto pueden subir los alquileres',{housing:[-2,1]}],
  ['Construir mucha vivienda pública de alquiler',{housing:[-1.5,.8]}],
@@ -63,12 +70,18 @@ const Q=[
  ['Cobrarle más impuestos mientras siga vacío',{housing:[-1,.8]}],
  ['Poder ponerlo en alquiler social, pagándole una renta',{housing:[-2,1]}]],keep:1},
 {t:'¿Cómo debería financiarse la jubilación?',o:[
- ['Con el sistema público, con pensiones que suban siempre con el IPC',{welfare:[-2,.9]}],
+ ['Solo con el sistema público, financiado con cotizaciones e impuestos',{welfare:[-2,.9]}],
  ['Sobre todo pública, con planes de empresa como complemento',{welfare:[0,.6]}],
  ['Una parte pública y otra de ahorro individual obligatorio',{welfare:[2,.9]}]],keep:1},
+{t:'La edad de jubilación está subiendo hasta los 67 años. ¿Qué harías?',o:[
+ ['Seguir subiéndola a medida que aumente la esperanza de vida',{welfare:[2,.9]}],
+ ['Mantenerla y premiar a quien siga trabajando después',{welfare:[.5,.7]}],
+ ['Mantenerla, pero sin recortar la pensión a quien se jubile antes tras 40 años cotizados',{welfare:[-1,.8]}],
+ ['Volver a los 65 años o menos',{welfare:[-2,.9]}]],keep:1},
 {t:'Los colegios concertados (privados pagados con dinero público) deberían…',o:[
  ['Mantenerse o crecer: las familias deben poder elegir',{public_services:[2,1]}],
  ['Mantenerse solo si son gratuitos de verdad y admiten a todos',{public_services:[-.5,.7]}],
+ ['Quedar solo donde la pública no llegue, sin abrir más',{public_services:[-1.5,.9]}],
  ['Integrarse poco a poco en la red pública',{public_services:[-2,1]}]],keep:1},
 {t:'Para reducir las listas de espera, ¿debería la sanidad pública pagar a clínicas privadas para que atiendan a sus pacientes?',o:[
  ['No: ese dinero debe ir a reforzar la sanidad pública',{public_services:[-2,1]}],
@@ -86,13 +99,14 @@ const Q=[
 {k:'lik',t:'Está bien restringir la entrada de coches contaminantes al centro de las ciudades, aunque perjudique a quien no puede cambiar de coche.',e:{climate:[-1,.8]}},
 {t:'Las centrales nucleares españolas tienen previsto cerrar entre 2027 y 2035. ¿Qué harías?',o:[
  ['Cerrarlas según el calendario',{nuclear:[-2,1]}],
- ['Alargar su vida mientras sean seguras',{nuclear:[1.5,1]}],
+ ['Alargar su vida mientras sean seguras',{nuclear:[1,.9]}],
  ['Alargarlas y construir otras nuevas',{nuclear:[2,1]}]],keep:1},
 // --- immigration ---
 {t:'Un barrio ha cambiado mucho en diez años por la llegada de personas de otros países. ¿Qué palabra te viene primero?',o:[
  ['Vida',{immigration:[-2,.8]}],['Oportunidad',{immigration:[-1,.8]}],['Incertidumbre',{immigration:[1,.8]}],['Pérdida',{immigration:[2,.8]}]]},
 {t:'En España viven cientos de miles de personas sin papeles, muchas de ellas trabajando. Lo más razonable es…',o:[
  ['Expulsarlas progresivamente',{immigration:[2,1]}],
+ ['No regularizarlas, salvo casos excepcionales',{immigration:[1.5,.8]}],
  ['Regularizar solo a quien demuestre arraigo y trabajo',{immigration:[0,.6]}],
  ['Regularizarlas',{immigration:[-2,1]}]],keep:1},
 // --- territory ---
@@ -106,10 +120,10 @@ const Q=[
  ['Bien donde ya existe, pero no debería extenderse',{territorial:[.5,.6]}],
  ['Cualquier comunidad que lo quiera debería poder hacerlo',{territorial:[-2,.9]}]],keep:1},
 {t:'En una comunidad donde gran parte de la población quiere la independencia, el Estado debería…',o:[
- ['Pactar un referéndum de independencia',{territorial:[-2,1]}],
- ['Negociar más autogobierno, sin referéndum',{territorial:[-.5,.8]}],
+ ['Recuperar competencias para el Estado',{territorial:[2,.9]}],
  ['Mantener el marco actual, sin concesiones',{territorial:[1.5,.9]}],
- ['Recuperar competencias para el Estado',{territorial:[2,.9]}]],keep:1},
+ ['Negociar más autogobierno, sin referéndum',{territorial:[-1,.8]}],
+ ['Pactar un referéndum de independencia',{territorial:[-2,1]}]],keep:1},
 // --- gender / bioethics ---
 {t:'Hoy en España, ¿quién lo tiene en general más difícil: un hombre joven o una mujer joven?',o:[
  ['Una mujer, claramente',{feminism:[-2,.8]}],['Una mujer, algo más',{feminism:[-1,.7]}],
@@ -120,20 +134,26 @@ const Q=[
  ['Como violencia de género, con leyes y juzgados propios',{feminism:[-2,1]}]],keep:1},
 {t:'Una persona con una enfermedad incurable y gran sufrimiento pide ayuda médica para morir. ¿Debería poder recibirla?',o:[
  ['Sí',{bioethics:[-2,1]}],['Solo si está en fase terminal',{bioethics:[.5,.6]}],['No; hay que reforzar los cuidados paliativos',{bioethics:[2,1]}]],keep:1},
-{k:'lik',t:'La decisión de abortar en las primeras semanas debe ser solo de la mujer.',e:{bioethics:[-1,1]}},
+{t:'El aborto en las primeras semanas de embarazo, hoy legal en España, debería…',o:[
+ ['Restringirse más que ahora',{bioethics:[2,1]}],
+ ['Seguir como está, pero con medidas para animar a continuar el embarazo',{bioethics:[.5,.8]}],
+ ['Seguir como está, garantizando que se pueda hacer en la sanidad pública',{bioethics:[-1.5,.9]}],
+ ['Reconocerse como derecho en la Constitución',{bioethics:[-2,1]}]],keep:1},
 // --- foreign / defence ---
 {t:'El gasto en defensa de España, alrededor del 2% del PIB, debería…',o:[
  ['Subir bastante',{defense:[2,1]}],['Subir algo',{defense:[1,.8]}],['Quedarse como está',{defense:[-.5,.7]}],['Bajar',{defense:[-2,1]}]],keep:1},
 {t:'En los próximos años, la Unión Europea debería decidir…',o:[
  ['Muchas más cosas, hacia una Europa federal',{eu:[-2,1]}],['Algunas cosas más que ahora',{eu:[-1,.8]}],
- ['Lo mismo que ahora',{eu:[0,.6]}],['Menos cosas: más poder para cada país',{eu:[2,1]}]],keep:1},
+ ['Lo mismo que ahora',{eu:[0,.6]}],['Menos cosas: más poder para cada país',{eu:[1,.8]}],
+ ['Mucho menos: España debería replantearse si seguir en ella',{eu:[2,1]}]],keep:1},
 {t:'Sobre el conflicto entre Israel y Palestina, ¿qué frase te representa más?',o:[
  ['España debería apoyar a Israel, un aliado democrático',{israel:[2,.9]}],
  ['Hay que mantener relaciones con Israel y exigirle que respete el derecho internacional',{israel:[.5,.6]}],
  ['España debe sancionar a Israel y no comerciar armas con él',{israel:[-2,1]}]],keep:1},
 // --- institutions / memory / order ---
 {t:'La monarquía te parece…',o:[
- ['Útil: da estabilidad y representa a todos',{monarchy:[2,1]}],['Anticuada, pero no me molesta',{monarchy:[-.5,.6]}],['Incompatible con una democracia plena',{monarchy:[-2,1]}]],keep:1},
+ ['Útil: da estabilidad y representa a todos',{monarchy:[2,1]}],['Aceptable, mientras cumpla bien su papel',{monarchy:[1,.7]}],
+ ['Anticuada, pero no me molesta',{monarchy:[-.5,.6]}],['Incompatible con una democracia plena',{monarchy:[-2,1]}]],keep:1},
 {t:'Sobre la Guerra Civil y el franquismo, ¿con qué frase estás más de acuerdo?',o:[
  ['Hay que seguir exhumando fosas y reparar a las víctimas de la dictadura',{memory:[-2,1]}],
  ['Hay que recordar por igual a las víctimas de los dos bandos',{memory:[1,.8]}],
