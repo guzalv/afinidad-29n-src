@@ -1,0 +1,181 @@
+{
+ "party": "Frente Amplio",
+ "slug": "fa",
+ "summary": "Coalición de izquierda (IU, Sumar, Comuns, Más Madrid, CHA, Equo) con un programa de ruptura social y económica: vivienda como derecho con intervención masiva del mercado, reforma fiscal a grandes fortunas y empresas, jornada de 32 horas, servicios públicos 100% públicos y política exterior de paz. Propone además República Federal y plurinacional y cierre nuclear.",
+ "fundamentals": [
+  "Vivienda como derecho fundamental: 1,5M de viviendas públicas, topes de alquiler, expropiación a grandes tenedores y fin de pisos turísticos",
+  "Reforma fiscal: mínimo real 20% en Sociedades, impuesto a ultrarricos y grandes herencias, IRPF más progresivo",
+  "Reducción de jornada a 32h sin recorte salarial y SMI al 60% del salario medio neto",
+  "Sanidad 100% pública (8% PIB) y educación pública (7% PIB) con gratuidad 0-universidad",
+  "Prestación Universal por Crianza de 200 euros y reforma del IMV; pensiones blindadas constitucionalmente",
+  "Transición ecológica con 3,5% PIB, energía pública, banca pública y cierre nuclear en calendario",
+  "Democracia económica: participación obligatoria de plantillas en consejos y reparto de beneficios",
+  "República Federal y plurinacional con derecho a decidir mediante referéndum",
+  "Feminismo transversal: blindaje constitucional del aborto, ley trans, pacto de cuidados",
+  "Regularización permanente de migrantes, cierre de CIE y vías legales y seguras",
+  "Política exterior de seguridad humana: rechazo al 5% OTAN, embargo total a Israel, apoyo al Sáhara",
+  "Laicidad, memoria democrática, derogación de la Ley Mordaza y fin de la tauromaquia pública"
+ ],
+ "signature": [
+  {
+   "text": "Plan de 1% del PIB anual para 1,5M viviendas públicas en alquiler con tope del 25% de la renta del hogar",
+   "page": "p10"
+  },
+  {
+   "text": "Ley de Expropiación de viviendas a grandes tenedores corporativos (Blackstone, CaixaBank) y prohibición de compra no residencial a personas jurídicas",
+   "page": "p10-p11"
+  },
+  {
+   "text": "Tope del 100% a herencias de ultrarricos (10M€ por heredero) y Tasa Zucman del 3% sobre patrimonios >50M€",
+   "page": "p45-p46"
+  },
+  {
+   "text": "Jornada de 32h semanales sin reducción salarial, 37,5h inmediatas",
+   "page": "p55"
+  },
+  {
+   "text": "Banco Postal Estatal con Correos y acciones públicas de CaixaBank; comercializadora pública y redes de distribución públicas",
+   "page": "p84"
+  },
+  {
+   "text": "Prestación Universal por Crianza de 200 euros/mes por menor, financiada con fiscalidad progresiva",
+   "page": "p21"
+  },
+  {
+   "text": "Embargo integral de armas a Israel y rechazo explícito del 5% del PIB en gasto militar OTAN",
+   "page": "p130-p131"
+  },
+  {
+   "text": "Reforma constitucional hacia República Federal plurinacional con derecho a decidir por referéndum",
+   "page": "p140"
+  }
+ ],
+ "dims": {
+  "tax": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Tipo mínimo 20% Sociedades, impuesto ultrarricos (Tasa Zucman 3%>50M€), herencias >10M€ al 100%, IRPF 52% desde 300.000€ (p44-p46)"
+  },
+  "labor": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Jornada 32h sin bajar salario (37,5h ya), SMI 60% del salario medio neto, despido reparador, autorización previa de ERE (p7, p51-p55)"
+  },
+  "housing": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "1,5M viviendas públicas, topes de alquiler, expropiación a grandes tenedores (>1.000 viviendas), fin de VUT, prohibición de compra especulativa (p10-p12)"
+  },
+  "welfare": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Prestación Universal por Crianza 200€/menor, IMV al 60% mediana, pensiones blindadas constitucionalmente, dependencia 0,8%->1,7% PIB (p21-p24, p60)"
+  },
+  "public_services": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Sanidad 100% pública de gestión directa, deroga Ley 15/1997, objetivo 100% fondos públicos a educación pública, fin de conciertos (p26, p31)"
+  },
+  "public_ownership": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Banca pública (Banco Postal Estatal), comercializadora pública, recuperar redes de distribución, farmacéutica pública, empresas públicas fuertes (p63, p84)"
+  },
+  "immigration": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Regularización estable y permanente, cierre de CIE, derogar rechazo en frontera, vías legales y seguras, sanidad universal (p126-p127, p26)"
+  },
+  "territorial": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "República Federal y plurinacional, derecho a decidir mediante referéndum, inmersión en catalán, lenguas cooficiales (p140, p32)"
+  },
+  "feminism": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Solo sí es sí, ley trans y no binarias, paridad, 5% presupuesto a igualdad, prohibición del SAP (p37-p38, p53)"
+  },
+  "bioethics": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Reforma constitucional del art. 43 para blindar el aborto; derecho a eutanasia y suicidio asistido; permiso para acompañar ayuda para morir (p28, p150)"
+  },
+  "climate": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "3,5% del PIB anual a transición ecológica, fiscalidad al carbono, prohibición de edificar en litoral, fin del gas en nueva obra (p8, p48)"
+  },
+  "nuclear": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Cumpliremos el calendario de cierre nuclear: Almaraz I y II cerrarán 2027-2028 sin beneficios fiscales (p64)"
+  },
+  "eu": {
+   "score": -0.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Europa social, autónoma 'de los pueblos'; mayorías cualificadas en PESC, mandato BCE, presupuesto propio; crítica a la 'Europa fortaleza' (p135-p137)"
+  },
+  "defense": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Rechazo explícito del 5% PIB OTAN, reducción efectiva del gasto militar, firma del TPAN, desmilitarización, seguridad humana (p130)"
+  },
+  "israel": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Ley de embargo integral de armas a Israel, denuncia del Acuerdo de Asociación UE-Israel, ruptura de relaciones, apoyo a la CPI (p131, p137)"
+  },
+  "monarchy": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Horizonte de República Federal 'en la que también elijamos la Jefatura del Estado'; derogar delitos contra la Corona (p140, p142)"
+  },
+  "memory": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Resignificación de Cuelgamuros, Ley de Bebés Robados, restitución de bienes expoliados, cumplimiento íntegro de Ley de Memoria 2022 (p147)"
+  },
+  "security": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Derogación completa de la Ley Mordaza, penas no privativas y medio abierto, justicia restaurativa, resocialización sobre sanción (p142, p149)"
+  },
+  "anti_establishment": {
+   "score": -1,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Institucionalista y gobernante (dos legislaturas en coalición), aunque propone reformas profundas del Estado (república, justicia, medios, ley de integridad); crítica a poderes económicos, no a las instituciones (p7, p142)"
+  },
+  "animals_tradition": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Deroga Ley 18/2013 de tauromaquia, suprime subvenciones taurinas, cierre de granjas peleteras y foie gras, perros de caza en ley de bienestar animal (p76)"
+  },
+  "religion": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Revisar Acuerdos de 1979 con la Santa Sede, reformar arts. 16 y 27, fin de financiación e IBI a confesiones, retrotraer inmatriculaciones (p150)"
+  }
+ }
+}

@@ -1,0 +1,180 @@
+{
+ "party": "Compromís: Front Valencià",
+ "slug": "compromis",
+ "summary": "Coalición valencianista de izquierdas con siete prioridades para las Cortes: vivienda, salarios y pensiones, servicios públicos, democratización económica, transición ecológica, más democracia y financiación justa. Combina fuerte intervención en vivienda y economía, fiscalidad progresiva, laicismo y ecologismo con reclamación de autogobierno y financiación para el País Valenciano.",
+ "fundamentals": [
+  "Intervención pública en vivienda: prohibir compra por fondos buitre, expropiar grandes tenedores, 1% del PIB en vivienda protegida",
+  "Jornada de 32 horas, SMI al 60% del salario medio e indemnización por despido de 45 días",
+  "Fiscalidad progresiva: Impuesto a Grandes Fortunas (tasa Zucman), impuesto a oligopolios, rentas financieras como las del trabajo",
+  "Pensiones: jubilación a los 65, fin del tope de cotización, revalorización constitucional, no contributivas a 800 €",
+  "Sanidad y educación 100% públicas: derogar Ley 15/1997, concertada subsidiaria, educación al 7% del PIB",
+  "Sector público económico: banca pública, empresa eléctrica pública, 100% público de Red Eléctrica, farmacéutica pública",
+  "Transición ecológica: cierre nuclear según calendario, electrificación 100% en 2030, Marco Verde vinculante",
+  "Estado plurinacional, concierto económico responsable, condonación de la deuda histórica e infrafinanciación valenciana",
+  "Laicismo estricto, abolir la tauromaquia, derogar ley mordaza y Ley de Amnistía de 1977",
+  "Regularización de migrantes, fin de los CIE, ruptura con Israel y UE de la Defensa",
+  "Respuesta a la DANA: reconstrucción, protección civil, AEMET y prevención de inundaciones"
+ ],
+ "signature": [
+  {
+   "text": "Ley de Expropiación de Grandes Fondos y Sociedades Tenedoras (de 1.000 a 50 inmuebles) y prohibición de compra por fondos buitre",
+   "page": "p5"
+  },
+  {
+   "text": "Semana laboral de cuatro días (32 horas) sin reducción de sueldo",
+   "page": "p7"
+  },
+  {
+   "text": "Gravamen del 10% sobre el valor catastral de las viviendas a partir de la tercera",
+   "page": "p6"
+  },
+  {
+   "text": "100% de titularidad pública de Red Eléctrica y recuperación progresiva de las grandes eléctricas, con empresa pública de energía",
+   "page": "p26"
+  },
+  {
+   "text": "Prestación universal por crianza de 200 euros mensuales por hijo",
+   "page": "p41"
+  },
+  {
+   "text": "Derogar la Ley de Amnistía de 1977 y la ley 18/2013 que declara los toros patrimonio cultural",
+   "page": "p37"
+  },
+  {
+   "text": "Concierto económico responsable y condonación de la deuda histórica de la Generalitat Valenciana",
+   "page": "p49"
+  },
+  {
+   "text": "Romper relaciones con Israel y sustituir la OTAN por una Unión Europea de la Defensa",
+   "page": "p54"
+  }
+ ],
+ "dims": {
+  "tax": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Mantener y ampliar el Impuesto a las Grandes Fortunas (tasa Zucman); impuesto a oligopolios; rentas financieras igual de progresivas; fin desgravación planes de pensiones (p17, p9)"
+  },
+  "labor": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Jornada de 4 días (32 h) sin bajada de sueldo; SMI al 60% del salario medio; recuperar indemnización de 45 días (p7)"
+  },
+  "housing": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Prohibir compra por fondos buitre, ley de expropiación de grandes tenedores, 1% del PIB en vivienda protegida, prohibir desahucios sin alternativa (p5-6)"
+  },
+  "welfare": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Jubilación a los 65, fin del tope de cotización, revalorización constitucional de pensiones, prestación universal de 200 €/mes por hijo (p7-8, p41)"
+  },
+  "public_services": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Derogar Ley 15/1997 contra privatización sanitaria; concertada subsidiaria; prohibir suelo público para centros privados (p8, p10)"
+  },
+  "public_ownership": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Banca pública, empresa eléctrica pública, 100% público de Red Eléctrica, recuperar grandes eléctricas, farmacéutica pública (p9, p18, p25-26)"
+  },
+  "immigration": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Regularizar a quienes viven aquí; eliminar los CIE; empadronamiento obligatorio; sufragio para migrantes (p55-56, p44)"
+  },
+  "territorial": {
+   "score": -1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Estado plurinacional, concierto económico responsable, oficialidad del valenciano en la UE, traspaso de competencias; sin autodeterminación (p51-52, p38, p49)"
+  },
+  "feminism": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Educación afectivo-sexual feminista, blindar ley trans, refuerzo contra violencia machista y vicaria; prohibir gestación subrogada (p45-48)"
+  },
+  "bioethics": {
+   "score": -2,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Garantizar la interrupción voluntaria del embarazo gratuita y accesible en la sanidad pública; regular objeción de conciencia (p45). Eutanasia no mencionada"
+  },
+  "climate": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Marco Verde vinculante, electrificación 100% en 2030, abandono de fósiles en 2040, prohibir patrocinios fósiles, reducir pesticidas (p24-26, p21)"
+  },
+  "nuclear": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Mantener el calendario de cierre de las nucleares y no aceptar ninguna prórroga (p26)"
+  },
+  "eu": {
+   "score": -1,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Reforma de tratados para dar más poder al Parlamento Europeo, fin de la unanimidad, presupuesto 2% RNB; pero suprimir el Pacto de Estabilidad (p54-55)"
+  },
+  "defense": {
+   "score": -1.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Unión Europea de la Defensa que pueda sustituir a la OTAN y reduzca gasto militar; auditar gasto; no subirlo a costa de servicios públicos (p53-54)"
+  },
+  "israel": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Romper relaciones diplomáticas y comerciales con países que practican genocidios, como el Estado de Israel (p54)"
+  },
+  "monarchy": {
+   "score": -1.5,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "El programa solo pide transparencia presupuestaria de la Casa Real (p32); postura republicana/referendaria conocida de Compromís-Front Valencià"
+  },
+  "memory": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Derogar Ley de Amnistía de 1977, retirada de simbología franquista con retirada de subvenciones, ampliar Ley de Memoria Democrática (p37)"
+  },
+  "security": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Derogar la ley mordaza; abolir balas de goma; reformar Ley de Responsabilidad Penal del Menor contra el populismo punitivo (p37, p40)"
+  },
+  "anti_establishment": {
+   "score": -0.5,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Propuestas institucionalistas (transparencia, anticorrupción, reforma CGPJ, referéndums), con crítica a aforamientos y art. 135; no antisistema populista (p34-36)"
+  },
+  "animals_tradition": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Suprimir espectáculos taurinos, derogar Ley 18/2013, prohibir caza con perros, moratoria de macrogranjas (p39)"
+  },
+  "religion": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Eliminar privilegios de acuerdos con la Santa Sede, fin de financiación de la Iglesia, laicismo, religión fuera de la escuela, derogar delito de ofensa a sentimientos religiosos (p38-39)"
+  }
+ }
+}

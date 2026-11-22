@@ -1,0 +1,51 @@
+{
+ "party": "Podemos", "slug": "podemos",
+ "summary": "Programa de ruptura con el 'Régimen del 78' bajo el lema paz, casa y trabajo: intervención del mercado de vivienda y energía, fuerte subida de impuestos a grandes fortunas, banca y empresas, jornada de 30 horas y SMI de 1.800 euros, salida de la OTAN y ruptura con Israel, y una república plurinacional.",
+ "fundamentals": [
+  "El dinero sube de abajo a arriba: redistribuir riqueza y democratizar el poder",
+  "Vivienda como derecho: bajar alquileres un 40% por ley, prohibir comprar casas que no sean para vivir, expropiar uso a grandes tenedores",
+  "Intervención de precios y sector público empresarial: banca pública, empresa pública de energía, nacionalizar Repsol, supermercados públicos",
+  "Fiscalidad progresiva: impuesto a grandes fortunas, gravámenes permanentes a banca y eléctricas, más IRPF y sociedades",
+  "Trabajar menos: 30 horas semanales, SMI 1.800 euros, derogar reformas laborales, prohibir horas extra",
+  "Paz y antimilitarismo: salida de la OTAN, cierre de Rota y Morón, revertir el rearme, neutralidad",
+  "Ruptura con Israel, embargo de armas, reconocimiento del genocidio en Gaza, autodeterminación saharaui",
+  "Servicios públicos 100% de gestión directa: desprivatizar sanidad, educación y residencias, fin de conciertos",
+  "Feminismo, LGTBIQA+ y cuidados como cuarto pilar del Estado del Bienestar; aborto en la Constitución",
+  "Migración con derechos: derogar Ley de Extranjería, regularización permanente, cerrar CIE, ius soli",
+  "Transición ecológica acelerada, cierre nuclear, protección animal, fin de la tauromaquia",
+  "República plurinacional, referéndum monarquía-república, Estado laico, memoria democrática, derogar Ley Mordaza"
+ ],
+ "signature": [
+  {"text": "Reducción extraordinaria del 40% de los alquileres por ley, también en contratos vigentes, con suelo del 60% del precio medio de zona", "page": "p8"},
+  {"text": "Prohibir adquirir viviendas que no sean residencia habitual o segunda residencia propia y prohibir los pisos turísticos", "page": "p8"},
+  {"text": "Nacionalización de Repsol y creación de una Empresa Pública de Energía, banca pública y red pública de supermercados", "page": "p18"},
+  {"text": "Gratuidad universal de todo el transporte público con tarjeta única", "page": "p19"},
+  {"text": "Salida de la OTAN, cierre de Rota y Morón y reversión total del rearme", "page": "p28"},
+  {"text": "Jornada de 30 horas semanales sin bajar salarios y SMI de 1.800 euros en una legislatura", "page": "p41"},
+  {"text": "Desprivatización total de residencias, sanidad y educación: moratoria indefinida de conciertos y absorción de la concertada", "page": "p79"},
+  {"text": "Proceso constituyente y referéndum monarquía-república; eliminar inviolabilidad del Rey", "page": "p128"}
+ ],
+ "dims": {
+  "tax": {"score": -2, "conf": "high", "src": "programme", "evidence": "Impuesto permanente a grandes fortunas, 50% de beneficios de la gran banca, sociedades 19-35%, IRPF hasta 28,5%, rentas del capital equiparadas (p17, p21)"},
+  "labor": {"score": -2, "conf": "high", "src": "programme", "evidence": "Jornada 30h, SMI 1.800 euros, despido 45 días, ERE con autorización administrativa, prohibir horas extra, derogar reformas 2010 y 2012 (p41-42)"},
+  "housing": {"score": -2, "conf": "high", "src": "programme", "evidence": "Alquileres -40% por ley, expropiación de uso a grandes tenedores, prohibir pisos turísticos, prohibir desalojos de vulnerables (p8-9)"},
+  "welfare": {"score": -2, "conf": "high", "src": "programme", "evidence": "Pensión mínima igual al SMI, jubilación a 63, renta universal incondicionada, prestación por crianza hasta 21 años, eliminar desgravaciones de planes privados (p41, p44-45, p60)"},
+  "public_services": {"score": -2, "conf": "high", "src": "programme", "evidence": "Una única red educativa de gestión pública directa, moratoria de conciertos; gestión pública directa obligatoria en sanidad; desprivatizar residencias (p79, p88, p63)"},
+  "public_ownership": {"score": -2, "conf": "high", "src": "programme", "evidence": "Nacionalización de Repsol, Banca Pública, Empresa Pública de Energía, renacionalizar el ferrocarril, Red Eléctrica al 100% público (p18, p105, p98)"},
+  "immigration": {"score": -2, "conf": "high", "src": "programme", "evidence": "Derogar Ley de Extranjería, regularización permanente, cierre de CIE, ius soli, voto y DNI a quien vive y trabaja en España (p65-68)"},
+  "territorial": {"score": -1.5, "conf": "med", "src": "programme", "evidence": "República plurinacional que reconozca la plurinacionalidad, Senado federal, enseñanza de lenguas cooficiales; sin mención explícita de amnistía o autodeterminación interna (p128, p85)"},
+  "feminism": {"score": -2, "conf": "high", "src": "programme", "evidence": "Fondo de 1.000 millones contra violencias machistas, paridad en todos los niveles del Estado, ley trans, cupo laboral trans, ampliar definición de violencia machista (p51-58)"},
+  "bioethics": {"score": -2, "conf": "high", "src": "programme", "evidence": "Blindar el aborto y llevarlo a la Constitución (art. 15); reforzar la muerte digna y evitar que la objeción obstaculice la eutanasia (p51, p94)"},
+  "climate": {"score": -2, "conf": "high", "src": "programme", "evidence": "Reducir emisiones al menos 55% en 2030, neutralidad en 2040, 95% renovable en 2035, impuesto a empresas contaminantes, prohibir vuelos cortos (p95, p98)"},
+  "nuclear": {"score": -2, "conf": "high", "src": "programme", "evidence": "Cumplir el calendario de cierre nuclear empezando por Almaraz; en la UE, hoja de ruta para abandonar la fisión (p103)"},
+  "eu": {"score": -0.5, "conf": "low", "src": "inferred", "evidence": "Pide reparto vinculante de asilo, Tasa Tobin europea y reforma del BEI, pero rechaza Pacto de Migración, Mercosur, CETA y ASAP; crítica sin salida de la UE (p32, p36-37)"},
+  "defense": {"score": -2, "conf": "high", "src": "programme", "evidence": "Salida de la OTAN, rechazo al 5% del PIB, congelar el gasto militar y revertir el rearme, Estatuto de Neutralidad (p28)"},
+  "israel": {"score": -2, "conf": "high", "src": "programme", "evidence": "Ruptura de relaciones diplomáticas, culturales y comerciales con Israel, embargo de armas, reconocer el genocidio, sionismo como racismo (p34)"},
+  "monarchy": {"score": -2, "conf": "high", "src": "programme", "evidence": "Proceso constituyente, referéndum monarquía-república, eliminar inviolabilidad del Rey, transparencia de la Casa Real (p128)"},
+  "memory": {"score": -2, "conf": "high", "src": "programme", "evidence": "Cumplimiento efectivo de la Ley de Memoria, retirar símbolos franquistas, transformar Cuelgamuros, reformar la Ley de Amnistía de 1977 (p135-138)"},
+  "security": {"score": -2, "conf": "high", "src": "programme", "evidence": "Derogar la Ley Mordaza, prohibir pelotas de goma e infiltración policial, cámaras corporales, detención máxima 48 horas (p127, p132-133)"},
+  "anti_establishment": {"score": 1.5, "conf": "med", "src": "programme", "evidence": "Romper el candado del Régimen del 78, denunciar cloacas del Estado, guerra judicial, poder económico sobre instituciones; reformas del CGPJ y medios (p126, p128)"},
+  "animals_tradition": {"score": -2, "conf": "high", "src": "programme", "evidence": "Derogar la Ley 18/2013 de tauromaquia, prohibir circos con animales, proteger perros de caza, fin de jaulas y granjas peleteras (p124, p121)"},
+  "religion": {"score": -2, "conf": "high", "src": "programme", "evidence": "Denunciar Concordato y acuerdos de 1979, suprimir religión en todos los colegios, eliminar exención del IBI, Estado laico (p83, p134)"}
+ }
+}

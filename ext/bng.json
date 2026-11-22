@@ -1,0 +1,181 @@
+{
+ "party": "BNG (Bloque Nacionalista Galego)",
+ "slug": "bng",
+ "summary": "Programa soberanista y de izquierda que prioriza más peso de Galiza en Madrid: concierto económico, transferencia de competencias y defensa de lo público. Propone vivienda intervenida, derechos laborales y pensiones reforzados, antimilitarismo (salida de la OTAN) y laicismo, con fuerte énfasis en lengua y economía gallegas.",
+ "fundamentals": [
+  "Soberanía gallega: concierto económico, Facenda Galega, bilateralidad con el Estado",
+  "Transferencia de competencias (laboral, Seguridad Social, policía, puertos, costas, AP-9)",
+  "Defensa de pensiones públicas y derogación de reformas 2011-2023",
+  "Derechos laborales: 35h, SMI 60% del salario medio, derogar reformas laborales",
+  "Vivienda como derecho: tope de alquileres, parque público, canon a vivienda vacía",
+  "Servicios públicos: enseñanza y sanidad públicas, fin de conciertos",
+  "Control público de la energía y tarifa eléctrica gallega",
+  "Feminismo y derechos LGBT",
+  "Pacifismo y antiimperialismo: salida de la OTAN, no al gasto militar",
+  "Memoria democrática, laicismo y derecho de autodeterminación",
+  "Lengua gallega, soberanía digital y oposición a minería extractiva y Altri",
+  "Fiscalidad progresiva y IVA reducido a bienes básicos"
+ ],
+ "signature": [
+  {
+   "text": "Concierto económico y Facenda Galega: Galiza recauda todos los impuestos y decide su inversión",
+   "page": "p8"
+  },
+  {
+   "text": "Transferir AP-9 y AP-53 y nacionalizarlas",
+   "page": "p10"
+  },
+  {
+   "text": "Topar por ley alquileres y destinar 3% de los PGE a parque público de alquiler",
+   "page": "p12"
+  },
+  {
+   "text": "Jornada de 35h sin reducción salarial, SMI al 60% del salario medio y fin de las ETT",
+   "page": "p15"
+  },
+  {
+   "text": "Derogar la Ley de Amnistía de 1977 y revocar el Concordato con la Santa Sede",
+   "page": "p31-32"
+  },
+  {
+   "text": "Salida de la OTAN y neutralidad activa; fin de envío de armas a Ucrania",
+   "page": "p89"
+  },
+  {
+   "text": "Tarifa eléctrica gallega y empresa pública gallega de energía",
+   "page": "p9, p56"
+  },
+  {
+   "text": "Precio máximo legal a gasolina y diésel",
+   "page": "p21"
+  }
+ ],
+ "dims": {
+  "tax": {
+   "score": -1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "IRPF más progresivo, más tributación del capital; impuestos permanentes a banca, energéticas y grandes fortunas; recargos a fondos/SOCIMIs; educación 7% PIB (p43-44)"
+  },
+  "labor": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Derogar reformas laborales, 35h sin reducción salarial (hacia 32h), SMI al 60% del salario medio, 45 días de indemnización, eliminar ETT (p15-16)"
+  },
+  "housing": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Topar alquileres por ley, prohibir desahucios vulnerables, 3% PGE a parque público, canon y alquiler forzoso a vivienda vacía, expropiar vivienda a fondos (p12-14)"
+  },
+  "welfare": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Derogar reformas de pensiones, revalorizar con IPC real, mínimas = SMI, suprimir MEI, renta gallega de inclusión ≥ SMI, prohibir planes privados (p18-21)"
+  },
+  "public_services": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Defensa inequívoca de la enseñanza pública, supresión progresiva de conciertos, sin privatizaciones sanitarias, internalizar servicios privatizados (p18, p35)"
+  },
+  "public_ownership": {
+   "score": -1.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Control público de energía y sectores estratégicos, empresa pública gallega de energía, nacionalizar AP-9/AP-53, recuperar concesiones de embalses (p9-10, p55-56)"
+  },
+  "immigration": {
+   "score": -1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Promover regularización administrativa, cerrar los CIE, fin de devoluciones en caliente, derecho de asilo; acogida inclusiva (p22-23)"
+  },
+  "territorial": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Concierto económico, Facenda Galega, referendos vinculantes incl. autodeterminación, Estado irreformable, ruptura democrática, oficialidad del gallego en la UE (p8-9, p32)"
+  },
+  "feminism": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Reforma integral contra la violencia machista, Pacto de Estado, abolicionismo de la prostitución, derechos LGBT y autodeterminación de género (p24-29)"
+  },
+  "bioethics": {
+   "score": -2,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Programa sin texto específico hallado sobre aborto/eutanasia; postura conocida del BNG favorable a derechos (inferido)"
+  },
+  "climate": {
+   "score": -1,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Capítulo de crisis climática y transición justa, prohibición del fracking; pero rechaza eólica marina y minería 'estratégica' (p56-57, p65)"
+  },
+  "nuclear": {
+   "score": -1.5,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Sin postura explícita; solo rechazo a vertidos nucleares en la Fosa Atlántica. Inferido: contrario a la energía nuclear"
+  },
+  "eu": {
+   "score": 0.5,
+   "conf": "low",
+   "src": "programme",
+   "evidence": "Crítica a la UE: militarización, recorte de PAC/cohesión en MFP 2028-34, sometimiento a EEUU/OTAN; reclama oficialidad del gallego (p6, p43, p90)"
+  },
+  "defense": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Salida de la OTAN, rechazo al aumento del gasto militar, reducción progresiva, desmilitarización de Galiza, abolición del servicio militar (p89-91)"
+  },
+  "israel": {
+   "score": -1.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Condena enérgica a Israel por ocupación y colonialismo; reconocimiento efectivo de Palestina; denuncia 'genocidio' sionista (p6, p90)"
+  },
+  "monarchy": {
+   "score": -2,
+   "conf": "med",
+   "src": "inferred",
+   "evidence": "Pide derogar injurias a la Corona (p30); autodeterminación y ruptura democrática; republicanismo conocido del BNG (inferido)"
+  },
+  "memory": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Derogar Ley de Amnistía de 1977, modificar Ley de Memoria, retirar simbología, prohibir exaltación franquista, Pazo de Meirás (p31)"
+  },
+  "security": {
+   "score": -1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Derogar ley mordaza y prisión permanente revisable, prohibir pelotas de goma; pero Policía Galega y cumplimiento de penas en Galiza (p9, p30)"
+  },
+  "anti_establishment": {
+   "score": 0.5,
+   "conf": "low",
+   "src": "programme",
+   "evidence": "Estado español 'irreformable', ruptura democrática, reforma electoral; pero institucionalista y pactista en el Congreso (p8, p32)"
+  },
+  "animals_tradition": {
+   "score": -1,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Sin texto específico hallado; inferido sensibilidad ecologista moderada, sin defensa de tauromaquia"
+  },
+  "religion": {
+   "score": -2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Denunciar y revocar el Concordato y acuerdos con la Santa Sede, religión fuera del currículo, Estado laico (p32, p35)"
+  }
+ }
+}

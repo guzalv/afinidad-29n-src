@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; img-src data:">
+<title>¿Con quién encajas? · 29-N</title>
+<style>
+:root{--bg:#f6f3ee;--ink:#1d1b18;--mut:#5f594f;--line:#d9d1c4;--acc:#b3412b;--accbg:#f7e6e1;--card:#fffdf9;--soft:#efe9df}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;-webkit-text-size-adjust:100%}
+main{max-width:640px;margin:0 auto;padding:16px 18px 40px}
+h1,h2,h3,.q{font-family:Georgia,"Times New Roman",serif;font-weight:normal;line-height:1.2}
+h1{font-size:2.2rem;margin:.3em 0 .4em}
+.mut{color:var(--mut);font-size:.92rem}
+.brand{display:inline-block;font:700 .78rem/1 system-ui,sans-serif;letter-spacing:.08em;color:#fff;background:var(--acc);padding:6px 8px;border-radius:6px}
+.top{display:flex;align-items:center;gap:10px;font-size:.85rem;color:var(--mut);font-variant-numeric:tabular-nums}
+.top .bar{flex:1}
+.bar{height:6px;background:var(--line);border-radius:3px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--acc);border-radius:3px;transition:width .3s}
+.q{font-size:1.45rem;margin:22px 0 6px;outline:none}
+.hint{color:var(--mut);font-size:.92rem;margin:0 0 6px}
+.qa{margin-top:16px}
+button{font:inherit;cursor:pointer;color:inherit}
+:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+.opt{display:flex;align-items:center;gap:12px;width:100%;min-height:52px;text-align:left;padding:12px 15px;margin:0 0 9px;background:var(--card);border:1px solid var(--line);border-radius:12px;color:var(--ink);transition:border-color .15s,background .15s}
+.opt:hover{border-color:var(--ink)}
+.opt[aria-pressed=true]{border-color:var(--acc);background:var(--accbg);box-shadow:inset 0 0 0 1px var(--acc)}
+.ck{flex:0 0 22px;height:22px;border:2px solid var(--line);border-radius:6px;display:grid;place-items:center;font-size:.8rem;color:#fff}
+[aria-pressed=true] .ck{background:var(--acc);border-color:var(--acc)}
+.full .opt[aria-pressed=false]{opacity:.55}
+.lk .opt{justify-content:center;text-align:center}
+@media(min-width:560px){.lk{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}.lk .opt{margin:0;font-size:.88rem;padding:12px 6px}}
+.legend{position:sticky;top:0;z-index:1;display:flex;justify-content:space-between;background:var(--bg);padding:8px 0;font-size:.82rem;color:var(--mut);border-bottom:1px solid var(--line);margin-bottom:10px}
+.row{margin:0 0 14px}.row p{margin:0 0 6px}
+.sc{display:flex;gap:6px}.sc button{flex:1;min-height:46px;background:var(--card);border:1px solid var(--line);border-radius:10px;font-variant-numeric:tabular-nums}
+.sc button[aria-pressed=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.nav{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:18px}
+.stick{position:sticky;bottom:0;padding:22px 0 10px;background:linear-gradient(rgba(246,243,238,0),var(--bg) 35%)}
+.stick .go{width:100%}
+.lnk{background:none;border:0;color:var(--mut);text-decoration:underline;padding:10px 0;min-height:44px}
+.go{background:var(--ink);color:#fff;border:0;border-radius:12px;padding:13px 24px;min-height:48px;font-weight:600}
+.go:disabled{background:#a9a195;cursor:default}
+.q:focus-visible{outline:none}
+.go2{background:var(--card);color:var(--ink);border:1px solid var(--ink)}
+label{display:block;font-weight:600;margin-top:18px}
+select{font:inherit;font-weight:normal;width:100%;min-height:48px;padding:11px;border:1px solid var(--line);border-radius:12px;background:var(--card);margin:6px 0 0;color:var(--ink)}
+.intro li{margin:4px 0}
+.hero{background:var(--card);border:1px solid var(--line);border-left:8px solid var(--pc);border-radius:14px;padding:16px 18px;margin:16px 0}
+.hero .big{font:700 3rem/1 system-ui,sans-serif;font-variant-numeric:tabular-nums}
+.hero h2{font-size:1.7rem;margin:4px 0 8px}
+.hero p{margin:6px 0}
+.party{background:var(--card);border:1px solid var(--line);border-radius:12px;margin:0 0 8px;overflow:hidden}
+.party>summary{list-style:none;display:block;padding:12px 14px;cursor:pointer;color:var(--ink)}
+.party>summary::-webkit-details-marker{display:none}
+.pt{display:flex;align-items:baseline;gap:8px}
+.pt b{flex:1;font-weight:600}
+.pt span{font-variant-numeric:tabular-nums;font-weight:600}
+.pt .rk{color:var(--mut);font-weight:normal;min-width:1.4em}
+.pt::after{content:"▾";color:var(--mut);transition:transform .2s}
+.party[open] .pt::after{transform:rotate(180deg)}
+.t{height:10px;background:var(--soft);border-radius:5px;overflow:hidden;margin-top:6px}
+.t i{display:block;height:100%;border-radius:5px}
+.pd{padding:0 16px 14px;font-size:.95rem;border-top:1px solid var(--soft)}
+.pd h4{margin:18px 0 6px;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--mut)}
+.pd ul{margin:0;padding-left:0;list-style:none}.pd li{margin:0 0 10px}
+.pd ul.b{padding-left:18px;list-style:disc}.pd ul.b li{margin:3px 0}
+.pd li small{display:block;color:var(--mut)}
+.ag b::before{content:"✓ ";color:#2e7d32}.dg b::before{content:"✗ ";color:var(--acc)}
+.tag{font-size:.72rem;color:var(--mut);font-weight:normal}
+.dim{margin:0 0 12px;font-size:.85rem}
+.trk{position:relative;height:18px;margin:2px 6px}
+.trk::before{content:"";position:absolute;left:0;right:0;top:8px;height:2px;background:var(--line)}
+.trk::after{content:"";position:absolute;left:50%;top:3px;height:12px;width:1px;background:var(--mut)}
+.trk i{position:absolute;top:3px;width:12px;height:12px;border-radius:50%;margin-left:-6px;z-index:1}
+.pol{display:flex;justify-content:space-between;gap:12px;font-size:.72rem;color:var(--mut);line-height:1.25}
+.pol span:last-child{text-align:right}
+.note{background:var(--soft);border-radius:12px;padding:12px 14px;font-size:.92rem;margin:14px 0}
+details.inner{margin:14px 0 0}details.inner>summary{cursor:pointer;color:var(--mut);min-height:44px;display:flex;align-items:center}
+.how{margin:20px 0}.how>summary{cursor:pointer;color:var(--ink);font-weight:600;min-height:44px;display:flex;align-items:center}
+a{color:var(--acc)}
+.anim{animation:in .25s ease-out}
+@keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body><main id="app"></main>
+<script>
+const DATA=/*DATA*/null;
+
+const DIMS={tax:['Impuestos','más impuestos a rentas altas y patrimonio','bajar impuestos'],
+labor:['Trabajo','más protección al trabajador','más flexibilidad laboral'],
+housing:['Vivienda','intervenir el mercado (topes, vivienda pública)','más oferta y mercado libre'],
+welfare:['Pensiones y ayudas','ampliar prestaciones públicas','contener el gasto, ahorro privado'],
+public_services:['Sanidad y educación','solo red pública','libre elección y concertada'],
+public_ownership:['Papel del Estado en la economía','empresas públicas','libre mercado'],
+immigration:['Inmigración','regularizar y acoger','restringir y expulsar'],
+territorial:['Modelo territorial','más autogobierno / autodeterminación','recentralizar'],
+feminism:['Igualdad y género','políticas feministas fuertes','derogar leyes de género'],
+bioethics:['Aborto y eutanasia','ampliar derechos','restringir'],
+climate:['Clima','transición ecológica ambiciosa','menos regulación verde'],
+nuclear:['Energía nuclear','cerrar centrales','mantener o ampliar'],
+eu:['Unión Europea','más integración europea','más soberanía nacional'],
+defense:['Defensa y OTAN','menos gasto militar','más gasto militar'],
+israel:['Israel y Gaza','sancionar a Israel','alianza con Israel'],
+monarchy:['Monarquía','república','defensa de la Corona'],
+memory:['Memoria histórica','ampliar la memoria democrática','derogar leyes de memoria'],
+security:['Seguridad y justicia','reinserción, derogar ley mordaza','mano dura'],
+anti_establishment:['Relación con el sistema','confianza en las instituciones','romper con "el sistema"'],
+animals_tradition:['Toros y caza','bienestar animal','tradición taurina y cinegética'],
+religion:['Religión','laicidad','raíces cristianas']};
+
+/*QUESTIONS*/
+const REG={and:'Andalucía',ara:'Aragón',ast:'Asturias',bal:'Illes Balears',can:'Canarias',cnt:'Cantabria',cyl:'Castilla y León',clm:'Castilla-La Mancha',cat:'Cataluña',val:'Comunitat Valenciana',ext:'Extremadura',gal:'Galicia',mad:'Madrid',mur:'Murcia',nav:'Navarra',pv:'País Vasco',rio:'La Rioja',ceu:'Ceuta',mel:'Melilla'};
+const LK=['Muy en desacuerdo','En desacuerdo','Ni sí ni no','De acuerdo','Muy de acuerdo'];
+
+const $=s=>document.querySelector(s), app=$('#app');
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>'&#'+c.charCodeAt(0)+';');
+const shuf=a=>{a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
+let order,ans,i,reg='',prev='';
+
+const paint=x=>{app.innerHTML=x;const c=app.classList;if(c){c.remove('anim');void app.offsetWidth;c.add('anim')};scrollTo(0,0)};
+function start(){
+  paint(`<span class="brand">29·N</span>
+  <h1>¿Con quién encajas?</h1>
+  <p class="mut">Elecciones generales · 29 de noviembre de 2026</p>
+  <ul class="intro"><li><b>${Q.length} preguntas cortas</b>, unos 5 minutos.</li>
+  <li>Algunas parecen no tener que ver con la política; están hechas así a propósito. Contesta lo primero que pienses.</li>
+  <li>Al final verás qué <b>programas electorales</b> se parecen más a lo que piensas, y por qué.</li></ul>
+  <p class="note">Todo se calcula en tu dispositivo. La página no se conecta a ningún sitio ni guarda nada.</p>
+  <div class="nav"><span></span><button class="go" onclick="begin()">Empezar →</button></div>`);
+}
+function begin(){order=shuf(Q.map((q,n)=>({...q,n,o:q.o&&(q.keep?q.o:shuf(q.o)),r:q.r&&shuf(q.r)})));ans={};i=0;render()}
+const hd=(k,t)=>`<div class="top"><span class="brand">29·N</span><div class="bar" role="progressbar" aria-label="Progreso" aria-valuenow="${k}" aria-valuemax="${t}"><i style="width:${k/t*100}%"></i></div><span>${Math.min(k+1,t)} / ${t}</span></div>`;
+const P=on=>`aria-pressed="${!!on}"`;
+
+function show(){
+  if(i>=order.length)return about();
+  const q=order[i],a=ans[q.n];
+  let h=hd(i,order.length)+`<h2 class="q" id="qt" tabindex="-1">${esc(q.t)}</h2>${q.h?`<p class="hint">${esc(q.h)}</p>`:''}<div class="qa" role="group" aria-labelledby="qt">`;
+  if(q.k==='grid'){
+    h+=`<div class="legend" aria-hidden="true"><span>1 = Ninguna</span><span>5 = Mucha</span></div>`+q.r.map((r,j)=>`<div class="row" role="group" aria-labelledby="r${j}"><p id="r${j}">${esc(r[0])}</p><div class="sc">${[1,2,3,4,5].map(v=>`<button aria-label="${v} de 5" ${P(a&&a[r[0]]===v)} onclick="grid(${j},${v})">${v}</button>`).join('')}</div></div>`).join('');
+  }else if(q.k==='lik'){
+    h+=`<div class="lk">${LK.map((l,v)=>`<button class="opt" ${P(a===v-2)} onclick="pick(${v-2})">${l}</button>`).join('')}</div>`;
+  }else if(q.k==='pick'){
+    const s=a||[];h+=`<p class="hint" aria-live="polite">${s.length} de ${q.max} elegidos</p><div class="${s.length>=q.max?'full':''}">`+q.o.map((o,j)=>`<button class="opt" ${P(s.includes(o[0]))} onclick="multi(${j})"><span class="ck" aria-hidden="true">✓</span>${esc(o[0])}</button>`).join('')+'</div>';
+  }else{
+    h+=q.o.map((o,j)=>`<button class="opt" ${P(a===o[0])} onclick="pick(${j})">${esc(o[0])}</button>`).join('');
+  }
+  h+='</div>';
+  const multiStep=q.k==='grid'||q.k==='pick';
+  const ready=q.k==='grid'?a&&Object.keys(a).length===q.r.length:q.k==='pick'?a&&a.length===q.max:false;
+  const nav=`<div class="nav"><button class="lnk" onclick="back()" ${i?'':'hidden'}>← Atrás</button><span></span><button class="lnk" onclick="skip()">Prefiero no contestar</button></div>`;
+  h+=multiStep?`<div class="stick"><button class="go" ${ready?'':'disabled'} onclick="next()">Siguiente${q.k==='grid'?` (${a?Object.keys(a).length:0}/${q.r.length})`:''}</button>${nav}</div>`:nav;
+  return h;
+}
+function render(){const h=show();if(h){paint(h);$('#qt')?.focus?.({preventScroll:true})}}
+function pick(v){const q=order[i];if(busy)return;ans[q.n]=q.k==='lik'?v:q.o[v][0];busy=1;render0();setTimeout(()=>{busy=0;next()},matchMedia('(prefers-reduced-motion:reduce)').matches?0:160)}
+let busy=0;
+function render0(){const y=scrollY,f=document.activeElement?.getAttribute?.('onclick');app.innerHTML=show();scrollTo(0,y);f&&app.querySelector(`[onclick="${f}"]`)?.focus()}
+function grid(j,v){const q=order[i];(ans[q.n]??={})[q.r[j][0]]=v;render0()}
+function multi(j){const q=order[i],s=ans[q.n]??=[],t=q.o[j][0],k=s.indexOf(t);k<0?(s.length<q.max&&s.push(t)):s.splice(k,1);render0()}
+function next(){i++;render()}
+function skip(){delete ans[order[i].n];next()}
+function back(){if(i>0){i--;render()}}
+
+function about(){
+  paint(hd(order.length,order.length)+`<h2 class="q">Por último, dos datos para ajustar el resultado</h2>
+  <label>¿Dónde votas?<select id="reg"><option value="">Prefiero no decirlo</option>${Object.entries(REG).map(([k,v])=>`<option value="${k}" ${k===reg?'selected':''}>${v}</option>`).join('')}</select></label>
+  <label>¿Qué partido tenías pensado votar? <span class="mut" style="font-weight:normal">(opcional; no cambia el cálculo, solo lo compara)</span><select id="prev"><option value="">No lo sé / prefiero no decirlo</option>${Object.entries(DATA).map(([k,p])=>`<option value="${k}" ${k===prev?'selected':''}>${esc(p.name)}</option>`).join('')}</select></label>
+  <div class="nav"><button class="lnk" onclick="i--;render()">← Atrás</button><button class="go" onclick="reg=$('#reg').value;prev=$('#prev').value;results()">Ver resultado →</button></div>`);
+}
+
+function profile(){ // user position per dim = weighted mean of answer contributions
+  const acc={},add=(e,x)=>{for(const[d,[v,w]]of Object.entries(e)){const a=acc[d]??={s:0,w:0};a.s+=(x===undefined?v:x*v)*w;a.w+=w}};
+  Q.forEach((q,n)=>{const a=ans[n];if(a===undefined)return;
+    if(q.k==='grid')q.r.forEach(r=>a[r[0]]&&add(r[1],a[r[0]]-3));
+    else if(q.k==='lik')add(q.e,a);
+    else if(q.k==='pick')q.o.forEach(o=>a.includes(o[0])&&add(o[1]));
+    else add(q.o.find(o=>o[0]===a)[1]);});
+  const u={};for(const[d,a]of Object.entries(acc))u[d]={v:a.s/a.w,w:a.w};return u;
+}
+// For grid/likert e[d]=[sign,w] and x is the answer (-2..2): contribution x*sign. For options e[d]=[value,w].
+
+function match(u,p){
+  let num=0,den=0;const per=[];
+  for(const[d,x]of Object.entries(u)){const pd=p.dims[d];if(!pd||pd.score==null)continue;
+    const W=Math.sqrt(x.w)*({high:1,med:.85,low:.6}[pd.conf]??.6),diff=Math.abs(x.v-pd.score);
+    num+=W*diff;den+=W*4;per.push({d,diff,W,u:x.v,p:pd});}
+  return{pct:den?Math.round(100*(1-num/den)):0,per};
+}
+
+let last=[];
+function results(){
+  const u=profile(),n=Object.keys(ans).length;
+  const rows=last=Object.entries(DATA).map(([k,p])=>({k,p,...match(u,p),here:!p.regions||!reg||p.regions.includes(reg)}))
+    .filter(r=>r.here).sort((a,b)=>b.pct-a.pct);
+  const pos=rows.findIndex(r=>r.k===prev),t=rows[0];
+  const pole=x=>Math.abs(x.u)<.5?'posición intermedia':'tiendes a «'+(x.u<0?DIMS[x.d][1]:DIMS[x.d][2])+'»';
+  const li=x=>`<li><b>${DIMS[x.d][0]}</b><small>Tú: ${pole(x)}</small>Programa: ${esc(x.p.evidence)}${x.p.src==='inferred'?' <span class="tag">(inferido, no explícito en el programa)</span>':''}</li>`;
+  let h=`<span class="brand">29·N</span><h1>Tu afinidad</h1><p class="mut">Según ${n} respuestas${reg?' · partidos que se presentan en '+REG[reg]:''}.</p>`;
+  if(n<8)h+=`<div class="note">Has contestado pocas preguntas; el resultado es poco fiable.</div>`;
+  h+=`<section class="hero" style="--pc:${t.p.color}"><div class="mut">El programa más cercano a tus respuestas</div><h2>${esc(t.p.name)}</h2><div class="big">${t.pct}%</div><div class="t"><i style="width:${t.pct}%;background:${t.p.color}"></i></div>
+  <p class="mut">Le siguen ${rows.slice(1,3).map(r=>`${esc(r.p.name)} (${r.pct}%)`).join(' y ')}.</p>
+  <div class="nav"><a href="#p0" onclick="$('#p0').open=true">¿Por qué? ↓</a><button class="go go2" onclick="share(this)">Compartir</button></div></section>`;
+  if(prev&&pos>=0)h+=`<div class="note">Tenías pensado votar a <b>${esc(DATA[prev].name)}</b>: queda en el puesto <b>${pos+1}</b> de ${rows.length} (${rows[pos].pct}%).${pos?'':' Coincide con tu mejor resultado.'}</div>`;
+  h+=`<h3>Todos los programas</h3><p class="mut">Toca un partido para ver dónde coincidís y dónde no.</p>`;
+  h+=rows.map((r,j)=>{const p=r.p,by=r.per.slice().sort((a,b)=>a.diff-b.diff),ag=by.filter(x=>x.diff<=1).slice(0,4),dis=by.filter(x=>x.diff>=1.5).reverse().slice(0,4);
+    return `<details class="party" id="p${j}"><summary><div class="pt"><span class="rk">${j+1}</span><b>${esc(p.name)}${p.regions&&!reg?` <span class="tag">solo ${p.regions.map(x=>REG[x]).join(', ')}</span>`:''}</b><span>${r.pct}%</span></div><div class="t"><i style="width:${r.pct}%;background:${p.color}"></i></div></summary>
+    <div class="pd"><p>${esc(p.summary)}</p>
+    ${ag.length?`<h4>Dónde coincidís</h4><ul class="ag">${ag.map(li).join('')}</ul>`:''}
+    ${dis.length?`<h4>Dónde discrepáis</h4><ul class="dg">${dis.map(li).join('')}</ul>`:''}
+    <h4>Tú frente a ${esc(p.name)}, eje a eje</h4>${chart(r.per,p.color)}
+    <details class="inner"><summary>Ejes y propuestas del programa</summary>
+    <h4>Ejes del programa</h4><ul class="b">${p.fundamentals.map(f=>`<li>${esc(f)}</li>`).join('')}</ul>
+    <h4>Propuestas destacadas</h4><ul class="b">${p.signature.map(s=>`<li>${esc(s.text)} <span class="tag">${esc(s.page)}</span></li>`).join('')}</ul></details>
+    <p class="mut">Fuente: <a href="${esc(p.url)}" rel="noreferrer noopener" target="_blank">${esc(p.title||'programa electoral')}</a></p></div></details>`}).join('');
+  h+=`<details class="how"><summary>Cómo funciona</summary><p>Cada respuesta suma, con distinto peso, a uno o varios de 21 ejes (impuestos, vivienda, inmigración, modelo territorial…). Muchas preguntas son indirectas: la confianza en instituciones, cómo explicas la pobreza o qué haces con un presupuesto dicen mucho de tus preferencias sin preguntarlas a las claras. Las preguntas y sus opciones salen en orden aleatorio.</p>
+  <p>Las posiciones de los partidos salen de sus programas electorales para el 29-N, leídos y puntuados automáticamente en cada eje de −2 a +2. Cuando un programa no se pronuncia, la posición se infiere de la línea conocida del partido y pesa menos. La afinidad es la distancia media, ponderada, entre tus posiciones y las de cada programa.</p>
+  <p>Es orientativo y puede contener errores; no sustituye a leer los programas.</p></details>
+  <div class="nav"><button class="lnk" onclick="about()">← Cambiar comunidad</button><button class="go" onclick="start()">Repetir</button></div>`;
+  paint(h);
+}
+async function share(b){ // ponytail: native share sheet or clipboard; no network
+  const t=`Mi afinidad con los programas del 29-N:\n${last.slice(0,3).map((r,j)=>`${j+1}. ${r.p.name}: ${r.pct}%`).join('\n')}\n${location.href.split('#')[0]}`;
+  try{if(navigator.share)await navigator.share({text:t});else{await navigator.clipboard.writeText(t);b.textContent='Copiado ✓'}}
+  catch(e){if(e.name!=='AbortError')prompt('Copia el texto:',t)}
+}
+function chart(per,c){ // dot plot: ● you, ■ party, on -2..+2
+  return `<p class="mut"><span aria-hidden="true">●</span> tú &nbsp; <span style="color:${c}" aria-hidden="true">■</span> programa · la línea central es la posición neutra</p>`+per.sort((a,b)=>b.W-a.W).map(x=>`<div class="dim" role="img" aria-label="${DIMS[x.d][0]}: tú ${x.u.toFixed(1)}, programa ${x.p.score}, en escala de −2 (${DIMS[x.d][1]}) a +2 (${DIMS[x.d][2]})"><b>${DIMS[x.d][0]}</b><div class="trk">
+  <i style="left:${(x.p.score+2)*25}%;background:${c};border-radius:2px"></i><i style="left:${(x.u+2)*25}%;background:var(--ink);border:2px solid var(--card)"></i></div><div class="pol" aria-hidden="true"><span>${DIMS[x.d][1]}</span><span>${DIMS[x.d][2]}</span></div></div>`).join('');
+}
+start();
+</script>
+</body>
+</html>

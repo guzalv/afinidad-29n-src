@@ -1,0 +1,181 @@
+{
+ "party": "SE ACABÓ LA FIESTA (SALF)",
+ "slug": "salf",
+ "summary": "Contrato Electoral Simplificado de perfil liberal-populista y antisistema: gran rebaja fiscal financiada con recorte de la administración, mano dura en seguridad e inmigración y regeneración institucional. Propone referéndum de renegociación (y salida) de la UE, castellano garantizado y reforma constitucional contra aforamientos, amnistías y el TC.",
+ "fundamentals": [
+  "Gobierno de 10 ministerios y supresión de diputaciones, Senado y entes públicos",
+  "Mínimo exento de IRPF de 35.000 € y 5.000 € más por hijo",
+  "Regla de oro: cada rebaja con ahorro certificado por la AIReF; déficit cero en 2030",
+  "Vivienda: primera casa 35 % más barata, okupa fuera en 48 h, fin del IBI",
+  "Macrocárcel sin tercer grado y cumplimiento íntegro; prisión permanente revisable",
+  "Inmigración solo legal, expulsión en 48 h, fin de regularizaciones, moratoria a países no colaboradores",
+  "Pensiones blindadas en la Constitución y sistema mixto con cuentas individuales y mochila austriaca",
+  "Empleo: contrato único con mochila, cuota de autónomos cero, cuña fiscal del 29 %",
+  "Sanidad pública con central de compras única y garantía de 60 días, o centro a elegir",
+  "Educación: ley de 20 años, castellano, cheque escolar",
+  "Anticorrupción: imprescriptible, devuelves el triple, fin aforamientos, TC fuera, CGPJ sin políticos",
+  "Geopolítica: referéndum UE, línea dura con Marruecos, ilegalizar Hermanos Musulmanes"
+ ],
+ "signature": [
+  {
+   "text": "Mínimo exento de IRPF de 35.000 € en 2030 y 5.000 € más por cada hijo",
+   "page": "p12"
+  },
+  {
+   "text": "Eliminación total del IBI para todos, sin compensaciones",
+   "page": "p7"
+  },
+  {
+   "text": "Macrocárcel de máxima seguridad sin permisos ni tercer grado, con castración química voluntaria para agresores sexuales",
+   "page": "p8"
+  },
+  {
+   "text": "Suprimir el Tribunal Constitucional y pasar el control a una sala del Supremo elegida por jueces",
+   "page": "p28"
+  },
+  {
+   "text": "Referéndum de renegociación europea y, si Bruselas se niega, segundo referéndum de salida",
+   "page": "p37"
+  },
+  {
+   "text": "Prohibir las amnistías en la Constitución y acabar con los 17.621 aforados",
+   "page": "p27"
+  },
+  {
+   "text": "Mili voluntaria a 1.600 €/mes con 50.000 € exentos de IRPF diez años",
+   "page": "p10"
+  },
+  {
+   "text": "El que denuncia corrupción cobra el 15 % de lo recuperado; el corrupto devuelve el triple",
+   "page": "p27"
+  }
+ ],
+ "dims": {
+  "tax": {
+   "score": 2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Mínimo exento IRPF 35.000 €, sociedades 20 %, suprimir Sucesiones, Patrimonio e IBI; techo constitucional a impuestos (p12-p15)"
+  },
+  "labor": {
+   "score": 1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Contrato único con mochila, cuña fiscal 41→29 %, una norma entra dos salen, mutuas dan alta a 15 días (p31-p32)"
+  },
+  "housing": {
+   "score": 2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Okupa fuera en 48 h, licencias silencio positivo, sin prohibiciones a alquiler turístico, SOCIMI al 25 %, fin IBI (p5-p7)"
+  },
+  "welfare": {
+   "score": 0.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Pensiones IPC en Constitución y mínima 1.000 €, pero sistema mixto con cuenta individual y sin ayudas a sin papeles (p20-p21)"
+  },
+  "public_services": {
+   "score": 1.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Cheque escolar en pública, concertada y privada; sanidad paga centro privado si hay demora (p23, p35)"
+  },
+  "public_ownership": {
+   "score": 1,
+   "conf": "low",
+   "src": "programme",
+   "evidence": "Suprimir entes y empresas públicas sin función, diputaciones, Senado; sin privatizaciones explícitas (p16)"
+  },
+  "immigration": {
+   "score": 2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Expulsión en 48 h, moratoria total a países no colaboradores, fin regularizaciones, sin ayudas sin 5 años (p17-p19)"
+  },
+  "territorial": {
+   "score": 2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Castellano garantizado, suprimir diputaciones, prohibir amnistías, financiación igual para todas las CCAA (p14, p27, p34)"
+  },
+  "feminism": {
+   "score": 1,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Sin política de género explícita; castración química a agresores sexuales; enfoque penal, no de leyes de género"
+  },
+  "bioethics": {
+   "score": 0.5,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Programa silente en aborto y eutanasia; centrado en economía y seguridad"
+  },
+  "climate": {
+   "score": 1.5,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Veto al Pacto Verde y a la Ley de Restauración; prioriza campo y producción nacional (p37)"
+  },
+  "nuclear": {
+   "score": 1,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Silente en nuclear; pide gas argelino y bajar impuestos eléctricos; postura probable pro-continuidad"
+  },
+  "eu": {
+   "score": 1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Referéndum de renegociación y segundo referéndum de salida si Bruselas se niega; veto Mercosur (p37)"
+  },
+  "defense": {
+   "score": 1,
+   "conf": "med",
+   "src": "programme",
+   "evidence": "Gasto en defensa del 2 % con industria nacional, mili voluntaria, mejores sueldos militares (p10, p40)"
+  },
+  "israel": {
+   "score": 1,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Silente; hostilidad a Hermanos Musulmanes y Hamás sugiere alineamiento pro-Israel"
+  },
+  "monarchy": {
+   "score": 1,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Silente sobre la Corona; reformas constitucionales no la tocan"
+  },
+  "memory": {
+   "score": 1,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Silente en memoria histórica; Historia de España común y fusión del ministerio de Memoria (p3, p36)"
+  },
+  "security": {
+   "score": 2,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "Macrocárcel sin tercer grado, cumplimiento íntegro, prisión permanente revisable, legítima defensa, castración química (p8-p11)"
+  },
+  "anti_establishment": {
+   "score": 1.5,
+   "conf": "high",
+   "src": "programme",
+   "evidence": "'Se acabó que vagos y parásitos te roben'; 'casta', fin aforamientos, suprimir Senado y TC, 15 años límite cargos (p15, p29-p30)"
+  },
+  "animals_tradition": {
+   "score": 1,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Silente; defensa del campo y producción nacional; sin medidas de derechos animales"
+  },
+  "religion": {
+   "score": 0.5,
+   "conf": "low",
+   "src": "inferred",
+   "evidence": "Sin referencia a religión católica; control de financiación extranjera de mezquitas y velo integral (p19)"
+  }
+ }
+}
